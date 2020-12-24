@@ -1,0 +1,601 @@
+/* project pitch
+   design: lali  */
+
+
+body {
+  background: #000;
+  font-family: monospace;
+  color: #a69685;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+/* COVER PAGE */
+
+#cover {
+  display: flex;
+  flex-flow: column;
+  background: url('img/Artwork_by_RYSA_modified_by_lalifinal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 40% 10%;
+  width: auto;
+  height: 800px;
+  margin: 0px;
+}
+
+  header {
+    order: 2;
+  }
+    .logo {
+      background-image: url('img/phoenixlogonew.png');
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      max-width: 600px;
+      height: 300px;
+      margin: 0 auto;
+    }
+
+  nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+    order: 1;
+  }
+    .navi {
+      word-spacing: 20px;
+      display: inline-block;
+    }
+    nav li {
+      display: inline-block;
+    }
+
+    .icons {
+      float: right;
+    }
+    .icon {
+      padding-right: 20px;
+      max-height: 16px;
+    }
+
+    .revo {
+      max-height: 25px;
+      margin-right: 40px;
+      float: left;
+    }
+
+
+
+/* PT/Arch Links on Cover Page */
+
+.ptlink {
+  max-width: 200px;
+  height: auto;
+  margin: -170px 10px 0;
+  float: right;
+  z-index: 2;
+}
+
+.archlink {
+  max-width: 170px;
+  height: auto;
+  margin: -210px 0 0;
+  float: right;
+  z-index: 2;
+}
+
+
+/* Game Description */
+
+.description {
+  width: 100%;
+  color: #876953;
+  background: #100f0f;
+  margin: 0;
+  position: sticky;
+  bottom: 0;
+}
+
+.phoenixis {
+  /*font-size: 20px;*/
+  /*max-width: 600px;*/
+  margin: 0 auto;
+  padding: 7px 60px;
+  text-align: center;
+}
+
+.overview2 {
+  width: 100%;
+  color: #876953;
+  background: #100f0f;
+  margin: 0;
+  bottom: 0;
+}
+
+.phoenixis2 {
+  /*font-size: 20px;*/
+  /*max-width: 600px;*/
+  margin: 0 auto;
+  padding: 7px 65px 7px;
+  text-align: center;
+}
+
+.audio {
+  margin: 40px 60px 50px;
+  width: 500px;
+}
+
+img { max-width: 500px; }
+#left ul img {
+  margin: 20px 0;
+  max-width: 460px;
+  border: 1px solid #19191a; }
+
+  /* DEATH TO BARONS PAGE */
+
+  .nyxsign {
+    float: left;
+    margin: 0 5%;
+  }
+
+  .logo2 {
+    background-image: url('img/nyxascii.png');
+    width: 160px;
+    height: 600px;
+    position: absolute;
+  }
+
+  .logo2:hover {
+    background-position-x: 181px;
+  }
+
+  .barons {
+    background-image: url('img/baronsdark.png');
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 750px;
+    margin: 0;
+    display: flex;
+  }
+  .barons p {
+    font-size: 20px;
+    margin: 5em 3em;
+  }
+
+
+@media only screen
+and (max-width: 300px) {
+
+    .nyxfade {
+      display: none;
+    }
+}
+
+@media only screen
+and (min-width: 1000px) {
+
+    .nyxfade {
+      background-image: url('img/nyxfade.png');
+      background-position: top left;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 750px;
+      width: 400px;
+      margin-left: -40px;
+      display: block;
+    }
+}
+
+
+/* PITCH PAGE */
+
+main {
+  background-image: url('img/bg.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: row nowrap; /* don't wrap layout for mobile screens */
+  margin: 0 auto;
+  /* justify-content: center; */
+  gap: 5%;
+  z-index: 1;
+}
+
+@media only screen
+and (max-width : 1300px) {
+
+  main {
+    display: flex;
+    flex-flow: row wrap; /* wrap layout if screen width >= 900px */
+  }
+
+  .linkbar {
+    padding-top: 15px;
+    background: #100f0f;
+  }
+  .links {
+    order: 4;
+    margin: -60px 0 0;
+  }
+  .archive {
+    max-width: 250px;
+    text-align: center;
+    order: 1;
+    padding-left: 20px;
+  }
+    .archive img { display: none; }
+
+  .nyxcore {
+    max-width: 250px;
+    text-align: center;
+    order: 2;
+    z-index: 1;
+  }
+    .nyxcore img { display: none; }
+
+  .donate {
+    max-width: 250px;
+    order: 3;
+    margin: 0 0px 30px 20px;
+  }
+    .donate h3 { display: none; }
+
+}
+
+
+#left {
+  /*border: 1px solid yellow;*/
+  width: 500px;
+  padding: 0 30px;
+}
+  #left blockquote {
+    margin: 2em 0em 5em;
+  }
+
+#right {
+  /*border: 1px solid red;*/
+  width: 500px;
+  padding: 0 30px;
+}
+
+.press {
+  max-width: 300px;
+  height: auto;
+  margin: 10px 0 10px;
+}
+
+.title {
+  max-width: 400px;
+  height: auto;
+  padding: 50px 0 50px;
+}
+
+.slogan {
+  max-width: 300px;
+  margin: 0 -15px 40px;
+}
+
+.acts {
+  margin: 60px auto 40px;
+}
+
+
+
+
+/*
+.promotext {
+  position: absolute;
+  color: #876953;
+  padding: 5% 220px;
+  max-width: 300px;
+  font-size: 26px;
+  font-family: arial;
+  font-weight: bold;
+  text-align: left;
+}
+*/
+
+.teaser {
+  text-align: center;
+}
+
+
+
+details { padding: 0.6em 0em 0.3em; }
+
+/* Graphic Adjustments */
+
+.archlink {
+  max-width: 130px;
+  padding: 20px 60px 0;
+}
+
+.phoenixlink {
+  padding: 40px 20px 0;
+}
+
+#stuff {
+  width: 200px;
+  box-sizing: border-box;
+}
+
+#links {
+  width: 200px;
+  box-sizing: border-box;
+}
+
+
+
+/* COLORS */
+
+.nicebeige {
+  color: #cf9e7d;
+}
+
+.red {
+  color: #b45947;
+  text-decoration: none;
+}
+
+.text1 {
+  color: #876953;
+}
+
+.gray {
+  color: #a89775;
+}
+
+.orange {
+  color: #b27d4d;
+}
+
+
+li, p, blockquote {
+  line-height: 1.5;
+  text-align: justify;
+  -moz-hyphens: auto;
+  -o-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+blockquote {
+  /*color: #d1c1ad;*/
+  border-left: 3px solid #9a7a62;
+  padding-left: 2em;
+  margin: 2em 0 2em 0;
+}
+
+
+h2 {
+  font-size: 12px;
+  letter-spacing: 6px;
+  font-weight: normal;
+  margin: 100px 0em 2em;
+  color: #ac2b1f;
+  /*text-align: center;*/
+}
+
+h3 {
+  color: #b27d4d;
+  font-size: 18px;
+  letter-spacing:2.0;
+  margin: 2em 0em 0em;
+  font-weight: normal;
+}
+
+
+strong { color: #f2ad7a; }
+
+
+.mask {
+  display: block;
+  max-width: 380px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/* ABOUT */
+
+
+.initial p::first-line {
+  line-height: 100%;
+}
+
+.initial p::first-letter {
+  color: white;
+  background-color: #3983ab;
+  font-size: 300%;
+  font-weight: bold;
+  padding: 0.2em 0.1em;
+  margin: 0.2em 0.2em 0 0.1em;
+  border: 2px dashed white;
+  box-shadow: 0 0 0 .1em #3983ab;
+  float: left;
+  line-height: 1.5em;
+}
+
+.initial p.mittig::first-letter {
+  line-height: 1.0em;
+  margin: -0.5em 0.2em 0 0.1em;
+}
+
+.initial p.links::first-letter {
+  margin-left: -1.1em;
+}
+
+
+
+/* UL List Styles */
+
+.design {
+  list-style: decimal;
+  padding: 0 0 1em 3em;
+}
+
+.design > li {
+  padding-top: 2em;
+}
+
+
+/* LINK BAR */
+
+.linkbar {
+  height: auto;
+  color: #876953;
+  margin: 0;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+  .linkbar h3 {
+    padding-top: 15px;
+  }
+
+  .links {
+    background: #100f0f;
+    width: 140px;
+    padding: 60px 30px;
+  }
+    .links ul {
+      padding: 0;
+      list-style: none;
+    }
+
+  .archive {
+    background: #100f0f;
+    width: 400px;
+  }
+    .archive p {
+      display: block;
+      padding: 0 30px;
+    }
+    .archive img {
+      float: left;
+      padding: 40px 15px;
+      max-width: 170px;
+    }
+
+  .nyxcore {
+    background: #100f0f;
+    width: 400px;
+  }
+    .nyxcore p {
+      display: block;
+      padding: 0px 30px 20px;
+    }
+    .nyxcore img {
+      float: left;
+      max-height: 270px;
+      padding: 0px 30px 20px;
+    }
+
+  .donate {
+    background: #100f0f;
+    width: 200px;
+    float: left;
+    padding: 0 30px 30px;
+    /*border: 1px solid #876953;
+    border-radius: 20px;*/
+  }
+    .donate p {
+      display: block;
+    }
+
+
+.madphoenix {
+  height: auto;
+  width: 200px;
+}
+
+.patreon {
+  max-width: 160px;
+  height: auto;
+}
+
+
+
+/* PRESS */
+
+.article { padding-left: 35px; }
+
+
+/* UTILITY */
+
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid rgb(246, 156, 85);
+  margin: 0 auto;
+}
+
+
+/* FOOTER */
+
+footer {
+  background: #000 url('img/footer.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 400px;
+  margin: -30px auto 0;
+  position: relative;
+   /* to be under main, but prevents p links */
+}
+  footer > p {
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    padding-left: 40%;
+    bottom: 0;
+  }
+
+
+/* LINKS */
+
+a {
+  color: #f2ad7a;
+  opacity: 1;
+}
+
+a:hover img {
+  opacity: 0.7;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+a:link { color: #f2ad7a; }
+a:visited { color:#f2ad7a; }
+a:hover { color:#b45947; }
+a:active { color:#55504a; }
+
+a, a:link, a:active, a:visited {
+  text-decoration:none;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+nav a:link { color: #dda692; }
+nav a:visited { color: #dda692; }
+nav a:hover { color: #b45947; }
+nav a:active { color: #55504a; }

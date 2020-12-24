@@ -1,0 +1,10 @@
+﻿Add:
+  "Nemesis is the Gothic successor worth the name, fulfilling the
+  vision of the Sequel by Stefan Nyul and Alex Brüggemann."
+
+* Design Philosophie weiter vereinfachen
+
+* Deutsche Mainpage Übersetzung
+* Schriftgrößen fixen fürs Handy
+* Auf eigene Peertube Instanz wechseln?
+* Englisches FAQ (jemanden um Übersetzung beten)
