@@ -16,22 +16,18 @@ body {
 #cover {
   display: flex;
   flex-flow: column;
-  background: url('img/Artwork_by_RYSA_modified_by_lalifinal.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 40% 10%;
+  background: url('img/Artwork_by_RYSA_modified_by_lalifinal.jpg') 40% 10% / cover no-repeat;
   width: auto;
+  min-height: calc(100vh - 33px); /* Subtract height of .phoenixes */
   height: 800px;
-  margin: 0px;
+  margin: 0;
 }
 
   header {
     order: 2;
   }
     .logo {
-      background-image: url('img/phoenixlogonew.png');
-      background-size: 100% auto;
-      background-repeat: no-repeat;
+      background: url('img/phoenixlogonew.png') 100% no-repeat;
       max-width: 600px;
       height: 300px;
       margin: 0 auto;
@@ -241,7 +237,7 @@ and (max-width : 1300px) {
   .donate {
     max-width: 250px;
     order: 3;
-    margin: 0 0px 30px 20px;
+    margin: 0 0 30px 20px;
   }
     .donate h3 { display: none; }
 
@@ -254,7 +250,7 @@ and (max-width : 1300px) {
   padding: 0 30px;
 }
   #left blockquote {
-    margin: 2em 0em 5em;
+    margin: 2em 0 5em;
   }
 
 #right {
@@ -306,7 +302,7 @@ and (max-width : 1300px) {
 
 
 
-details { padding: 0.6em 0em 0.3em; }
+details { padding: 0.6em 0 0.3em; }
 
 /* Graphic Adjustments */
 
@@ -377,7 +373,7 @@ h2 {
   font-size: 12px;
   letter-spacing: 6px;
   font-weight: normal;
-  margin: 100px 0em 2em;
+  margin: 100px 0 2em;
   color: #ac2b1f;
   /*text-align: center;*/
 }
@@ -385,8 +381,8 @@ h2 {
 h3 {
   color: #b27d4d;
   font-size: 18px;
-  letter-spacing:2.0;
-  margin: 2em 0em 0em;
+  letter-spacing: 2.0;
+  margin: 2em 0 0;
   font-weight: normal;
 }
 
@@ -491,12 +487,12 @@ strong { color: #f2ad7a; }
   }
     .nyxcore p {
       display: block;
-      padding: 0px 30px 20px;
+      padding: 0 30px 20px;
     }
     .nyxcore img {
       float: left;
       max-height: 270px;
-      padding: 0px 30px 20px;
+      padding: 0 30px 20px;
     }
 
   .donate {
@@ -550,9 +546,7 @@ strong { color: #f2ad7a; }
 /* FOOTER */
 
 footer {
-  background: #000 url('img/footer.jpg');
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  background: #000 url('img/footer.jpg') center bottom no-repeat;
   height: 400px;
   margin: -30px auto 0;
   position: relative;
