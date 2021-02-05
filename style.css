@@ -27,7 +27,7 @@ body {
     order: 2;
   }
     .logo {
-      background: url('img/phoenixlogonew.png') 100% no-repeat;
+      background: url('img/phoenixlogonew.png') 100% / cover no-repeat;
       max-width: 600px;
       height: 300px;
       margin: 0 auto;
