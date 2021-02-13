@@ -1,15 +1,52 @@
 /* project pitch
    design: lali  */
 
+* {
+  box-sizing: border-box;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
+*::after {
+  box-sizing: border-box;
+}
 
 body {
   background: #000;
-  font-family: monospace;
-  color: #a69685;
-  line-height: 1.6;
   margin: 0;
+  line-height: 1.6;
+  color: #a69685;
+  font-family: monospace;
 }
 
+/* Components */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 1120px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1 0 0;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 100%;
+}
+
+/* Utilities */
+
+.w-100 {
+  width: 100%;
+}
 
 /* COVER PAGE */
 
@@ -23,49 +60,52 @@ body {
   margin: 0;
 }
 
-  header {
-    order: 2;
-  }
-    .logo {
-      background: url('img/phoenixlogonew.png') 100% / cover no-repeat;
-      max-width: 600px;
-      height: 300px;
-      margin: 0 auto;
-    }
+header {
+  order: 2;
+}
 
-  nav {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    font-size: 14px;
-    padding: 5px 0;
-    background: rgba(0,0,0,0.7);
-    z-index: 1;
-    order: 1;
-  }
-    .navi {
-      word-spacing: 20px;
-      display: inline-block;
-    }
-    nav li {
-      display: inline-block;
-    }
+.logo {
+  background: url('img/phoenixlogonew.png') center center / contain no-repeat;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+}
 
-    .icons {
-      float: right;
-    }
-    .icon {
-      padding-right: 20px;
-      max-height: 16px;
-    }
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  font-size: 14px;
+  padding: 5px 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  order: 1;
+}
 
-    .revo {
-      max-height: 25px;
-      margin-right: 40px;
-      float: left;
-    }
+.navi {
+  word-spacing: 20px;
+  display: inline-block;
+}
 
+nav li {
+  display: inline-block;
+}
 
+.icons {
+  float: right;
+}
+
+.icon {
+  padding-right: 20px;
+  max-height: 16px;
+}
+
+.revo {
+  max-height: 25px;
+  margin-right: 40px;
+  float: left;
+}
 
 /* PT/Arch Links on Cover Page */
 
@@ -84,7 +124,6 @@ body {
   float: right;
   z-index: 2;
 }
-
 
 /* Game Description */
 
@@ -122,109 +161,101 @@ body {
 }
 
 .audio {
-  margin: 40px 60px 50px;
-  /*width: 500px;*/
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
-img { max-width: 500px; }
-#left ul img {
-  margin: 20px 0;
-  max-width: 460px;
-  border: 1px solid #19191a; }
+.armors {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #19191a;
+}
 
-  /* DEATH TO BARONS PAGE */
+/* DEATH TO BARONS PAGE */
 
-  .nyxsign {
-    float: left;
-    margin: 0 5%;
-  }
+.nyxsign {
+  float: left;
+  margin: 0 5%;
+}
 
-  .logo2 {
-    background-image: url('img/nyxascii.png');
-    width: 160px;
-    height: 600px;
-    position: absolute;
-  }
+.logo2 {
+  background-image: url('img/nyxascii.png');
+  width: 160px;
+  height: 600px;
+  position: absolute;
+}
 
-  .logo2:hover {
-    background-position-x: 181px;
-  }
+.logo2:hover {
+  background-position-x: 181px;
+}
 
-  .barons {
-    background-image: url('img/baronsdark.png');
-    background-position: bottom center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 750px;
-    margin: 0;
-    display: flex;
-  }
-  .barons p {
-    font-size: 20px;
-    margin: 5em 3em;
-  }
+.barons {
+  background-image: url('img/baronsdark.png');
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 750px;
+  margin: 0;
+  display: flex;
+}
 
+.barons p {
+  font-size: 20px;
+  margin: 5em 3em;
+}
 
 @media only screen
 and (max-width: 300px) {
 
-    .nyxfade {
-      display: none;
-    }
+  .nyxfade {
+    display: none;
+  }
 }
 
 @media only screen
 and (min-width: 1000px) {
 
-    .nyxfade {
-      background-image: url('img/nyxfade.png');
-      background-position: top left;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 750px;
-      width: 400px;
-      margin-left: -40px;
-      display: block;
-    }
+  .nyxfade {
+    background-image: url('img/nyxfade.png');
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 400px;
+    margin-left: -40px;
+    display: block;
+  }
 }
-
 
 /* PITCH PAGE */
 
-main {
-  background-image: url('img/bg.png');
-  background-repeat: no-repeat;
-  display: flex;
-  flex-flow: row nowrap; /* don't wrap layout for mobile screens */
-  margin: 0 auto;
-  /* justify-content: center; */
-  gap: 5%;
-  z-index: 1;
+.bg-xardas {
+  background: url('img/bg.png') no-repeat;
 }
 
 @media only screen
-and (max-width : 1300px) {
-
-  main {
-    display: flex;
-    flex-flow: row wrap; /* wrap layout if screen width >= 900px */
-  }
+and (max-width: 1300px) {
 
   .linkbar {
     padding-top: 15px;
     background: #100f0f;
   }
+
   .links {
     order: 4;
     margin: -60px 0 0;
   }
+
   .archive {
     max-width: 250px;
     text-align: center;
     order: 1;
     padding-left: 20px;
   }
-    .archive img { display: none; }
+
+  .archive img {
+    display: none;
+  }
 
   .nyxcore {
     max-width: 250px;
@@ -232,26 +263,22 @@ and (max-width : 1300px) {
     order: 2;
     z-index: 1;
   }
-    .nyxcore img { display: none; }
+
+  .nyxcore img {
+    display: none;
+  }
 
   .donate {
     max-width: 250px;
     order: 3;
     margin: 0 0 30px 20px;
   }
-    .donate h3 { display: none; }
 
-}
-
-
-#left {
-  /*border: 1px solid yellow;*/
-  width: 500px;
-  padding: 0 30px;
-}
-  #left blockquote {
-    margin: 2em 0 5em;
+  .donate h3 {
+    display: none;
   }
+
+}
 
 #right {
   /*border: 1px solid red;*/
@@ -280,9 +307,6 @@ and (max-width : 1300px) {
   margin: 60px auto 40px;
 }
 
-
-
-
 /*
 .promotext {
   position: absolute;
@@ -296,13 +320,9 @@ and (max-width : 1300px) {
 }
 */
 
-.teaser {
-  text-align: center;
+details {
+  padding: 0.6em 0 0.3em;
 }
-
-
-
-details { padding: 0.6em 0 0.3em; }
 
 /* Graphic Adjustments */
 
@@ -324,8 +344,6 @@ details { padding: 0.6em 0 0.3em; }
   width: 200px;
   box-sizing: border-box;
 }
-
-
 
 /* COLORS */
 
@@ -350,7 +368,6 @@ details { padding: 0.6em 0 0.3em; }
   color: #b27d4d;
 }
 
-
 li, p, blockquote {
   line-height: 1.5;
   text-align: justify;
@@ -367,7 +384,6 @@ blockquote {
   padding-left: 2em;
   margin: 2em 0 2em 0;
 }
-
 
 h2 {
   font-size: 12px;
@@ -386,9 +402,9 @@ h3 {
   font-weight: normal;
 }
 
-
-strong { color: #f2ad7a; }
-
+strong {
+  color: #f2ad7a;
+}
 
 .mask {
   display: block;
@@ -397,9 +413,7 @@ strong { color: #f2ad7a; }
   margin: 0 auto;
 }
 
-
 /* ABOUT */
-
 
 .initial p::first-line {
   line-height: 100%;
@@ -427,8 +441,6 @@ strong { color: #f2ad7a; }
   margin-left: -1.1em;
 }
 
-
-
 /* UL List Styles */
 
 .design {
@@ -439,7 +451,6 @@ strong { color: #f2ad7a; }
 .design > li {
   padding-top: 2em;
 }
-
 
 /* LINK BAR */
 
@@ -453,60 +464,65 @@ strong { color: #f2ad7a; }
   justify-content: space-between;
 }
 
-  .linkbar h3 {
-    padding-top: 15px;
-  }
+.linkbar h3 {
+  padding-top: 15px;
+}
 
-  .links {
-    background: #100f0f;
-    width: 140px;
-    padding: 60px 30px;
-  }
-    .links ul {
-      padding: 0;
-      list-style: none;
-    }
+.links {
+  background: #100f0f;
+  width: 140px;
+  padding: 60px 30px;
+}
 
-  .archive {
-    background: #100f0f;
-    width: 400px;
-  }
-    .archive p {
-      display: block;
-      padding: 0 30px;
-    }
-    .archive img {
-      float: left;
-      padding: 40px 15px;
-      max-width: 170px;
-    }
+.links ul {
+  padding: 0;
+  list-style: none;
+}
 
-  .nyxcore {
-    background: #100f0f;
-    width: 400px;
-  }
-    .nyxcore p {
-      display: block;
-      padding: 0 30px 20px;
-    }
-    .nyxcore img {
-      float: left;
-      max-height: 270px;
-      padding: 0 30px 20px;
-    }
+.archive {
+  background: #100f0f;
+  width: 400px;
+}
 
-  .donate {
-    background: #100f0f;
-    width: 200px;
-    float: left;
-    padding: 0 30px 30px;
-    /*border: 1px solid #876953;
-    border-radius: 20px;*/
-  }
-    .donate p {
-      display: block;
-    }
+.archive p {
+  display: block;
+  padding: 0 30px;
+}
 
+.archive img {
+  float: left;
+  padding: 40px 15px;
+  max-width: 170px;
+}
+
+.nyxcore {
+  background: #100f0f;
+  width: 400px;
+}
+
+.nyxcore p {
+  display: block;
+  padding: 0 30px 20px;
+}
+
+.nyxcore img {
+  float: left;
+  max-height: 270px;
+  padding: 0 30px 20px;
+}
+
+.donate {
+  background: #100f0f;
+  width: 200px;
+  float: left;
+  padding: 0 30px 30px;
+  /*border: 1px solid #876953;
+  border-radius: 20px;*/
+}
+
+.donate p {
+  display: block;
+}
 
 .madphoenix {
   height: auto;
@@ -518,12 +534,11 @@ strong { color: #f2ad7a; }
   height: auto;
 }
 
-
-
 /* PRESS */
 
-.article { padding-left: 35px; }
-
+.article {
+  padding-left: 35px;
+}
 
 /* UTILITY */
 
@@ -542,7 +557,6 @@ strong { color: #f2ad7a; }
   margin: 0 auto;
 }
 
-
 /* FOOTER */
 
 footer {
@@ -550,16 +564,16 @@ footer {
   height: 400px;
   margin: -30px auto 0;
   position: relative;
-   /* to be under main, but prevents p links */
+  /* to be under main, but prevents p links */
 }
-  footer > p {
-    position: absolute;
-    font-size: 11px;
-    text-align: center;
-    padding-left: 40%;
-    bottom: 0;
-  }
 
+footer > p {
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  padding-left: 40%;
+  bottom: 0;
+}
 
 /* LINKS */
 
@@ -576,20 +590,42 @@ a:hover img {
   -o-transition: all 0.3s ease-out;
 }
 
-a:link { color: #f2ad7a; }
-a:visited { color:#f2ad7a; }
-a:hover { color:#b45947; }
-a:active { color:#55504a; }
+a:link {
+  color: #f2ad7a;
+}
+
+a:visited {
+  color: #f2ad7a;
+}
+
+a:hover {
+  color: #b45947;
+}
+
+a:active {
+  color: #55504a;
+}
 
 a, a:link, a:active, a:visited {
-  text-decoration:none;
+  text-decoration: none;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
 }
 
-nav a:link { color: #dda692; }
-nav a:visited { color: #dda692; }
-nav a:hover { color: #b45947; }
-nav a:active { color: #55504a; }
+nav a:link {
+  color: #dda692;
+}
+
+nav a:visited {
+  color: #dda692;
+}
+
+nav a:hover {
+  color: #b45947;
+}
+
+nav a:active {
+  color: #55504a;
+}
