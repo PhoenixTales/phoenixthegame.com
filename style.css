@@ -101,6 +101,15 @@ a:active {
 
 /* Content - Typography */
 
+h2 {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  letter-spacing: 6px;
+  color: var(--blood);
+  font-size: .75rem;
+  font-weight: normal;
+}
+
 h3 {
   margin-top: 0;
   margin-bottom: .5rem;
@@ -305,6 +314,11 @@ nav ul {
   padding-right: 1rem;
   padding-left: 1rem;
   height: 20px;
+  transition: opacity .3s ease-out;
+}
+
+.icon:hover {
+  opacity: 0.7;
 }
 
 .bg-anniversary {
@@ -337,237 +351,4 @@ nav ul {
 
 footer {
   color: var(--gray-600);
-}
-
-/* Legacy */
-
-.revo {
-  max-height: 25px;
-  margin-right: 40px;
-}
-
-/* PT/Arch Links on Cover Page */
-
-.ptlink {
-  max-width: 200px;
-  height: auto;
-  margin: -170px 10px 0;
-  float: right;
-  z-index: 2;
-}
-
-.archlink {
-  max-width: 170px;
-  height: auto;
-  margin: -210px 0 0;
-  float: right;
-  z-index: 2;
-}
-
-/* Game Description */
-
-.audio {
-  margin-top: 40px;
-  margin-bottom: 50px;
-}
-
-/* PITCH PAGE */
-
-@media only screen
-and (max-width: 1300px) {
-
-  .linkbar {
-    padding-top: 15px;
-    background: #100f0f;
-  }
-
-  .links {
-    order: 4;
-    margin: -60px 0 0;
-  }
-
-  .archive {
-    max-width: 250px;
-    text-align: center;
-    order: 1;
-    padding-left: 20px;
-  }
-
-  .archive img {
-    display: none;
-  }
-
-  .nyxcore {
-    max-width: 250px;
-    text-align: center;
-    order: 2;
-    z-index: 1;
-  }
-
-  .nyxcore img {
-    display: none;
-  }
-
-  .donate {
-    max-width: 250px;
-    order: 3;
-    margin: 0 0 30px 20px;
-  }
-
-  .donate h3 {
-    display: none;
-  }
-
-}
-
-.press {
-  max-width: 300px;
-  height: auto;
-  margin: 10px 0 10px;
-}
-
-.title {
-  max-width: 400px;
-  height: auto;
-  padding: 50px 0 50px;
-}
-
-/*
-.promotext {
-  position: absolute;
-  color: #876953;
-  padding: 5% 220px;
-  max-width: 300px;
-  font-size: 26px;
-  font-family: arial;
-  font-weight: bold;
-  text-align: left;
-}
-*/
-
-details {
-  padding: 0.6em 0 0.3em;
-}
-
-/* Graphic Adjustments */
-
-.archlink {
-  max-width: 130px;
-  padding: 20px 60px 0;
-}
-
-.phoenixlink {
-  padding: 40px 20px 0;
-}
-
-#stuff {
-  width: 200px;
-  box-sizing: border-box;
-}
-
-#links {
-  width: 200px;
-  box-sizing: border-box;
-}
-
-/* COLORS */
-
-.nicebeige {
-  color: #cf9e7d;
-}
-
-.red {
-  color: #b45947;
-  text-decoration: none;
-}
-
-.text1 {
-  color: #876953;
-}
-
-.orange {
-  color: #b27d4d;
-}
-
-blockquote {
-  /*color: #d1c1ad;*/
-  border-left: 3px solid #9a7a62;
-  padding-left: 2em;
-  margin: 2em 0 2em 0;
-}
-
-h2 {
-  font-size: 12px;
-  letter-spacing: 6px;
-  font-weight: normal;
-  margin: 100px 0 2em;
-  color: #ac2b1f;
-  /*text-align: center;*/
-}
-
-/* ABOUT */
-
-.initial p::first-line {
-  line-height: 100%;
-}
-
-.initial p::first-letter {
-  color: white;
-  background-color: #3983ab;
-  font-size: 300%;
-  font-weight: bold;
-  padding: 0.2em 0.1em;
-  margin: 0.2em 0.2em 0 0.1em;
-  border: 2px dashed white;
-  box-shadow: 0 0 0 .1em #3983ab;
-  float: left;
-  line-height: 1.5em;
-}
-
-.initial p.mittig::first-letter {
-  line-height: 1.0em;
-  margin: -0.5em 0.2em 0 0.1em;
-}
-
-.initial p.links::first-letter {
-  margin-left: -1.1em;
-}
-
-/* UL List Styles */
-
-.design > li {
-  padding-top: 2em;
-}
-
-/* PRESS */
-
-.article {
-  padding-left: 35px;
-}
-
-/* UTILITY */
-
-.hide-text {
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.triangle-down {
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid rgb(246, 156, 85);
-  margin: 0 auto;
-}
-
-/* LINKS */
-
-a:hover img {
-  opacity: 0.7;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
 }
