@@ -18,15 +18,6 @@
   --silver: var(--gray-400);
   --orange: #f2ad7a;
   --peru: #b27d4d;
-  --2: #3983ab;
-  --4: #a69685;
-  --6: #cf9e7d;
-  --7: #dda692;
-  --11: #9a7a62;
-  --16: #9a4c3c;
-  --17: #ac2b1f;
-  --18: #b45947;
-  --20: #19191a;
 }
 
 /* Layout */
@@ -347,6 +338,14 @@ nav ul {
 .img-core {
   min-width: 80px;
   max-width: 120px;
+}
+
+.gallery img {
+  transition: all .3s ease-out;
+}
+
+.gallery img:hover {
+  filter: brightness(75%);
 }
 
 footer {
