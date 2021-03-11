@@ -6,7 +6,6 @@
  *  frontend: AmProsius 
  */
 
-
 :root {
   --white: #fff;
   --gray-400: #ccb9a5;
@@ -33,7 +32,7 @@
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .row {
@@ -121,6 +120,18 @@ h3 {
 
 /* Components */
 
+/* Components - Info Bar */
+
+.info-bar,
+section footer {
+  background-color: var(--gray-900);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-align: center;
+  color: var(--gray-600);
+  font-size: .875rem;
+}
+
 /* Components - Section */
 
 section {
@@ -133,12 +144,8 @@ section {
 }
 
 section footer {
+  /* See .info-bar */
   flex-shrink: 0;
-  background-color: var(--gray-900);
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  text-align: center;
-  color: var(--gray-600);
 }
 
 /* Utilities */
@@ -195,6 +202,16 @@ section footer {
   align-items: stretch;
 }
 
+/* Utilities - Interactions */
+
+.hover\:darken {
+  transition: all .3s ease-out;
+}
+
+.hover\:darken:hover {
+  filter: brightness(75%);
+}
+
 /* Utilities - Sizing */
 
 .w-100 {
@@ -211,8 +228,16 @@ section footer {
 
 /* Utilities - Spacing */
 
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
 .mt-8 {
   margin-top: 4rem;
+}
+
+.mt-n1 {
+  margin-top: -.25rem;
 }
 
 .mr-5 {
@@ -227,12 +252,20 @@ section footer {
   margin-bottom: 1rem;
 }
 
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
 .mb-5 {
   margin-bottom: 2rem;
 }
 
 .mb-6 {
   margin-bottom: 2.5rem;
+}
+
+.mb-n4 {
+  margin-bottom: -1.5rem;
 }
 
 .ml-3 {
@@ -260,12 +293,16 @@ section footer {
   padding-left: 0;
 }
 
+.pl-3 {
+  padding-left: 1rem;
+}
+
 .px-0 {
   padding-right: 0;
   padding-left: 0;
 }
 
-.px-2 {
+.px-4 {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
@@ -283,7 +320,7 @@ nav {
   top: 0;
   right: 0;
   left: 0;
-  /*background-color: rgba(0, 0, 0, .5);*/
+  background-color: rgba(0, 0, 0, .5);
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -343,14 +380,6 @@ nav ul {
 .img-core {
   min-width: 80px;
   max-width: 120px;
-}
-
-.gallery img {
-  transition: all .3s ease-out;
-}
-
-.gallery img:hover {
-  filter: brightness(75%);
 }
 
 footer {
