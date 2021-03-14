@@ -79,6 +79,25 @@
     flex: 0 0 auto;
     width: calc(100% / (12 / 8));
   }
+
+  .col-sm-10 {
+    flex: 0 0 auto;
+    width: calc(100% / (12 / 10));
+  }
+}
+
+@media (min-width: 900px) {
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: calc(100% / (12 / 8));
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
 }
 
 /* Content */
@@ -190,8 +209,8 @@ section footer {
 .tree:before {
   position: absolute;
   top: .75rem;
-  bottom: .25rem;
-  border-left: 1px solid var(--gray-500);
+  bottom: 2.3rem; /* todo: Fix hack */
+  border-left: 1px solid var(--peru);
   content: '';
 }
 
@@ -205,7 +224,7 @@ section footer {
   top: 1rem;
   left: 0;
   margin-top: -.25rem;
-  border-top: 1px solid var(--gray-500);
+  border-top: 1px solid var(--peru);
   width: .5rem;
   content: '';
 }
@@ -319,6 +338,10 @@ section footer {
   margin-top: 2rem;
 }
 
+.mt-7 {
+  margin-top: 3rem;
+}
+
 .mt-8 {
   margin-top: 4rem;
 }
@@ -364,6 +387,10 @@ section footer {
 }
 
 @media (min-width: 600px) {
+  .mt-sm-7 {
+    margin-top: 3rem;
+  }
+
   .mt-sm-12 {
     margin-top: 8rem;
   }
@@ -375,6 +402,11 @@ section footer {
 
 .p-5 {
   padding: 2rem;
+}
+
+.py-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .px-0 {
@@ -429,6 +461,10 @@ section footer {
     padding-right: 1.5rem;
   }
 
+  .pr-sm-7 {
+    padding-right: 3rem;
+  }
+
   .pl-sm-0 {
     padding-left: 0;
   }
@@ -436,12 +472,16 @@ section footer {
   .pl-sm-4 {
     padding-left: 1.5rem;
   }
+
+  .pl-sm-7 {
+    padding-left: 3rem;
+  }
 }
 
 /* Utilities - Text */
 
 .fs-small {
-  font-size: .875rem;
+  font-size: .75rem;
 }
 
 /* Page */
@@ -489,7 +529,7 @@ nav ul {
 }
 
 .bg-anniversary {
-  background: url('img/bg-20thAnniversarySpecial.png') bottom left / cover no-repeat;
+  background: url('img/bg-20thAnniversarySpecial.png') bottom center / cover no-repeat;
 }
 
 @media (min-width: 600px) {
