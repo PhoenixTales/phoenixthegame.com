@@ -305,6 +305,10 @@ section footer {
 
 /* Utilities - Sizing */
 
+.mw-100 {
+  max-width: 100%;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -487,8 +491,6 @@ section footer {
 /* Page */
 
 nav {
-  display: flex;
-  justify-content: space-between;
   position: fixed;
   top: 0;
   right: 0;
@@ -496,6 +498,13 @@ nav {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 nav ul {
