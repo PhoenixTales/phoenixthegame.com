@@ -5,6 +5,7 @@ body {
   font-family: monospace;
   line-height: 1.5em;
   margin: 0;
+  font-size: 14px;
   max-width: 700px;
 }
 
@@ -31,6 +32,11 @@ main {
   padding: 10px 40px 50px;
 }
 
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
 p {
   text-align: justify;
   -moz-hyphens: auto;
@@ -40,53 +46,24 @@ p {
   hyphens: auto;
 }
 
-h3 {
-  font-size: 12px;
-  letter-spacing: 3px;
-  font-weight: normal;
-  margin: 50px 0em 50px;
-  color: #ac2b1f;
-  /*text-align: center;*/
-}
-
 h2 {
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 3px;
   font-weight: normal;
-  margin: 50px 0em 20px;
-  color: #ac2b1f;
-  /*text-align: center;*/
+  margin: 3em 0 1em;
+  /*color: #ac2b1f;*/
 }
 
-/*
-h3 {
-  text-align: center;
-  padding-top: 2em;
-  padding-bottom: 1.5em;
+blockquote {
+  padding-left: 1.5em;
+  margin-left: 0em;
+  border-left: 10px solid #876953;
 }
-*/
 
 img {
   max-width: 100%;
   height: auto;
 }
-
-
-/*
-.intextright {
-  float: right;
-  padding-bottom: 3em;
-}
-
-.intextleft {
-  float: left;
-  padding-bottom: 3em;
-}
-
-.intextfull {
-  padding-bottom: 1.5em;
-}
-*/
 
 /* LINKS */
 
