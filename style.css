@@ -35,68 +35,65 @@
   max-width: 1400px;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.row > * {
-  width: 100%;
-}
-
-.col {
-  flex: 1 0 0;
-}
-
-@media (max-width: 599px) {
-  .row > * {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-  }
+.gap-6 {
+  gap: 1.5rem;
 }
 
 @media (min-width: 600px) {
-  .row > * {
-    padding-right: 3rem;
-    padding-left: 3rem;
+  .sm\:cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .col-sm {
-    flex: 1 0 0;
+  .sm\:cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .col-sm-4 {
-    flex: 0 0 auto;
-    width: calc(100% / 3);;
+  .sm\:cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
-  .col-sm-6 {
-    flex: 0 0 auto;
-    width: 50%;
+  .sm\:col-2 {
+    grid-column: span 2 / span 2;
   }
 
-  .col-sm-8 {
-    flex: 0 0 auto;
-    width: calc(100% / (12 / 8));
+  .sm\:col-3 {
+    grid-column: span 3 / span 3;
   }
 
-  .col-sm-10 {
-    flex: 0 0 auto;
-    width: calc(100% / (12 / 10));
+  .sm\:col-4 {
+    grid-column: span 4 / span 4;
+  }
+
+  .sm\:col-5 {
+    grid-column: span 5 / span 5;
+  }
+
+  .sm\:col-6 {
+    grid-column: span 6 / span 6;
+  }
+
+  .sm\:gap-12 {
+    gap: 3rem;
+  }
+
+  .sm\:gap-24 {
+    gap: 6rem;
   }
 }
 
 @media (min-width: 900px) {
-  .col-md-8 {
-    flex: 0 0 auto;
-    width: calc(100% / (12 / 8));
+  .md\:cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .md\:col-4 {
+    grid-column: span 4 / span 4;
   }
 }
 
 @media (min-width: 1200px) {
-  .col-lg-6 {
-    flex: 0 0 auto;
-    width: 50%;
+  .lg\:col-3 {
+    grid-column: span 3 / span 3;
   }
 }
 
@@ -281,6 +278,10 @@ section footer {
   display: flex;
 }
 
+.d-grid {
+  display: grid;
+}
+
 @media (min-width: 600px) {
   .d-sm-block {
     display: block;
@@ -313,6 +314,10 @@ section footer {
   width: 100%;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .min-vh-50 {
   min-height: 50vh;
 }
@@ -322,6 +327,10 @@ section footer {
 }
 
 /* Utilities - Spacing */
+
+.m-4 {
+  margin: 1.5rem;
+}
 
 .my-4 {
   margin-top: 1.5rem;
@@ -391,6 +400,15 @@ section footer {
 }
 
 @media (min-width: 600px) {
+  .m-sm-7 {
+    margin: 3rem;
+  }
+
+  .my-sm-7 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
   .mt-sm-7 {
     margin-top: 3rem;
   }
@@ -402,6 +420,10 @@ section footer {
   .mb-sm-0 {
     margin-bottom: 0;
   }
+}
+
+.p-4 {
+  padding: 1.5rem;
 }
 
 .p-5 {
@@ -457,6 +479,11 @@ section footer {
     padding-left: 1.5rem;
   }
 
+  .px-sm-7 {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
   .pt-sm-12 {
     padding-top: 8rem;
   }
@@ -475,6 +502,10 @@ section footer {
 
   .pl-sm-4 {
     padding-left: 1.5rem;
+  }
+
+  .pl-sm-X {
+    padding-left: 1.75rem;
   }
 
   .pl-sm-7 {
