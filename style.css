@@ -359,10 +359,6 @@ section footer {
   margin-top: 4rem;
 }
 
-.-mt-1 {
-  margin-top: -.25rem;
-}
-
 .mr-8 {
   margin-right: 2rem;
 }
@@ -385,10 +381,6 @@ section footer {
 
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.-mb-6 {
-  margin-bottom: -1.5rem;
 }
 
 .ml-4 {
@@ -424,6 +416,10 @@ section footer {
   padding-left: 1.5rem;
 }
 
+.pt-1 {
+  padding-top: .25rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -444,6 +440,10 @@ section footer {
   .sm\:px-12 {
     padding-right: 3rem;
     padding-left: 3rem;
+  }
+
+  .sm\:pt-2 {
+    padding-top: .5rem;
   }
 
   .sm\:pt-32 {
@@ -476,9 +476,13 @@ nav {
 .navbar {
   display: flex;
   justify-content: space-between;
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
+}
+
+@media (max-width: 599px) {
+  .navbar {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
 
 nav ul {
@@ -490,14 +494,26 @@ nav ul {
 
 .nav-link {
   display: block;
-  padding-right: .5rem;
-  padding-left: .5rem;
+  padding: .25rem .5rem;
   color: var(--silver);
   font-size: .875rem;
 }
 
+@media (min-width: 600px) {
+  .nav-link {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+}
+
 .img-brand {
   height: 48px;
+}
+
+@media (min-width: 600px) {
+  .img-brand {
+    height: 64px;
+  }
 }
 
 .icon {
