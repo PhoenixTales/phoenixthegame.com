@@ -46,7 +46,9 @@ main img {
 }
 
 .screen-description {
-  margin: 1em 2em 2em;
+  margin: 0em 1em 2em;
+  color:#55504a;
+  font-size: 13px;
 }
 
 table {
