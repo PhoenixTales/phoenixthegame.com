@@ -130,6 +130,16 @@ ul {
   padding-left: 1rem;
 }
 
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: .5rem;
+  color: var(--gray-700);
+  font-size: .875rem;
+}
+
 a {
   transition: all 0.3s ease-out;
   text-decoration: none;
@@ -232,6 +242,12 @@ section footer {
 
 .bg-dark {
   background-color: var(--gray-900);
+}
+
+/* Utilities - Borders */
+
+.border {
+  border: 1px solid var(--gray-900);
 }
 
 /* Utilities - Colors */
@@ -528,12 +544,12 @@ nav ul {
 }
 
 .bg-anniversary {
-  background: url('img/bg-20thAnniversarySpecial.png') bottom center / cover no-repeat;
+  background: url('img/backgrounds/20th_anniversary_special.jpg') bottom center / cover no-repeat;
 }
 
 @media (min-width: 600px) {
   .bg-xardas {
-    background: url('img/bg.png') no-repeat;
+    background: url('img/backgrounds/xardas.png') no-repeat;
   }
 }
 
