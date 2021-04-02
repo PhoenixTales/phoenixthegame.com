@@ -152,6 +152,15 @@ ul {
   padding-left: 0;
 }
 
+.author {
+  margin: 0;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+
+  max-width: 170px;
+}
+
 .signed {
   float: right;
   max-height: 160px;
