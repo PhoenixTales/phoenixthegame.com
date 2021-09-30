@@ -4,27 +4,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="style.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="nyx.ico">
-    <title>PHOENIX - A Gothic Alpha Reboot</title>
+    <title>PHOENIX - A radically immersive action rpg</title>
     <nav>
         <div class="navbar">
             <ul>
-                <li>
+                <!--<li>
                     <a href="#cover">
                         <img class="img-brand mr-8 ml-4" src="img/logo-phoenix_shadow-sm.png" alt="Phoenix">
                     </a>
-                </li>
+                </li>-->
                 <li>
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link ml-4" href="#about">About</a>
                 </li>
                 <li>
                     <a class="nav-link" href="#gallery">Media</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="faq.html" target="_blank">FAQ</a>
+                    <a class="nav-link" href="#design">Design</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="specials/DesignConcept.html" target="_blank">Concept</a>
+                    <a class="nav-link" href="faq.html" target="_blank">FAQ</a>
                 </li>
+                <!--<li>
+                    <a class="nav-link" href="specials/DesignConcept.html" target="_blank">Concept</a>
+                </li>-->
                 <li>
                     <a class="nav-link" href="press/" target="_blank">Press</a>
                 </li>
@@ -35,20 +38,20 @@
 
             <ul>
                 <li class="pt-1 sm:pt-2">
-                    <a href="https://liberapay.com/PhoenixTales">
-                        <img class="icon" src="img/wordmarks/liberapaywhite.png" alt="Liberapay">
+                    <a href="https://phoenixtales.de/team.html#donate">
+                        <img class="icon" src="img/wordmarks/paypal-red.png" alt="Donate us on PayPal">
                     </a>
                 </li>
                 <li class="pt-1 sm:pt-2">
                     <a href="https://discord.gg/CK4VAR7fpH">
-                        <img class="icon" src="img/wordmarks/discord.svg" alt="Discord">
+                        <img class="icon" src="img/wordmarks/discord.svg" alt="Join us on Discord">
                     </a>
                 </li>
-                <li class="pt-1 sm:pt-2">
+                <!--<li class="pt-1 sm:pt-2">
                     <a href="https://mastodon.online/@phoenixtales">
                         <img class="icon" src="img/wordmarks/mastodon.svg" alt="Mastodon">
                     </a>
-                </li>
+                </li>-->
                 <li class="pt-1 sm:pt-2">
                     <a href="https://github.com/PhoenixTales">
                         <img class="icon" src="img/wordmarks/GitHub-Mark-Light-120px-plus.png" alt="Git">
@@ -60,39 +63,32 @@
 
     <!-- Cover -->
 
-    <section class="bg-anniversary min-vh-100" id="cover">
+    <section class="bg min-vh-100" id="cover">
         <div class="section-body">
             <div class="d-grid sm:cols-6 mt-16 px-6 sm:px-12">
                 <div class="sm:col-5 md:col-4 lg:col-3">
-                    <a href="specials/20thAnniversaryEssay.html" target="_blank"> <!-- todo: Link to essay -->
-                        <img class="d-block w-100 hover:darken" src="img/rescue_of_design_claim.png" alt="Phoenix Tales and the Rescue of Design">
-                    </a>
+                    <img class="d-block w-100 hover:darken" src="img/logo-phoenix_shadow.png" alt="PHOENIX">
                 </div>
             </div>
+           <!--   <div class="d-grid sm:cols-6 mt-16 px-6 sm:px-12">
+                <div class="sm:col-5 md:col-4 lg:col-3">
+                  <p>Get our latest PressKit</p>
+                    <p>TODO: Add half transparent background, maybe round corners, then maybe an image of a disc showing our presskit in physical form?
+                    This is supposed to be shown in the right bottom corner of this cover page and I imagine this section here to be used in the 
+                    future to directly give the download links to the game/demo/design docs and so forth.
+                    </p> 
+                </div>
+            </div>--> 
         </div>
         <footer>
-            <p class="mb-0"><span class="text-blood">Phoenix Tales</span> celebrates the <span class="text-silver">20th anniversary of GOTHIC</span>, with an <a href="https://gothicarchive.org/postrelease/20thanniversary/"><span class="text-ore">anniversary special</span></a> and the greatest <span class="text-copper">update of our archive</span> yet.</p>
+            <p class="mb-0">A story-driven <span class="text-gold">action-rpg</span> with a <span class="text-blood">radically immersive</span> design that sucks less; no EXP, no skill trees, just roleplay.</p>
         </footer>
     </section>
 
-    <!-- Image Links -->
-
-    <div class="d-grid sm:cols-2">
-        <a href="https://phoenixtales.de" target="_blank">
-            <img class="d-block w-100 hover:darken" src="img/goto-phoenixtales-sm.jpg" alt="Phoenix Tales">
-        </a>
-        <a href="https://gothicarchive.org" target="_blank">
-            <img class="d-block w-100 hover:darken" src="img/goto-archive-sm.jpg" alt="Gothic Pre-Release Archive">
-        </a>
-    </div>
-
-    <div class="info-bar">
-        <p class="mb-0">A story-driven <span class="text-gold">action-rpg</span> with a <span class="text-blood">radically immersive</span> design that sucks less; no EXP, no skill trees, just roleplay.</p>
-    </div>
-
+    
     <!-- About Phoenix -->
 
-    <div class="container d-grid sm:cols-2 gap-6 sm:gap-24 px-6" id="about">
+    <div class="container d-grid sm:cols-2 gap-6 sm:gap-24 px-6">
         <div>
             <div class="d-grid sm:cols-3 gap-6 sm:gap-12">
                 <div class="sm:col-2">
@@ -150,26 +146,33 @@
         </div>
     </div>
 
-    <div class="info-bar">
+    <div class="info-bar" id="gallery">
         <p class="mb-0">Set in a dark, <span class="text-demonic">mystic</span> valley of conflict and <span class="text-silver">decay</span>; released in three acts. narrated like a greek tragedy.</p>
     </div>
 
     <!-- Gallery Orpheus -->
 
-    <div class="d-grid sm:cols-6 gap-6 p-6" id="gallery">
+    <div class="d-grid sm:cols-6 gap-6 p-6">
         <div class="sm:col-2">
             <img src="img/logo-orpheus-wip.png" alt="Orpheus WiP Logo" class="d-block w-100 h-auto" loading="lazy">
+        </div>
+        <div class="sm:col-2">
+            <a href="img/artworks/Phoenix_TheFallofXardas_ArtworkV2.png" target="_blank">
+                <img src="img/artworks/Phoenix_TheFallofXardas-sm.jpg" alt="The Fall of Xardas" class="d-block w-100 h-auto hover:darken" loading="lazy">
+            </a>
         </div>
         <div class="sm:col-2">
             <a href="img/screens/orpheus/milten-at-the-river.png" target="_blank">
                 <img src="img/screens/orpheus/milten-at-the-river-sm.jpg" alt="Milten at the river" class="d-block w-100 h-auto hover:darken" loading="lazy">
             </a>
         </div>
+        <!--
         <div class="sm:col-2">
             <a href="img/screens/orpheus/towards-the-old-camp.png" target="_blank">
                 <img src="img/screens/orpheus/towards-the-old-camp-sm.jpg" alt="Towards the Old Camp" class="d-block w-100 h-auto hover:darken" loading="lazy">
             </a>
         </div>
+        -->
         <div class="sm:col-2">
             <a href="img/screens/orpheus/watermagic-at-night.png" target="_blank">
                 <img src="img/screens/orpheus/watermagic-at-night-sm.jpg" alt="Watermagic at Night" class="d-block w-100 h-auto hover:darken" loading="lazy">
@@ -204,7 +207,6 @@
             <a href="img/screens/orpheus/i-dont-care-who-you-are.png" target="_blank">
                 <img src="img/screens/orpheus/i-dont-care-who-you-are-sm.jpg" alt="I don't care who you are" class="d-block w-100 h-auto hover:darken" loading="lazy">
             </a>
-            <!-- -->
         </div>
 
         <div class="sm:col-2">
@@ -224,8 +226,8 @@
             </a>
         </div>
         <div class="sm:col-2">
-            <a href="img/screens/orpheus/menu-orpheus-v2.png" target="_blank">
-                <img src="img/screens/orpheus/menu-orpheus-v2.png" alt="Orpheus Menu v2" class="d-block w-100 h-auto hover:darken" loading="lazy">
+            <a href="img/screens/orpheus/InsideThePrison.png" target="_blank">
+                <img src="img/screens/orpheus/InsideThePrison-sm.jpg" alt="Inside the Prison" class="d-block w-100 h-auto hover:darken" loading="lazy">
             </a>
         </div>
         <div class="sm:col-2">
@@ -303,7 +305,7 @@
 
     <div class="d-grid sm:cols-6 gap-6 p-6">
         <div class="sm:col-3">
-            <a href="img/wallpaper/wallpaper_rust_by_rysa_and_flosha.jpg" target="_blank">
+            <a href="img/wallpaper/" target="_blank">
                 <figure>
                     <img src="img/wallpaper/wallpaper_rust_thumbnail.jpg" alt="Wallpaper" class="d-block border w-100 hover:darken" loading="lazy">
                     <figcaption>Wallpaper 'Rust' (Art by RYSA, modified by flosha)</figcaption>
@@ -311,26 +313,10 @@
             </a>
         </div>
         <div class="sm:col-3">
-            <a href="img/fanart/friendship_by_bloody.jpg" target="_blank">
+            <a href="https://www.youtube.com/watch?v=pjBzNinOgj4" target="_blank">
                 <figure>
-                    <img src="img/fanart/friendship_thumbnail.jpg" alt="Friendship" class="d-block border w-100 hover:darken" loading="lazy">
-                    <figcaption>'Friendship', Fanart by Bloody</figcaption>
-                </figure>
-            </a>
-        </div>
-        <div class="sm:col-2">
-            <a href="img/wallpaper/wallpaper_demonic_by_rysa_and_flosha.jpg" target="_blank">
-                <figure>
-                    <img src="img/wallpaper/wallpaper_demonic_thumbnail.jpg" alt="Wallpaper" class="d-block border w-100 hover:darken" loading="lazy">
-                    <figcaption>Wallpaper 'Demonic' (Art by RYSA, modified by flosha)</figcaption>
-                </figure>
-            </a>
-        </div>
-        <div class="sm:col-2">
-            <a href="img/wallpaper/wallpaper_blood_by_rysa_and_flosha.jpg" target="_blank">
-                <figure>
-                    <img src="img/wallpaper/wallpaper_blood_thumbnail.jpg" alt="Wallpaper" class="d-block border w-100 hover:darken" loading="lazy">
-                    <figcaption>Wallpaper 'Blood' (Art by RYSA, modified by flosha)</figcaption>
+                    <img class="d-block w-100 hover:darken" src="img/specials/gothicmeetsacrobatics.jpg" alt="Gothic meets Acrobatics - Mood Teaser">
+                    <figcaption>'Gothic Meets Acrobatics' Mood Teaser by flosha</figcaption>
                 </figure>
             </a>
         </div>
@@ -342,6 +328,14 @@
         </div>
         -->
         <div class="sm:col-2">
+            <a href="img/fanart/friendship_by_bloody.jpg" target="_blank">
+                <figure>
+                    <img src="img/fanart/friendship_thumbnail.jpg" alt="Friendship" class="d-block border w-100 hover:darken" loading="lazy">
+                    <figcaption>'Friendship', Fanart by Bloody</figcaption>
+                </figure>
+            </a>
+        </div>
+        <div class="sm:col-2">
             <a href="img/fanart/mercenary_by_bloody.jpg" target="_blank">
                 <figure>
                     <img src="img/fanart/mercenary_thumbnail.jpg" alt="Mercenary" class="d-block border w-100 hover:darken" loading="lazy">
@@ -349,9 +343,17 @@
                 </figure>
             </a>
         </div>
+        <div class="sm:col-2">
+            <a href="img/artworks/Phoenix_TheFallofXardas_ArtworkV2.png" target="_blank">
+                <figure>
+                    <img src="img/artworks/Phoenix_TheFallofXardas_ArtworkV2.png" alt="Mercenary" class="d-block border w-100 hover:darken" loading="lazy">
+                    <figcaption>'The Fall of Xardas', Artwork by flosha</figcaption>
+                </figure>
+            </a>
+        </div>
     </div>
 
-    <div class="info-bar">
+    <div class="info-bar" id="design">
         <p class="mb-0"><strong>Arbax:</strong> "It feels [...] like a <span class="text-gold">Greek or Sumerian myth</span> with intrigue and <span class="text-blood">so much plot</span> development."</p>
     </div>
 
@@ -402,21 +404,47 @@
 
     <!-- Image Links -->
 
-    <div class="d-grid sm:cols-2 gap-6 p-6">
-        <a href="specials/ArtAndTheDemonicThreat.html" target="_blank">
-            <img class="d-block w-100 hover:darken" src="img/specials/ArtAndDemons.jpg" alt="Phoenix and the Social Critique or Art and the Demonic Threat">
+    <section class="bg-anniversary min-vh-100" id="cover">
+        <div class="section-body">
+            <div class="d-grid sm:cols-6 mt-16 px-6 sm:px-12">
+                <div class="sm:col-5 md:col-4 lg:col-3">
+                    <a href="specials/20thAnniversaryEssay.html" target="_blank"> <!-- todo: Link to essay -->
+                        <img class="d-block w-100 hover:darken" src="img/rescue_of_design_claim.png" alt="Phoenix Tales and the Rescue of Design">
+                    </a>
+                </div>
+                <!--
+                    // Flosha: These two images/titles should be on this page two; the id="cover" should
+                    be changed into id="essays"; so this page is all about essays in relation to Phoenix;
+                    the phoenix and the rescue of design is the main essay, and the other two essays,
+                    as titles, should be displayed in the bottom right corner on a div-box with a black/grey
+                    background with a little opacity; and maybe a title like: Other Essays
+
+                    <div class="">
+                    <a href="specials/BehindTheEyesOfElliot.html" target="_blank">
+                        <img class="d-block w-100 hover:darken" src="img/specials/ElliotEssay.png" alt="Phoenix and the Question of Perspective or Behind the Eyes of Elliot">
+                    </a>
+                    <a href="specials/ArtAndTheDemonicThreat.html" target="_blank">
+                        <img class="d-block w-100 hover:darken" src="img/specials/ArtEssay.png" alt="Phoenix and the Social Critique or Art and the Demonic Threat">
+                    </a>
+                 </div>-->
+            </div>
+        </div>
+        <footer>
+            <p class="mb-0"><span class="text-blood">Phoenix Tales</span> celebrates the <span class="text-silver">20th anniversary of GOTHIC</span>, with an <a href="https://gothicarchive.org/postrelease/20thanniversary/"><span class="text-ore">anniversary special</span></a> and the greatest <span class="text-copper">update of our archive</span> yet.</p>
+        </footer>
+    </section>
+
+    <!-- Image Links -->
+
+    <div class="d-grid sm:cols-2">
+        <a href="https://phoenixtales.de" target="_blank">
+            <img class="d-block w-100 hover:darken" src="img/goto-phoenixtales-sm.jpg" alt="Phoenix Tales">
         </a>
-        <a href="specials/BehindTheEyesOfElliot.html" target="_blank">
-            <img class="d-block w-100 hover:darken" src="img/specials/BehindTheEyes.jpg" alt="Phoenix and the Question of Perspective or Behind the Eyes of Elliot">
-        </a>
-        <!--<a href="specials/DesignConcept.html" target="_blank">
-            <img class="d-block w-100 hover:darken" src="img/specials/designconcept.jpg" alt="Founding of the Empire - Design Doc Excerpt">
-        </a>-->
-        <a href="specials/20thAnniversaryEssay.html" target="_blank">
-            <img class="d-block w-100 hover:darken" src="img/specials/20thanniversary.jpg" alt="Phoenix and the Rescue of Design - A Journey to Mike Hoge on behalf of the 20th Anniversary of Gothic">
-        </a>
-        <a href="https://www.youtube.com/watch?v=pjBzNinOgj4" target="_blank">
-            <img class="d-block w-100 hover:darken" src="img/specials/gothicmeetsacrobatics.jpg" alt="Gothic meets Acrobatics - Mood Teaser">
+        <a href="https://gothicarchive.org" target="_blank">
+            <img class="d-block w-100 hover:darken" src="img/goto-archive-sm.jpg" alt="Gothic Pre-Release Archive">
+            <!-- add hover: 
+            <p>During our research of the Gothic Alpha and the Sequel, we put together a comprehensive <a href="https://gothicarchive.org" target="_blank">Archive</a> of pre-release material as a gift for the community.</p> 
+            -->
         </a>
     </div>
 
@@ -427,46 +455,55 @@
             <div class="w-100 bg-dark p-8">
                 <ul class="list-unstyled">
                     <li><a href="https://phoenixtales.de">Contact us</a></li>
+                    <li><a href="https://phoenixtales.de">Phoenix Tales</a></li>
                     <li><a href="https://gothicarchive.org">Gothic Archive</a></li>
                     <li><a href="faq.html">Phoenix FAQ</a></li>
-                    <li><a href="https://mastodon.online/@phoenixtales">Mastodon</a></li>
                     <li><a href="https://phoenixtales.de/contrib.html">Contrib</a></li>
+                    <li><a href="https://discord.gg/CK4VAR7fpH">Discord</a></li>
+                    <li><a href="https://phoenixtales.de/team.html#donate">Donate</a></li>
                     <li><a href="press/">Press</a></li>
                     <li><a href="https://github.com/PhoenixTales">GitHub</a></li>
                 </ul>
             </div>
             <div class="w-100 bg-dark p-8">
-                <h3><a href="https://gothicarchive.org" target="_blank">Gothic Archive</a></h3>
-                <p>During our research of the Gothic Alpha and the Sequel, we put together a comprehensive <a href="https://gothicarchive.org" target="_blank">Archive</a> of pre-release material as a gift for the community.</p>
-                <a href="https://gothicarchive.org" target="_blank">
-                    <img class="d-block mw-100 mx-auto hover:darken" src="img/archiveascii.png" alt="Visit our Gothic Archive">
-                </a>
+                <h3><a href="https://discord.gg/CK4VAR7fpH" target="_blank">Community</a></h3>
+                <p>Join our community on <a href="https://discord.gg/CK4VAR7fpH" target="_blank">Discord</a>, the "melting pot of the Gothic freaks", to get the latest news on our game and our <a href="https://gothicarchive.org">Archive</a> and talk directly to the <a href="https://phoenixtales.de">devs</a>.</p>
+                <!--a href="https://discord.gg/CK4VAR7fpH" target="_blank">
+                    <img class="d-block mw-100 mx-auto hover:darken" src="img/wordmarks/discord.svg" alt="Join us on Discord">
+                </a>-->
             </div>
             <div class="w-100 bg-dark p-8">
                 <!-- <img class="img-core d-block mr-8 w-100" src="img/nyxcore.png" alt="Nyx Core Ascii Logo"> -->
                 <h3>nyxCore <strong class="text-blood">/soon</strong></h3>
-                <p class="mb-0">In our attempt to reconstruct the vision of the alpha, we realised that we need to directly influence the engine of Gothic. The nyxCore consists of various ZenGin extensions for Phoenix.</p>
+                <p class="mb-0">In our attempt to reconstruct the vision of the alpha, we realised that we need to directly influence the engine of Gothic. The <a href="">nyxCore</a> consists of various ZenGin extensions for Phoenix.</p>
             </div>
-            <div class="w-100 bg-dark p-8">
+            <!-- WOG --> 
+            <!--<div class="w-100 bg-dark p-8">
                 <h3><a href="https://forum.worldofplayers.de/forum/threads/1570139-PhoenixTales-PHOENIX-A-Gothic-Alpha-Reboot" target="_blank">World of Gothic</a></h3>
                 <p>Read everything about the project's announcement in the World of Gothic forums.</p>
                 <a href="https://forum.worldofplayers.de/forum/threads/1570139-PhoenixTales-PHOENIX-A-Gothic-Alpha-Reboot" target="_blank">
                     <img class="d-block mw-100 mx-auto hover:darken" src="img/logo/wog.png" alt="World of Gothic">
                 </a>
+            </div>-->
+            <div class="w-100 bg-dark p-8">
+            <!-- // Add when that page is actually online 
+                  <h3><a href="https://flosh.in" target="_blank">flosh.in</a></h3>
+                <p>If you're interested in other projects of our main developer, such as fsocial, FASABE or the Sarvodaya Network, you may want to take a look at <a href="https://flosh.in">flosh.in</a>.</p>
+            -->
             </div>
             <div class="w-100 bg-dark p-8">
-                <h3>Support us</h3>
-                <p>Please consider to donate, if you want to support us and our dream. Keep the fire of work burning to let the Phoenix rise.</p>
-                <a href="https://liberapay.com/PhoenixTales/donate" target="_blank">
-                    <img class="libera" alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">
-                </a>
-            </div>
-        </div>
-        <div class="p-6">
-            <p class="mb-0 fs-small">
-                PHOENIX & Nyx (2021) © by <a href="https://phoenixtales.de/" target="_blank">Phoenix Tales</a><br>
-                <a href="https://www.gog.com/game/gothic" target="_blank">GOTHIC&reg;</a> & Xardas&reg; (2001) © by <a href="https://www.thqnordic.com/" target="_blank">THQ Nordic</a>
-            </p>
+                <h3><a href="https://phoenixtales.de/team.html#donate" target="_blank">Support us</a></h3>
+                <p>You may consider to <a href="https://phoenixtales.de/team.html#donate" target="_blank">donate</a>, if you want to support us and our dream. Keep the fire burning to let the Phoenix rise.</p>
+                <!--<a href="https://phoenixtales.de/team.html#donate" target="_blank">
+                    <img class="libera" alt="Donate using PayPal" src="img/wordmarks/paypal.svg">
+                </a>-->
+
+                <!-- Somehow add black background to this footer that goes over the full length of the div above and until its end -->
+                <p class="mt-12 fs-small">
+                    PHOENIX & Nyx (2021) © by <a href="https://phoenixtales.de/" target="_blank">Phoenix Tales</a><br>
+                    <a href="https://www.gog.com/game/gothic" target="_blank">GOTHIC&reg;</a> & Xardas&reg; (2001) © by <a href="https://www.thqnordic.com/" target="_blank">THQ Nordic</a>
+                </p>
+            <div>
         </div>
     </footer>
 </html>
