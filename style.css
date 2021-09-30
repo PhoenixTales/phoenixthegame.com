@@ -409,6 +409,10 @@ section footer {
   }
 }
 
+.p-3 {
+  padding: 0.8rem;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -512,7 +516,9 @@ nav ul {
   display: block;
   padding: .25rem .5rem;
   color: var(--silver);
-  font-size: .875rem;
+  font-size: .875rem; 
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 @media (min-width: 600px) {
@@ -541,6 +547,10 @@ nav ul {
 
 .icon:hover {
   opacity: 0.7;
+}
+
+.bg {
+  background: url('img/backgrounds/bg-dark.jpg') bottom center / cover no-repeat;
 }
 
 .bg-anniversary {
