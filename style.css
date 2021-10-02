@@ -551,7 +551,6 @@ nav ul {
   padding-right: 1rem;
   padding-left: 1rem;
   height: 1rem;
-  max-width: 48px;
   transition: opacity .3s ease-out;
 }
 
