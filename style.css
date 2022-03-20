@@ -654,3 +654,23 @@ footer {
 ::selection {
   background: #3c1e26;
 }
+
+/* Scrollbar */
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  background: #101010;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: rgba(0 0 0 / 70%);
+}
+
+*::-webkit-scrollbar-track {
+  background: #101010;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #424242;
+  border: 2px solid black;
+}
