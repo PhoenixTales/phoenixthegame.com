@@ -4,7 +4,7 @@
  *
  *  design: flosha 
  *  frontend early 2021: AmProsius 
- *  frontend late 2021: flosha
+ *  frontend late 2021: AmProsius/flosha
  */
 
  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
@@ -26,6 +26,14 @@
   --orange: #f2ad7a;
   --peru: #77584b;
 }
+
+
+/* Ukraine */
+
+.ukraine {
+  background: url('img/UA-FLAG2.jpg') center / cover no-repeat;
+}
+
 
 /* Layout */
 
@@ -407,6 +415,11 @@ section footer {
   margin-left: 1rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
+
 @media (min-width: 600px) {
   .sm\:mt-12 {
     margin-top: 3rem;
@@ -488,24 +501,35 @@ section footer {
 /* Page */
 
 nav {
-  position: fixed;
+  /*position: fixed;
   top: 0;
   right: 0;
   left: 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1rem;*/
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  bottom: 6%;
+  margin: 0 auto;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 @media (max-width: 599px) {
   .navbar {
     overflow-x: auto;
     white-space: nowrap;
+  }
+
+  nav {
+    bottom: 14%;
   }
 }
 
@@ -532,6 +556,8 @@ nav ul {
   }
 }
 
+/* Phoenix Logo in Navi */
+/*
 .img-brand {
   height: 48px;
 }
@@ -541,17 +567,31 @@ nav ul {
     height: 64px;
   }
 }
+*/
+
+/* Nyx Logo in Navi */
+.img-brand {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .img-brand {
+    display: block;
+    height: 180px;
+    margin-top: -1rem;
+  }
+}
 
 
 .textbar img {
-  max-height: 50px;
+  max-height: 200px;
 }
 
 .iconbar img {
   padding-right: 1rem;
   padding-left: 1rem;
-  height: 1rem;
-  transition: opacity .3s ease-out;
+  height: 1.3rem;
+  transition: .3s ease-out;
 }
 
 .iconbar img:hover {
@@ -560,12 +600,19 @@ nav ul {
 
 .logo {
   display: block;
-  margin: 3em auto;
+  margin: 2em auto;
+  max-height: 520px;
   max-width: 100%;
 }
 
+ @media (max-width: 600px) {
+   .logo {
+     margin: 0 auto;
+   }
+ }
+
 .bg {
-  background: url('img/backgrounds/bg-dark.jpg') bottom center / cover no-repeat;
+  background: url('img/backgrounds/bg-ukraine.jpg') bottom center / cover no-repeat;
 }
 
 .bg-anniversary {
