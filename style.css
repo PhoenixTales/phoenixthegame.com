@@ -7,7 +7,8 @@
  *  frontend late 2021: AmProsius/flosha
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
   --white: #fff;
@@ -25,13 +26,6 @@
   --silver: var(--gray-400);
   --orange: #f2ad7a;
   --peru: #77584b;
-}
-
-
-/* Ukraine */
-
-.ukraine {
-  background: url('img/UA-FLAG2.jpg') center / cover no-repeat;
 }
 
 
@@ -185,6 +179,14 @@ h3 {
   font-weight: normal;
 }
 
+.summary {
+  margin: 2.5em 0 0;
+  color: var(--gray-500);
+  font-size: 20px;
+  font-weight: ;
+  max-width: 400px;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -200,7 +202,8 @@ section footer {
   padding: .5rem 1.5rem;
   text-align: center;
   color: var(--gray-600);
-  font-size: .875rem;
+  /*font-size: .875rem;*/
+  font-size: 16px;
 }
 
 /* Components - Section */
@@ -508,13 +511,12 @@ nav {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   padding-top: 1rem;
   padding-bottom: 1rem;*/
-  position: absolute;
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
-  bottom: 6%;
-  margin: 0 auto;
+  bottom: 12%;
+  margin: 0 auto 3em;
 }
 
 .navbar {
@@ -526,10 +528,6 @@ nav {
   .navbar {
     overflow-x: auto;
     white-space: nowrap;
-  }
-
-  nav {
-    bottom: 14%;
   }
 }
 
@@ -600,23 +598,66 @@ nav ul {
 
 .logo {
   display: block;
-  margin: 2em auto;
-  max-height: 520px;
+  margin: 2em auto 0;
+  max-height: 400px;
   max-width: 100%;
 }
 
  @media (max-width: 600px) {
    .logo {
-     margin: 0 auto;
+      margin: 1em auto 0;
    }
  }
 
+.nyx {
+  /*display: none;*/
+  display: block;
+  margin: -12% auto 5%;
+  max-width: 200px;
+}
+
+  @media (max-width: 600px) {
+    .nyx {
+      display: block;
+      margin: -7em auto 15%;
+      max-width: 35%;
+    }
+  }
+
+.archive {
+  float: left;
+  margin-right: 2em;
+  max-width: 250px;
+}
+
+.gothic {
+  margin: 1em 0 0;
+  max-width: 100%;
+}
+
+.bird {
+  float: right;
+  margin-left: 2em;
+  max-width: 250px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 0;
+}
+
+.gallery img {
+  margin: 0.2em;
+  width: 300px;
+}
+
 .bg {
-  background: url('img/backgrounds/bg-ukraine.jpg') bottom center / cover no-repeat;
+  background: url('img/backgrounds/bg-dark3.jpg') 37% 50% / cover no-repeat;
 }
 
 .bg-anniversary {
-  background: url('img/backgrounds/20th_anniversary_special.jpg') bottom center / cover no-repeat;
+  background: url('img/backgrounds/20th_anniversary_special-fade.jpg') bottom center / cover no-repeat;
 }
 
 @media (min-width: 600px) {
