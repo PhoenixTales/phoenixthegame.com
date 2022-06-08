@@ -2,7 +2,7 @@ body {
   margin: 5em auto;
   padding: 0 2em;
 
-  background: url('20thAnniversary/bg.jpg') top center / 100% no-repeat #000;
+  background: url('AJourneyToMike/bg.jpg') top center / 100% no-repeat #000;
   max-width: 700px;
 
   color: #a69685;
@@ -207,3 +207,26 @@ a {
   nav a:hover { color: #b45947; }
   nav a:active { color: #55504a; }
   
+  ::selection {
+    background: #3c1e26;
+  }
+  
+  /* Scrollbar */
+  *::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    background: #101010;
+  }
+  
+  *::-webkit-scrollbar-track-piece {
+    background-color: rgba(0 0 0 / 70%);
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #101010;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #424242;
+    border: 2px solid black;
+  }
