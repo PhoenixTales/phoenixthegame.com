@@ -8,7 +8,7 @@ body {
   color: #7a6d63;
   font-family: "Roboto Mono", monospace;
   line-height: 1.5em;
-  margin: 0 auto;
+  margin: 0 auto 10em;
   font-size: 14px;
   max-width: 600px;
   height: auto;
@@ -19,8 +19,11 @@ main {
   flex-direction: column;
   margin: 0 auto;
   align-items: center;
-
 }
+
+ol { counter-reset: item }
+li{ display: block }
+li:before { content: counters(item, ".") " "; counter-increment: item }
 
 header {
   max-width: 400px;
@@ -43,9 +46,6 @@ h2 {
   /*color: #ac2b1f;*/
 }
 
-h3 {
- 
-}
 
 .head {
   padding: 5em 0 0;
