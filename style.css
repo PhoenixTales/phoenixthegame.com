@@ -180,11 +180,13 @@ h3 {
 }
 
 .summary {
-  margin: 0;
+  margin: 2em 0 0;
   color: var(--gray-500);
   font-size: 20px;
   max-width: 400px;
 }
+
+
 
 .list-unstyled {
   padding-left: 0;
@@ -558,6 +560,43 @@ nav ul {
   }
 }
 
+/* make language link list vertical */
+.languages {
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color:black;
+  padding: 1em 0 0.5em;
+}
+  /* gaps between language links */
+  .languages li {
+    padding: 0 1em 0.5em;
+  }
+
+
+details summary {
+  cursor: pointer;
+  display: block;
+  padding-left: 1em;
+}
+
+summary:hover {
+  color: var(--blood);
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+  summary:after {
+  content: "▼";
+  margin-left: 10px;
+  color: var(--blood);
+  }
+
+  details[open] summary:after {
+  content: "▲";
+  }
+
+
 /* Phoenix Logo in Navi */
 /*
 .img-brand {
@@ -615,23 +654,53 @@ nav ul {
 
 .nyx {
   display: block;
-  margin: -12% auto 0;
+  margin: -12% auto 5em;
   max-width: 200px;
 }
 
   @media (max-width: 600px) {
     .nyx {
       display: block;
-      margin: -7em auto 15%;
+      margin: -7em auto 10%;
       max-width: 35%;
     }
   }
 
+.team-logo {
+  max-width: 250px;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+
+
+@media (max-width: 600px) {
+  .team-logo {
+    display: none;
+  }
+}
+
 .slogan {
   display: block;
-  margin: 3% auto 5%;
+  margin: 2% auto 3%;
   width: 800px;
-  max-width: 100%;
+  max-width: 80%;
+}
+
+.mobile-slogan {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  .slogan {
+    display: none;
+  }
+  .mobile-slogan {
+    display: block;
+    margin: 0 auto 5%;
+    width: 800px;
+    max-width: 60%;
+  }
 }
 
 .about {
@@ -647,6 +716,13 @@ nav ul {
     padding: 0.3em 1em;
   }
   
+
+@media (max-width: 1200px) {
+  .subheader {
+    display: block;
+    margin: 0.5em -0.2em 0.5em;
+  }
+}
 
 .archive {
   float: left;
@@ -731,13 +807,23 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0 2%;
+  gap: 0 5%;
 }
 
   .links img {
-    max-height: 330px;
-    max-width: 85%;
+    max-height: 300px;
   }
+
+  @media (max-width: 1100px) {
+    .links {
+      flex-direction: column;
+      margin: 2em;
+    }
+    .links img {
+      margin: 2em 0;
+    }  
+  }
+
 
 ::selection {
   background: #3c1e26;
