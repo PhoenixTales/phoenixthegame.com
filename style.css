@@ -673,7 +673,6 @@ summary::-webkit-details-marker {
   bottom: 1em;
 }
 
-
 @media (max-width: 600px) {
   .team-logo {
     display: none;
@@ -750,6 +749,27 @@ summary::-webkit-details-marker {
 .gallery img {
   margin: 0.2em;
   width: 300px;
+}
+
+/* keep videos in 16:9 ratio 100% width-in main */
+.videoscaler {
+  position: relative;
+  width: 60%;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 33.25%;
+  margin: 0 auto 0;
+  border: 1px solid var(--blood);
+}
+
+/* style of the videos */
+iframe {
+  margin: 1em 0 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .bg {
