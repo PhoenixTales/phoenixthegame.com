@@ -115,10 +115,8 @@ table {
 
 /* member pictures */
 .dev {
-  float: right;
-  margin: -2em 4em 1.5em;
-  margin-left: 2em;
-  margin-bottom: 1.5em;
+  display: block;
+  margin: -2em auto 0em;
 }
 
 /* TEXT */
@@ -132,11 +130,13 @@ h1 {
 }
 
 h2 { 
+  text-align: center;
   margin: 6em 0 2em; 
   line-height: 1.5em;
   font: inherit;
   font-weight: normal;
   text-transform: uppercase;
+  padding: 0;
 }
 
 h3 { 
