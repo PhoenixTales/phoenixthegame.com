@@ -17,7 +17,7 @@ body {
 
 header {
   max-width: 350px;
-  margin: 25px auto 25px;
+  margin: 25px 0 25px;
 }
 
 nav {
@@ -46,13 +46,21 @@ main {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0;
   height: auto;
 }
 
 summary {
   font-size: 16px;
 }
+
+/* FAQ Header */
+.faq {
+  max-width: 120px;
+}
+
+.blood { color: #934a46; }
+
 
 /* UTILITY */
 
@@ -83,12 +91,14 @@ h3 {
 }
 
 p {
+  /*
   text-align: justify;
   -moz-hyphens: auto;
   -o-hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  */
 }
 
 .pre-frame {
