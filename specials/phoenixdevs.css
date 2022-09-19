@@ -103,7 +103,10 @@ table {
 
 .blood { color: #934a46; }
 .green { color: #488c63; }
-
+.copper { color: #8c5f4e; }
+.demonic { color: #855f67; }
+.gold { color: #976b42; }
+.ore { color: #4f6766; }
 
 .full-img {
   margin: 5em 0;
@@ -137,6 +140,10 @@ h2 {
   font-weight: normal;
   text-transform: uppercase;
   padding: 0;
+}
+
+.circles {
+  text-transform: lowercase;
 }
 
 h3 { 
