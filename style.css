@@ -112,6 +112,15 @@
   box-sizing: border-box;
 }
 
+/*
+@font-face {
+  font-family: 'Web IBM VGA 8x16';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Web437_IBM_VGA_8x16.woff) format('woff');
+}
+*/
+
 html {
   font-family: 'Roboto Mono', monospace;
   /*font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;*/
@@ -145,6 +154,7 @@ figcaption {
   color: var(--gray-700);
   font-size: .875rem;
 }
+
 
 a {
   transition: all 0.3s ease-out;
@@ -182,8 +192,8 @@ h3 {
 .summary {
   margin: 2em 0 0;
   color: var(--gray-500);
-  font-size: 20px;
-  max-width: 400px;
+  font-size: 1.2rem;
+  max-width: 380px;
 }
 
 
@@ -204,7 +214,6 @@ section footer {
   text-align: center;
   color: var(--gray-600);
   /*font-size: .875rem;*/
-  font-size: 16px;
 }
 
 /* Components - Section */
@@ -547,7 +556,6 @@ nav ul {
   display: block;
   padding: .25rem 0.5rem;
   color: var(--ore);
-  /* font-size: .875rem; */
   font-size: .825rem;
 
   text-transform: uppercase;
