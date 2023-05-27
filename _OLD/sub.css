@@ -1,0 +1,128 @@
+:root {
+  --blood: #844d44;
+}
+
+
+body {
+  background: #000;
+  /*color: #baa898;*/
+  /*  color: #d1c1ad; */
+  color: #ccb9a5;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 700px;
+}
+
+header {
+  max-width: 350px;
+  margin: 25px 0 25px;
+}
+
+nav {
+  word-spacing: 20px;
+  height: auto;
+  width: 100%;
+  padding: 20px 0 20px;
+  background: #000;
+  text-align: center;
+}
+
+h1 {
+  color: #ac2b1f;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin: -100px 0 30px;
+}
+
+main {
+  max-width: 600px;
+  min-width: 400px;
+  padding: 10px 40px 50px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+  height: auto;
+}
+
+summary {
+  font-size: 16px;
+}
+
+/* FAQ Header */
+.faq {
+  max-width: 120px;
+}
+
+.blood { color: #934a46; }
+
+
+/* UTILITY */
+
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+details { padding: 0em 0em 0.3em; }
+
+ul { padding: 1em 0 0 0em; }
+li { margin: 1em 0 0 2em; }
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 4px;
+  text-align: center;
+  color: var(--blood);
+  font-size: inherit;
+  font-weight: normal;
+}
+
+h3 {
+  margin: 0;
+  color: #ac2b1f;
+}
+
+p {
+  /*
+  text-align: justify;
+  -moz-hyphens: auto;
+  -o-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  */
+}
+
+.pre-frame {
+  display: flex;
+  justify-content: center;
+}
+
+pre {
+  display: inline-block;
+  margin: 0 auto 2em;
+}
+
+/* LINKS */
+
+a { color: #706961; }
+a:link { color: #ad877d; }
+a:visited { color:#ad877d; }
+a:active { color:#55504a; }
+a:hover { color:#844d44; }
+
+a, a:link, a:active, a:visited {
+  text-decoration:none;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
