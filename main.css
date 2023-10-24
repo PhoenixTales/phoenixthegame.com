@@ -316,15 +316,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0; 
   font-size: inherit;
   font-weight: normal;
- /* text-transform: uppercase; */
 }
   
 h2 {
   display: inline-block;
   margin-top: 0;
   padding: 0.3em 0.4em 0.2em; 
-  /* color: var(--black);
-  background: var(--bloodier); */
+
   border: 1px solid var(--blood);
   border-spacing: 15px;
   background: var(--blood);
@@ -353,13 +351,29 @@ h3 {
     margin: 0 auto 3em;
   }
 
-/* buttons */
+
+/* status */
 
 .downloads {
   position: absolute;
-  bottom: 0;
+  bottom: 2em;
   right: 2em;
 }
+
+.status {
+  min-width: 0;
+  font-size: 16px;
+  font-family: "IBM VGA 8x16", monospace;
+  border: 3px solid var(--dark);
+  background: var(--black);
+  padding: 0.5em 1em;
+  opacity: 0;
+  animation: fade-in 2s steps(40, end) forwards;
+  animation-delay: 3.5s;
+}
+
+
+/* buttons */
 
 .article section:first-child a {
   text-decoration: none;
@@ -407,6 +421,7 @@ button {
   transition: all 0.3s ease;
   cursor: pointer;
 }
+
 button:hover {
     color: var(--light-dirt);
     border-right: 2px solid var(--black);
@@ -418,43 +433,28 @@ button:hover {
     transition: all 0.3s ease;
   }
 
-/*
-.story button {
-  color: var(--ore);
-  border: 2px solid var(--swamp);
-  background: var(--black);
-  box-shadow: 5px 5px var(--magic);
-  text-align: center;
-}
-  .story button:hover {
-    color: var(--black);
-    border: 2px solid var(--mana);
-    background: var(--mana);
-    box-shadow: 5px 5px var(--ore);
-  }
-*/
-
-
-
-  .demo {
-    min-width: 0;
-    font-size: 16px;
-    opacity: 0;
-    animation: fade-in 2s steps(40, end) forwards;
-    animation-delay: 3.5s;
+  figcaption button {
+    font-size: 0.9vw;
   }
 
 
   .mask {
+    display: block;
     width: 450px;
     max-width: 100%;
     min-width: 350px;  
+    
+    margin: 0 auto;
   }
+
 
 footer>section:last-child {
   display: flex;
+  flex-wrap: wrap;
   gap: 5em;
   padding-top: 2em;
+  margin: 0 2em 0;
+  justify-content: center;
 }
 
 footer>section:last-child section {
@@ -471,11 +471,15 @@ footer {
 
   font-size: 18px;
   min-width: 0;
+
+  gap: 2em;
 }
 
 footer h2 {
   max-height: 100px;
   transform: rotate(-90deg);
+  align-self: flex-start;
+  margin-top: 4em;
 }
 
 footer h4 {
@@ -485,10 +489,17 @@ footer h4 {
   font-family: "IBM VGA 8x16";
 }
 
-  footer section {
-    /*max-width: 350px; */
-   /* min-width: 200px; */
-  }
+footer h3 {
+  margin-top: 2em;
+}
+
+code {
+  background: var(--dark);
+  font-family: monospace;
+  padding: 0.2em 0.5em;
+  font-size: 14px;
+  border-radius: 3px;
+}
 
   footer p {
     margin-bottom: 1em;
@@ -496,7 +507,6 @@ footer h4 {
   }
 
   footer ul {
-    margin-bottom: 2em;
     font-family: "IBM VGA 8x16";
     list-style: none;
   }
@@ -506,11 +516,6 @@ footer h4 {
     padding-right: 0.5em;
   }
 
-  footer img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
 
 
 /* LINKS AND SELECTION */
@@ -615,6 +620,10 @@ and (max-width : 820px) {
     margin-top: 80px;
   }
 
+  figcaption button {
+    font-size: 3.2vw;
+  }
+
   .article { 
     flex-wrap: nowrap; 
     flex-direction: column;
@@ -629,7 +638,6 @@ and (max-width : 820px) {
     }
 
   footer, footer>section {
-    flex-wrap: nowrap; 
     flex-direction: column;
     gap: 0em;
     padding: 0 1.2em;
@@ -638,7 +646,19 @@ and (max-width : 820px) {
 
     footer>section:last-child {
       gap: 0em;
+      margin: 0;
+      flex-wrap: nowrap;
     }
+
+    footer>section:last-child section {
+      max-width: 100%;
+    }
+
+
+    footer h2 {
+      margin-top: 0em;
+    }
+    
 
   .gallery {
     flex-wrap: nowrap;
