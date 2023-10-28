@@ -601,11 +601,24 @@ and (max-width : 820px) {
     font-size: 7vw;
     text-align: center;
   }
-
+    
   .slogan {
     margin: 0 auto 150px;
   }
 
+  .downloads {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+  }
+
+  .status {
+    margin-top: 1.5em;
+    border: 3px solid var(--dark);
+    background: var(--black);
+    padding: 0.2em 0.8em;
+  }
+      
   /* necessary distance on mobile to wallpaper */
   #about {
     margin-top: 80px;
