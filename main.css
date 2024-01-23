@@ -126,6 +126,17 @@ body {
 
   font-family: "IBM VGA 8x16";
   color: #aaa;
+
+  animation: fade-out 2s steps(40, end) forwards;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 
