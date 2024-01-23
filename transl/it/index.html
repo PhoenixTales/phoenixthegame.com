@@ -1,0 +1,281 @@
+<!doctype html>
+<meta charset="UTF-8">
+<title>PHOENIX: Un Dramma Gotico</title>
+<style>:root { background:#000 }</style>
+<link rel="manifest" href="config/manifest.json">
+<link rel="icon" href="nyx.ico">
+<link rel="apple-touch-icon" href="nyx.ico">
+<meta name="color-scheme" content="dark">   
+<meta name="theme-color" content="#000">   
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover, shrink-to-fit=yes" />
+
+<a href="main"><img class="splash-image" src="assets/img/masked.jpg"></a>
+
+<div class="command-line">
+    <p>A:\&gt; PHOENIX.EXE</p>
+    <br>
+    <p>PHOENIX: Un Dramma Gotico</p>
+    <p>Un Immersive Sim diretto da Flosha<br>
+    Sviluppato 2016-2024 da PhoenixTales</p>
+    <br>
+    <p>Basato sulle versioni Alpha di GOTHIC&#8482; (1999)<br>
+    Realizzato su ZenGin v1.09 (c) Mad Scientists</p>
+    <br>
+    <p>Sei pronto ad essere condannato?</p>
+    <br>
+    <p>
+        <a href="main">Sì.</a><br>
+        <a href="https://www.youtube.com/watch?v=yCLut-Ly5rE" target="_blank">No.</a>
+    </p>
+</div>
+
+<div class="language">
+    <ul>
+        <li><a href="">DE</a></li>
+        <li><a href="/">EN</a></li>
+		<li><a href="/transl/it/">IT</a></li>
+        <li><a href="">PL</a></li>
+        <li><a href="">RU</a></li>
+        <li><a href="">UK</a></li>
+    </ul>
+</div>
+
+<!--
+<div class="release">
+    <p>USCITA: Quando sarà pronto</p>
+</div>
+
+<div class="social">
+    <ul>
+        <li><a href="https://github.com/PhoenixTales" target="_blank">GIT</a></li>
+        <li><a href="https://discord.gg/CK4VAR7fpH" target="_blank">DISCORD</a></li>
+        <li><a href="">PRESS</a></li>
+    </ul>
+</div>
+-->
+<style>
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        user-select: none;
+        overflow: hidden;
+        -webkit-user-drag: none;
+        image-rendering: pixelated;
+    }
+
+	body {
+        display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+
+        font-family: "IBM VGA 8x16", monospace;
+        color: #aaa;
+	}
+
+    nav {
+        position: absolute;
+        width: 200px;
+        top: 0;
+        left: 0;
+        flex: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav img {
+        margin: 0;
+        padding: 0;
+    }
+
+    .splash-image {
+        min-height: 80vh;
+        max-width: 100%;
+        opacity: 0;
+        object-fit: contain;
+        animation: blend-in 4s steps(25, end) forwards;
+        animation-delay: 1s;
+    }
+
+    @keyframes blend-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .command-line {
+        padding: 1rem;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 0;
+    }
+
+    .command-line p {
+        padding: 0 0 0.1em;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        opacity: 0;
+        animation: type 0s steps(60, end) forwards;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    .command-line span {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .command-line ul {
+        margin: 1em 0;
+    }
+
+    .command-line p:nth-child(2) {
+        animation-delay: 0s;
+    }
+    .command-line p:nth-child(3) {
+        animation-delay: 2s;
+    }
+    .command-line p:nth-child(4) {
+        animation-delay: 4.5s;
+    }
+    .command-line p:nth-child(5) {
+        animation-delay: 6s;
+    }
+    .command-line p:nth-child(6) {
+        animation-delay: 7.5s;
+    }
+    .command-line p:nth-child(7) {
+        animation-delay: 7.5s;
+    }
+    .command-line p:nth-child(8) {
+        animation-delay: 9.5s;
+    }
+    .command-line p:nth-child(9) {
+        animation-delay: 10.5s;
+    }
+    .command-line p:nth-child(10) {
+        animation-delay: 11s;
+    }
+
+
+    .command-line span {
+        animation: blink 1.8s infinite 8s;
+    }
+
+    @keyframes type {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes blink {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .language {
+        padding: 1rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+        .language ul li {
+            white-space: nowrap;
+            overflow: hidden;
+            opacity: 0;
+            animation: navi-blend 2s steps(40, end) forwards;
+            -webkit-user-select: none;
+            user-select: none;
+            animation-delay: 11s;
+        }
+            @keyframes navi-blend {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+
+
+    .social {
+        padding: 1rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+        .social ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+
+            white-space: nowrap;
+            overflow: hidden;
+            opacity: 0;
+            animation: navi-blend 2s steps(40, end) forwards;
+            -webkit-user-select: none;
+            user-select: none;
+            animation-delay: 11s;
+        }
+            .social ul li {
+                padding-left: 1em;
+            }
+
+    .release {
+        padding: 1rem;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        text-align: right;
+
+        opacity: 0;
+        animation: navi-blend 2s steps(40, end) forwards;
+        -webkit-user-select: none;
+        user-select: none;
+        animation-delay: 11s;
+    }
+
+    a {
+        /*color: #dba37b;*/
+        /*color: #A1BA40;*/
+        color: #96574f;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<style>
+	@font-face {
+		font-family: "IBM VGA 8x16";
+		src: url("assets/fonts/ibm-vga/ibm-vga-8x16.woff") format('woff');
+		font-weight: normal;
+		font-style: normal;
+		font-display: block;
+        font-size: 16px;
+	}
+
+    @font-face{
+        font-family: "Gothic Alpha";
+        src: url("assets/fonts/Gothic_alpha_font.ttf") format("truetype");
+    }
+</style>
