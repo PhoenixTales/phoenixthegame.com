@@ -1,44 +1,39 @@
 <!doctype html>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=400">
-<link href="sub.css" rel="stylesheet" />
 <link rel='shortcut icon' type='image/x-icon' href='nyx.ico' />
-<title>Contribute | PHOENIX</title>
+<title>Contrib | PHOENIX</title>
           
 <main lang="en">
 
+<h1><a href="/">Phoenix</a> /contribute</h1>
+
+  <!---
   <header>
     <a href="/"><img src="assets/img/phnx-logo-sm.png"></a>
-  </header>
+  </header>-->
 
-  <pre>       
-       +-------------------------------+
-       | <strong>Do you want to contribute to</strong>  |
-       | <strong><span class="plink"><a href="https://phoenixthegame.com">PHOENIX</a></span>? We're looking for...</strong> |
-       +-------------------------------+
-  </pre>
+<p><strong>Do you want to contribute to <span class="plink"><a href="https://phoenixthegame.com">PHOENIX</a></span>? We're looking for...</strong></p>
 
-  <div class="jobs">
+  <ul>
+    <li><strong>Programmer</strong>:
+    You will be responsible for implementing new features and reconstruct old functions (experience with C++ required), <a href="https://docs.phoenixthegame.com">see our docs</a>.</li>
 
-    <p><strong>Engine Programmer</strong>:
-    You will be responsible for implementing new features and reconstruct old functions (experience with C++ required), <a href="https://docs.phoenixthegame.com">see our docs</a>.</p>
+    <li><strong>3D Modeler</strong>:
+    We look for a 3D artist to model simple low poly ambient objects and armours according to original design concepts and given instructions and to fix some uv-mapping.</li>
 
-    <p><strong>3D Modeler</strong>:
-    We look for a 3D artist to model simple low poly ambient objects and armours according to original design concepts and given instructions and to fix some uv-mapping.</p>
-
-    <p><strong>Animator</strong>:
-    You'll be responsible to create and implement various human animations and specific object interactions, including work on the combat system.</p>
+    <li><strong>Animator</strong>:
+    You'll be responsible to create and implement various human animations and specific object interactions, including work on the combat system.</li>
     
-    <p><strong>Comic Artist</strong>:
-    Work on spin-offs to our main project.</p>
+    <li><strong>Comic Artist</strong>:
+    Work on spin-offs to our main project.</li>
 
-    <p><strong>Graphic Artists</strong>:
-    We need you to create low-res textures in the style of GOTHIC (primarily armours) as well as level textures for Act 2 (city); usually not more than 256x256 or at most 512x512 pixels.<!--<br> We also look for an artist to create retro sprites and backgrounds for a 2D project.--></p>
+    <li><strong>Graphic Artists</strong>:
+    We need you to create low-res textures in the style of GOTHIC (primarily armours) as well as level textures for Act 2 (city); usually not more than 256x256 or at most 512x512 pixels.<!--<br> We also look for an artist to create retro sprites and backgrounds for a 2D project.--></li>
 
-    <p><strong>Concept Artists</strong>:
-    We look for concept artists to do some sketches for Act 2 of PHOENIX. This way you can take part in the design of the gloomy city of Khorinis in decay and help us to design dungeons and armors.</p>  
-
-  </div>
+    <li><strong>Concept Artists</strong>:
+    We look for concept artists to do some sketches for Act 2 of PHOENIX. This way you can take part in the design of the gloomy city of Khorinis in decay and help us to design dungeons and armors.</li>  
+  </ul>
 
   <hr>
 
@@ -58,6 +53,10 @@
   --black: #000;
 }
 
+@font-face{
+    font-family: "Gothic Alpha";
+    src: url("assets/fonts/Gothic_alpha_font.ttf") format("truetype");
+  }
 
 body {
   background: var(--black);
@@ -67,18 +66,20 @@ body {
   line-height: 1.6;
   margin: 0;
   max-width: 700px;
+  padding: 1em 0 3em;
 }
 
-header {
-  margin: 25px 0 -100px;
+ul {
+  padding-left: 2em;
+  margin-top: 2em;
+  margin-bottom: 3em;
 }
-  header img {
 
-    max-width: 60%;
-    justify-content: center;
-  }
+ul li {
+  margin-top: 1em;
+}
 
-.jobs strong {
+ul strong {
   color: var(--blood);
 }
 
@@ -98,12 +99,13 @@ nav {
 }
 
 h1 {
-  color: #ac2b1f;
-  font-weight: bold;
-  font-size: 24px;
-  text-align: center;
-  margin: -100px 0 30px;
+  color: var(--blood);
+  font-weight: normal;
+  font-size: 30px;
+  font-family: "Gothic Alpha";
+  margin-bottom: 1.5em;
 }
+
 
 main {
   max-width: 600px;
@@ -123,10 +125,6 @@ summary {
 
 .blood { color: #934a46; }
 
-pre {
-  display: inline-block;
-  margin: 0 auto;
-}
 
 /* LINKS */
 
