@@ -1,281 +1,231 @@
 <!doctype html>
-<meta charset="UTF-8">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>PHOENIX: Gotycki dramat</title>
-<style>:root { background:#000 }</style>
 <link rel="manifest" href="config/manifest.json">
-<link rel="icon" href="/nyx.ico">
-<link rel="apple-touch-icon" href="/nyx.ico">
-<meta name="color-scheme" content="dark">   
-<meta name="theme-color" content="#000">   
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover, shrink-to-fit=yes" />
+<link rel="stylesheet" href="/main.css">
+<link rel="icon" type="image/x-icon" href="nyx.ico" />
 
-<a href="main"><img class="splash-image" src="/assets/img/masked.jpg"></a>
+<header>
+  <section class="exe">
+    A:\&gt; PHOENIX.EXE
+  </section>
 
-<div class="command-line">
-    <p>A:\&gt; PHOENIX.EXE</p>
-    <br>
-    <p>PHOENIX: Gotycki dramat</p>
-    <p>Immersive Sim w reżyserii Floshy<br>
-    rozwijany w latach 2016-<script>document.write(new Date().getFullYear());</script> przez PhoenixTales</p>
-    <br>
-    <p>Wzorowany na wczesnych wersjach gry GOTHIC&#8482; (1999)<br>
-    napędzany ZenGin v1.09 (c) Mad Scientists</p>
-    <br>
-    <p>Czy jesteś gotowy, by zostać skazańcem?</p>
-    <br>
-    <p>
-        <a href="main.html">Tak.</a><br>
-        <a href="https://www.youtube.com/watch?v=yCLut-Ly5rE" target="_blank">Nie.</a>
-    </p>
-</div>
-
-<div class="language">
-    <ul>
-        <li><a href="">DE</a></li>
-        <li><a href="/">EN</a></li>
-        <li><a href="/transl/it/">IT</a></li>
-        <li><a href="/transl/pl/">PL</a></li>
-        <li><a href="">RU</a></li>
-        <li><a href="">UK</a></li>
+  <nav>
+    <ul class="right">
+      <li><a href="#about">Informacje</a></li>
+      <li><a href="#story">Fabuła</a></li>
+      <li><a href="https://docs.phoenixthegame.com">Koncepcja</a></li>
+      <li><a href="#links">Linki</a></li>
+      <li><details><summary>PL</summary> 
+            <ul>
+              <li><a href="/transl/de/">DE</a></li>
+			        <li><a href="/">EN</a></li>
+              <li><a href="/transl/it/">IT</a></li>
+              <li><a href="/transl/ru/">RU</a></li>
+              <!--<li><a href="/transl/uk/">UK</a></li>-->
+            </ul>                        
+          </details>
+      </li>
     </ul>
-</div>
+  </nav>
+  
+  <section id="top" class="wallpaper">
+    <img class="logo" src="/assets/img/phnx-logo-sm.png">
+    
+    <p class="slogan">Napedzane fabula rpg akcji z radykalnie immersyjnym designem, ktory mniej ssie.</p>
 
-<!--
-<div class="release">
-    <p>RELEASE: When it's done</p>
-</div>
+    <section class="downloads">
+      <p class="status">Status: Prace nad tech demo</p>
+    </section>
+  </section>
+</header>
 
-<div class="social">
-    <ul>
-        <li><a href="https://github.com/PhoenixTales" target="_blank">GIT</a></li>
-        <li><a href="https://discord.gg/CK4VAR7fpH" target="_blank">DISCORD</a></li>
-        <li><a href="">PRESS</a></li>
-    </ul>
-</div>
--->
-<style>
-    * {
-        margin: 0;
-        box-sizing: border-box;
-        user-select: none;
-        overflow: hidden;
-        -webkit-user-drag: none;
-        image-rendering: pixelated;
-    }
+<article id="about" class="article">
+  <section>
+    <img class="nyxsign" src="/assets/img/nyxsign-2023.jpg">
+    <a href="https://docs.phoenixthegame.com/" target="_blank"><button>docs.phoenixthegame.com</button></a>
+        
+    <section class="logo-links">
+      <a href="https://phoenixtales.de/" target="_blank">
+        <figure>
+          <img src="/assets/img/dev-sm.png">
+          <figcaption>
+            <button>phoenixtales.de</button>
+          </figcaption>
+        </figure>
+      </a>
+      <a href="https://gothicarchive.org/" target="_blank">
+        <figure>
+          <img src="/assets/img/archive-logo.jpg">
+          <figcaption>
+            <button>gothicarchive.org</button>
+          </figcaption>
+        </figure>
+      </a>
+    </section>
+  </section>
 
-	body {
-        display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 100vh;
+  <!-- Author: Flosha | Written: 29.11.2022 | Changed last: 12.05.2023 -->
+  <section>
+    <h2>Czym jest Phoenix?</h2>
 
-        font-family: "IBM VGA 8x16", monospace;
-        color: #aaa;
-	}
+    <p>Gotyckim dramatem, ktorego narracja przypomina grecka tragedie, a swiat gry sluzy jako scena dla majacej znaczenie historii. Odgrywanym niczym wirtualna opowiesc, filozoficzna refleksja i ponadczasowa alegoria z roznymi watkami zaleznymi od decyzji gracza i stylu gry, <strong>PHOENIX</strong> jest Immersive Simem.</p> 
+    
+    <p>Osadzonym w mistycznej dolinie opanowanej przez konflikt, zepsucie i atmosferyczna gestosc, w calosci zaprojektowanym recznie, majacym unikalna estetyke ubrana w retro grafike, z rozgrywka skupiona na immersji poprzez wizualizacje: zadnych liczb, zadnych statystyk, tylko odgrywanie rol.</p>
 
-    nav {
-        position: absolute;
-        width: 200px;
-        top: 0;
-        left: 0;
-        flex: none;
-        margin: 0;
-        padding: 0;
-    }
+    <p>Gothic (Alpha) Rebootem; bazujacym na i zaprojektowanym jako prawdziwy Reboot gry GOTHIC&trade; (2001), inspirowanym oryginalna wizja czterech zalozycieli Piranha Bytes, <strong>PHOENIX</strong> jest tym, czym GOTHIC moglby byc w 1999 roku... Aby zachowac i przedstawic te wizje odziedziczona przez nasz projekt, stworzylismy <a href="https://gothicarchive.org" target="_blank">Gothic Archive</a>, w ktorym publikujemy roznorodne materialy przedpremierowe, ktore otrzymalismy od bylych tworcow Gothica w celu <a href="https://phoenixthegame.com/specials/20thAnniversary/AJourneyToMike.html" target="_blank">uratowania oryginalnego projektu</a>.</p>
 
-    nav img {
-        margin: 0;
-        padding: 0;
-    }
+    <p class="subtext">PHOENIX <em>nie jest</em> oficjalnym tytulem z serii GOTHIC, to niezalezny i niekomerycjny projekt <a href="https://phoenixtales.de" target="_blank">PhoenixTales</a>, malego, ale miedzynarodowego zespolu indie deweloperow dzialajacych w oparciu o luzna wspolprace.</p>
+  </section>
+  <section>
+    <p>Caly ten material w archiwum, fundamentalna filozofia projektowania i artystyczny styl GOTHICa zostaly poddane analizie w ramach wspolnego wysilku "alpha research", ktory jest udokumentowany w naszej obszernej <a href="https://docs.phoenixthegame.com">dokumentacji projektowej</a>, na podstawie ktorej kontynuujemy rozwoj GOTHICa pod jego stara nazwa PHOENIX, bez kompromisow i ponad korporacyjnymi ograniczeniami.</p> 
 
-    .splash-image {
-        min-height: 80vh;
-        max-width: 100%;
-        opacity: 0;
-        object-fit: contain;
-        animation: blend-in 4s steps(25, end) forwards;
-        animation-delay: 1s;
-    }
+    <p>Przez presje czasu, ograniczenia techniczne i finansowe, radykalna wizja Gothic musiala zostac poddana kompromisom, a finalny produkt stal sie fragmentem tego, czym moglby byc, czego kulminacja byl konflikt o godnego nastepce, ktory doprowadzil do anulowania pierwszego, zapomnianego GOTHIC SEQUEL. Realizujac te fragmentaryczna wizje, <strong>PHOENIX</strong> jest mozaika, rekonstrukcja „alphy” GOTHICa i kontynuacja w duchu oryginalnego sequela z dodatkowymi poziomami.</p>
 
-    @keyframes blend-in {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
+    <p>Probujemy urzeczywistnic to marzenie, tak jak wyobrazalismy sobie gre na podstawie napisanych slow i obrazow pokazanych nam przed premiera, zrekonstruowac je i przeksztalcic w jedna harmonijna i spójna calosc. Staramy sie zrealizowac wszystkie radykalne pomysly zalozycieli, doprowadzic je do konca i byc moze w ten sposob pomoc, choc troche, zaradzic starym urazom zwiazanym ze zderzeniem ich marzen.</p>
 
-    .command-line {
-        padding: 1rem;
-        position: absolute;
-        left: 0;
-        width: 100%;
-        top: 0;
-    }
+    <p>Aby dowiedziec sie wiecej, przeczytaj nasze <a href="https://docs.phoenixthegame.com/promo/faq/en">FAQ</a> i <a href="https://docs.phoenixthegame.com">koncpecje projektu</a>. Mozesz rowniez chciec dolaczyc do naszej spolecznosci na <a href="https://discord.gg/5uHcsEJ44h" target="_blank">Discordzie</a>.</p>
+  </section>
+</article>
 
-    .command-line p {
-        padding: 0 0 0.1em;
-        margin: 0;
-        white-space: nowrap;
-        overflow: hidden;
-        opacity: 0;
-        animation: type 0s steps(60, end) forwards;
-        -webkit-user-select: none;
-        user-select: none;
-    }
+<section class="gallery">
+  <a href="https://docs.phoenixthegame.com" target="_blank"><img src="/assets/img/designdocs.jpg"></a>
+  <a href="https://docs.phoenixthegame.com/promo/press" target="_blank"><img src="/assets/img/preacher-of-nemesis-sm.jpg"></a>
+  <a href="" target="_blank"><img src="/assets/img/death-to-the-barons-sm.jpg"></a>
+</section>
 
-    .command-line span {
-        font-family: 'Courier New', Courier, monospace;
-    }
+<section class="gallery">
+  <a href="https://docs.phoenixthegame.com/promo/faq/en" target="_blank"><img src="/assets/img/faq2.jpg"></a>
+  <a href="https://docs.phoenixthegame.com/promo/media" target="_blank"><img src="/assets/img/screens.jpg"></a>
+</section>
 
-    .command-line ul {
-        margin: 1em 0;
-    }
+<article  id="story" class="article story">
+  <h2>Fabula</h2>
 
-    .command-line p:nth-child(2) {
-        animation-delay: 0s;
-    }
-    .command-line p:nth-child(3) {
-        animation-delay: 2s;
-    }
-    .command-line p:nth-child(4) {
-        animation-delay: 4.5s;
-    }
-    .command-line p:nth-child(5) {
-        animation-delay: 6s;
-    }
-    .command-line p:nth-child(6) {
-        animation-delay: 7.5s;
-    }
-    .command-line p:nth-child(7) {
-        animation-delay: 7.5s;
-    }
-    .command-line p:nth-child(8) {
-        animation-delay: 9.5s;
-    }
-    .command-line p:nth-child(9) {
-        animation-delay: 10.5s;
-    }
-    .command-line p:nth-child(10) {
-        animation-delay: 11s;
-    }
+  <section>
+    <hgroup>
+      <h3>AKT I: ORPHEUS</h3>
+      <p>Alpha: Rozdzialy 1-6</p>
+    </hgroup>
+    <p>Zostajesz wrzucony do samodzielnie zorganizowanej kolonii karnej, pozbawionej straznikow i odcietej od swiata zewnetrznego magiczna bariera; wiezienia pelnego skazancow, którzy sluza wylacznie jednemu celowi – wydobyciu cennej magicznej rudy, by napedzac wojne toczona przez krolestwo na zewnatrz. Doswiadcz anarchii: gangi o roznych ideologiach i brutalnej sile rzadza swiatem wiezniow, a tajemnicza sekta poszukuje prastarej swiatyni, by obudzic spiacego boga.</p>
+      
+    <p>Twoim celem jest przetrwac i uciec z magicznego wiezienia, ktore prowadzi cie na skraj szalenstwa do podziemii. Noc jest poczatkiem wszechrzeczy. Czy zdolasz oprzec sie snom Sniacego?</p>
+  </section>
 
+  <section>
+    <hgroup>
+      <h3>AKT II: NEMESIS</h3> 
+      <p>Sequel: Rozdzialy 7-11</p>
+    </hgroup>
 
-    .command-line span {
-        animation: blink 1.8s infinite 8s;
-    }
+    <p>Budzisz sie po miesiacach nieswiadomosci, by przejsc przez ruiny wiezienia, z ktorego probowales uciec. Przedrzyj sie przez rozdarte wojna miasto Khorinis w stanie rozkladu: Odkryj rozne dzielnice kontrolowane przez wrogie ugrupowania, ubostwo slumsow oraz legendarne, obecnie opuszczone fabryki rudy. Zanurz sie w swiat uchodzcow, uciekajacych przed prorocza wojna.</p>
 
-    @keyframes type {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
+    <p>Masz za zadanie zakonczyc wojne – w czterech specjalnych watkach, zaleznych od wybranej przez ciebie frakcji. Wsrod konsekwencji swojej Nemesis, poszukujesz spokoju, ale jestes scigany przez przeszlosc, przez proroctwa nieuniknionego losu – oraz przez starozytna tajemnice Feniksa.</p>
+  </section>
 
-    @keyframes blink {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-    }
+  <section>
+    <img src="/assets/img/acts.jpg" alt="Wizualizacja grafiki dwóch aktów związanych z Gothic Alpha i Gothic Sequel.">
 
+    <!--<a href=""><button>Phoenix Comic Coming Soon</button></a>-->
 
-    ul {
-        padding: 0;
-        margin: 0;
-    }
+    <a href="https://docs.phoenixthegame.com/promo/press"><button>Zgarnij nasz Presskit</button></a>
 
-    .language {
-        padding: 1rem;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-    }
-        .language ul li {
-            white-space: nowrap;
-            overflow: hidden;
-            opacity: 0;
-            animation: navi-blend 2s steps(40, end) forwards;
-            -webkit-user-select: none;
-            user-select: none;
-            animation-delay: 11s;
-        }
-            @keyframes navi-blend {
-                0% {
-                    opacity: 0;
-                }
-                100% {
-                    opacity: 1;
-                }
-            }
+    <blockquote><strong>Flosha:</strong> Co myślisz o naszym projekcie?
+    <strong>Tom Putzki:</strong> Jesteście stuknięci. Ale w jak najbardziej pozytywnym sensie.</blockquote>
+  </section>
+</article>
 
+<section class="gallery">
+  <a href="https://www.youtube.com/watch?v=pjBzNinOgj4" target="_blank">
+    <img src="/assets/img/gothicmeetsacrobatics-sm.jpg">
+  </a>
+  <a href="https://docs.phoenixthegame.com" target="_blank">
+    <img src="/assets/img/20thanniversary-sm.jpg">
+  </a>
+</section>
 
-    .social {
-        padding: 1rem;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-        .social ul {
-            margin: 0;
-            padding: 0;
-            display: flex;
+<section class="gallery">
+  <a href="https://phoenixtales.de" target="_blank">
+    <img src="/assets/img/dev.jpg">
+  </a>
+  <a href="https://gothicarchive.org" target="_blank">
+    <img src="/assets/img/archive.jpg">
+  </a>
+</section>
 
-            white-space: nowrap;
-            overflow: hidden;
-            opacity: 0;
-            animation: navi-blend 2s steps(40, end) forwards;
-            -webkit-user-select: none;
-            user-select: none;
-            animation-delay: 11s;
-        }
-            .social ul li {
-                padding-left: 1em;
-            }
+<footer>
+  <section>
+    <img class="mask" src="/assets/img/logo-mask.jpg">
+  </section>
 
-    .release {
-        padding: 1rem;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        text-align: right;
+  <section id="links">
+    <h2>Linki</h2>
 
-        opacity: 0;
-        animation: navi-blend 2s steps(40, end) forwards;
-        -webkit-user-select: none;
-        user-select: none;
-        animation-delay: 11s;
-    }
+    <nav>
+      <section>
+        <h3>Strona glowna</h3>
+        <ul>
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="#top">Na górę</a></li>
+          <li><a href="#about">O Phoenixie</a></li>
+          <li><a href="#story">Fabuła Phoenixa</a></li>
+        </ul>
 
-    a {
-        /*color: #dba37b;*/
-        /*color: #A1BA40;*/
-        color: #96574f;
-        text-decoration: none;
-    }
+        <h3>Koncepcja Phoenixa</h3>
+        <ul>
+          <li><a href="https://docs.phoenixthegame.com/">Dokumentacja projektu</a></li>
+          <li><a href="https://docs.phoenixthegame.com/promo/media">Media</a></li>
+          <li><a href="https://docs.phoenixthegame.com/promo/press">Press</a></li>
+          <li><a href="https://docs.phoenixthegame.com/promo/faq/en">FAQ</a></li>
+        </ul>
 
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
+        <h3>Zewnetrzne linki</h3>
+        <ul>
+          <li><a href="https://phoenixtales.de/">Phoenix Tales</a></li>
+          <li><a href="https://gothicarchive.org/">Gothic Archive</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Spolecznosc</h3>
+        <ul>
+          <li><a href="https://discord.gg/5uHcsEJ44h">Discord</a></li>
+          <li><a href="https://youtube.com/@floshin/">YouTube</a></li>
+        </ul>
 
-<style>
-	@font-face {
-		font-family: "IBM VGA 8x16";
-		src: url("/assets/fonts/ibm-vga/ibm-vga-8x16.woff") format('woff');
-		font-weight: normal;
-		font-style: normal;
-		font-display: block;
-        font-size: 16px;
-	}
+        <h3>Wspolpraca</h3>
+        <ul>
+          <li><a href="/transl/pl/contrib.html">Współpraca</a></li>
+          <li><a href="https://github.com/PhoenixTales">GitHub</a></li>
+          <li><a href="https://mdk.gothicarchive.org/">Gothic MDK</a></li>
+          <li>Phoenix SDK</li>
+        </ul> 
+      </section>
+    </nav>
 
-    @font-face{
-        font-family: "Gothic Alpha";
-        src: url("/assets/fonts/Gothic_alpha_font.ttf") format("truetype");
-    }
-</style>
+    <section>
+      <h3>Wsparcie</h3>
+      <p>
+        Możesz wesprzeć <a href="https://ko-fi.com/flosha">Floshę na Ko-Fi</a>.
+      </p>
+
+      <h3>Informacje prawne</h3>
+
+      <p>GOTHIC był tworzony od roku 1996 do 2001 przez <a href="https://gothicarchive.org/developers/piranhabytes/presentation.html">Piranha Bytes</a>.
+      ZenGin był rozwijany w latach 1996-2001 przez <a href="https://docs.phoenixthegame.com/promo/faq/en#who-were-the-mad-scientists">Mad Scientists</a>. Od 2021 roku GOTHIC należy do THQ Nordic.</p>
+
+      <p>PHOENIX jest tworzony non-profit na podstawie <a href="https://github.com/PhoenixTales/gothic-devkit/blob/main/license">warunków użycia</a> GOTHIC MDK, w oparciu o ZenGin, wczesne wersje alpha oraz stare koncepcje gry GOTHIC.
+      </p>
+
+      <p>&#169; 2016-<script>document.write(new Date().getFullYear());</script> <a href="https://phoenixtales.de">PhoenixTales</a></p>
+    </section>
+  </section>
+</footer>
+
+<!-- has to be part of the footer -->
+  <ul class="social">
+    <li><a href="https://github.com/PhoenixTales" target="_blank"><img src="/assets/img/social/GitHub-Mark-Light-32px.png" alt="GitHub"></a></li>
+    <li><a href="https://discord.gg/5uHcsEJ44h" target="_blank"><img src="/assets/img/social/discord.png" alt="Discord"></a></li>
+    <li><a href="https://fsoci.al/" target="_blank"><img src="/assets/img/social/fsocial-mark-light.svg" alt="fsocial"></a></li>
+  </ul>    
+
