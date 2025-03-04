@@ -29,6 +29,12 @@
     </p>
 </div>
 
+<div class="enter">
+    <p><a href="main.html">Enter the Hoard...</a></p>
+
+</div>
+
+<!--
 <div class="language">
     <ul>
         <li><a href="">DE</a></li>
@@ -39,6 +45,7 @@
         <li><a href="">UK</a></li>
     </ul>
 </div>
+-->
 
 <!--
 <div class="release">
@@ -87,6 +94,29 @@
         margin: 0;
         padding: 0;
     }
+
+    .enter {
+        position: absolute;
+        bottom: 2em;
+        left: 2em;
+        padding-top: 1em;
+        font-family: "Gothic Alpha";
+        font-size: 20px;
+        line-height: 2em;
+        opacity: 0;
+        animation: navi-blend 2s steps(40, end) forwards;
+        -webkit-user-select: none;
+        user-select: none;
+        animation-delay: 3s;
+    }
+        @keyframes navi-blend {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 
     .splash-image {
         min-height: 80vh;
@@ -253,14 +283,14 @@
     }
 
     a {
-        /*color: #dba37b;*/
-        /*color: #A1BA40;*/
         color: #96574f;
+        /*color: #A1BA40;*/
         text-decoration: none;
     }
 
     a:hover {
-        text-decoration: underline;
+       /* text-decoration: underline; */
+       color: #dba37b;
     }
 </style>
 
