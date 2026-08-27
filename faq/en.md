@@ -26,7 +26,7 @@
 8. [Alpha Versions and Legal Concerns](#alpha-versions-and-legal-concerns)
 9. [Why is X different than in Demo Y?](#why-is-x-different-than-in-demo-y)
 10. [Which engine is PHOENIX driven by?](#which-engine-is-phoenix-driven-by)
-   1. Why are you not using the Gothic 2 engine?
+   1. [Why are you not using the Gothic 2 engine?](#why-are-you-not-using-the-gothic-2-engine)
 11. [Will there be voice acting?](#will-there-be-voice-acting)
 12. [Is there new music?](#is-there-new-music)
 13. [Is Phoenix a modification?](#is-phoenix-a-modification)
