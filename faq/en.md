@@ -163,9 +163,9 @@ In the future we will provide further information about the Sequel such as a sum
 
 ## Who is Phoenix Tales?
 
-Phoenix Tales is a small team of independent developers led by Flosha. We are responsible for the [Gothic Archive](https://gothicarchive.org). On our [website](https://phoenixtales.de) we describe us as "indie developers of immersive tales (...), rising (like a Phoenix) "from the industrial ashes", with which we're referring to the gaming industry, which subjects everything to profit, while we follow an anti-commercial approach and try to oppose the industrial, corporate production with slow handwork, which does not care for profit.  
+PhoenixTales is a small team of independent developers led by Flosha. We are responsible for the [Gothic Archive](https://gothicarchive.org) and are currently working on the PHOENIX project. On our [website](https://phoenixtales.de) we describe us as "indie developers of immersive tales (...), rising (like a Phoenix) "from the industrial ashes", with which we're referring to the gaming industry, which subjects everything to profit, while we follow an anti-commercial approach and try to oppose the industrial, corporate production with slow handwork, which does not care for profit.  
 
-Additionally, Phoenix Tales as the name of our team is a little reference to [Piranha Bytes](https://gothicarchive.org/developers/piranhabytes/presentation.html) (Tales -> Tails, Bytes -> Bites), while with our logo, which shows a small, mystic and quirky Phoenix, we want to remind of the Mad Scientists.  
+Additionally, PhoenixTales as the name of our team is a little reference to [Piranha Bytes](https://gothicarchive.org/developers/piranhabytes/presentation.html) (Tales → Tails, Bytes → Bites), while with our logo, which shows a small, mystic and quirky Phoenix, we want to remind of the Mad Scientists.  
 
 In these articles you can find more about us:  
 * [Phoenix Tales: The Team behind PHOENIX](/appendix/behind-the-scenes/team)
@@ -177,9 +177,9 @@ In these articles you can find more about us:
 
 ## What is PHOENIX?
 
-PHOENIX (which was the working title of Gothic) is a 'Revision' of Gothic as a drama in two acts ([Orpheus](#what-is-orpheus-act-i) and [Nemesis](#what-is-nemesis-act-ii)). We consider Phoenix as a Gothic Reboot, a re-awakening of the alpha versions and the forgotten Sequel, but it also contains a lot of our own ideas, which is necessary in order to complete the story and follow the underlying design philosophy without compromises. 
+PHOENIX (which was the working title of Gothic) is a 'Revision' of Gothic as a drama in two acts ([Orpheus](#what-is-orpheus-act-i) and [Nemesis](#what-is-nemesis-act-ii)), developed by PhoenixTales. We consider Phoenix as a Gothic Reboot, a re-awakening of the alpha versions and the forgotten Sequel, but it also contains a lot of our own ideas, which is necessary in order to complete the story and follow the underlying design philosophy without compromises. 
 
-PHOENIX is an *Immersive Sim*, which *Dramatis Personae* deal with personal, psychological and metaphysical themes; our small, handcrafted gameworld we see as the stage of a gothic drama. 
+PHOENIX is an *Immersive Sim*, whose *Dramatis Personae* deal with personal, psychological and metaphysical themes; our small, handcrafted gameworld we see as the stage of a gothic drama. 
 
 Our own working title for Phoenix is "Project Nyx" as which it was known before. *Nyx* (goddess of night) refers to the two names ['Finster'](https://gothicarchive.org/demos/finster/) (dark) and ['Gothic'](/vision/gothic-defined) and thereby to the gloomy style inherent in the game. It refers to *Orpheus* (the first working title of Gothic): The lore of the Orphics says, that *Nyx*, the night, is the "beginning of all things". And it also refers to *Nemesis* (which was the internal name for perhaps the best part of the (unrealised) story of Gothic and was a major inspiration for the original Sequel): *Nemesis* is a daughter of *Nyx*.
 
