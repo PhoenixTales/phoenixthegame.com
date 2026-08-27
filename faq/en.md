@@ -5,14 +5,16 @@
 
 **Content:**
 
--- All about Gothic --
+-- GOTHIC ---
 1. [Who were the Mad Scientists?](#who-were-the-mad-scientists)
 2. [Who was Piranha Bytes?](#who-was-piranha-bytes)
 3. [What is GOTHIC?](#what-is-gothic)
    1. [What is the Story of GOTHIC?](#what-is-the-story-of-gothic)
    2. [What is the Gothic Sequel?](#what-is-the-gothic-sequel)
+
+---
   
--- All about Phoenix --
+-- PHOENIX --
 1. [Who is Phoenix Tales?](#who-is-phoenix-tales)
 1. [What is PHOENIX?](#what-is-phoenix)
 2. [Why would anyone want to restore an Alpha version of a game?](#why-would-anyone-want-to-restore-an-alpha-version-of-a-game-was-not-the-alpha-version-completely-unfinished-and-was-the-game-as-it-released-not-the-best-outcome)
@@ -37,7 +39,7 @@
 
 ---
 
-**-- All about GOTHIC --**
+**-- GOTHIC --**
 
 ---
 
@@ -161,7 +163,7 @@ In the future we will provide further information about the Sequel such as a sum
 
 ---
 
-**-- All about PHOENIX --**
+**-- PHOENIX --**
 
 ---
 
