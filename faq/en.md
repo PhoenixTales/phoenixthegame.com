@@ -5,32 +5,38 @@
 
 **Content:**
 
+-- All about Gothic --
 1. [Who were the Mad Scientists?](#who-were-the-mad-scientists)
 2. [Who was Piranha Bytes?](#who-was-piranha-bytes)
-3. [Who is Phoenix Tales?](#who-is-phoenix-tales)
-4. [What is GOTHIC?](#what-is-gothic)
-   * [What is the Story of GOTHIC?](#what-is-the-story-of-gothic)
-   * [What is the Gothic Sequel?](#what-is-the-gothic-sequel)
-5. [What is PHOENIX?](#what-is-phoenix)
-   * [Why would anyone want to restore an Alpha version of a game?](#why-would-anyone-want-to-restore-an-alpha-version-of-a-game-was-not-the-alpha-version-completely-unfinished-and-was-the-game-as-it-released-not-the-best-outcome)
-   * ["If something was changed in course of development, the developers had good reasons to do so! Everything is as it was intended!"](if-something-was-changed-in-course-of-development-the-developers-had-good-reasons-to-do-so-everything-is-as-it-was-intended) 
-6. [What is Orpheus (Act I)?](#what-is-orpheus-act-i)
-7. [What is Nemesis (Act II)?](#what-is-nemesis-act-ii)
-8. [What about the official successors?](#what-about-the-official-successors)
-9. [What is GOTHIC/PHOENIX Canon?](#what-is-gothicphoenix-canon)
-10. [Legal Issues](#legal-issues)
-11. [Why is X different than in Demo Y?](#why-is-x-different-than-in-demo-y)
-12. [What are the features of PHOENIX?](#what-are-the-features-of-phoenix)
-    1. [Orpheus](#orpheus)
-    2. [Nemesis](#nemesis)
-13. [Which engine is PHOENIX driven by?](#which-engine-is-phoenix-driven-by)
-   * Why are you not using the Gothic 2 engine?
-16. [Will there be voice acting?](#will-there-be-voice-acting)
-17. [Is there new music?](#is-there-new-music)
-18. [Is Phoenix a modification?](#is-phoenix-a-modification)
-19. [System requirements](#system-requirements)
-20. [Release date?](#release-date)
-21. [How to support?](#how-to-support)
+3. [What is GOTHIC?](#what-is-gothic)
+   1. [What is the Story of GOTHIC?](#what-is-the-story-of-gothic)
+   2. [What is the Gothic Sequel?](#what-is-the-gothic-sequel)
+  
+-- All about Phoenix --
+1. [Who is Phoenix Tales?](#who-is-phoenix-tales)
+1. [What is PHOENIX?](#what-is-phoenix)
+2. [Why would anyone want to restore an Alpha version of a game?](#why-would-anyone-want-to-restore-an-alpha-version-of-a-game-was-not-the-alpha-version-completely-unfinished-and-was-the-game-as-it-released-not-the-best-outcome)
+   1. [Answer to the claim: "If something was changed in course of development, the developers had good reasons to do so! Everything is as it was intended!"](if-something-was-changed-in-course-of-development-the-developers-had-good-reasons-to-do-so-everything-is-as-it-was-intended)
+3. [Who is Phoenix for?](who-is-phoenix-for)
+4. [What is Orpheus (Act I) about?](#what-is-orpheus-act-i)
+5. [What is Nemesis (Act II) about?](#what-is-nemesis-act-ii)
+   1. [Why are you including Khorinis into your Sequel reconstruction?](#why-are-you-including-khorinis-into-your-sequel-reconstruction)
+6. [What about the official successors?](#what-about-the-official-successors)
+7. [What is GOTHIC/PHOENIX Canon?](#what-is-gothicphoenix-canon)
+8. [Alpha Versions and Legal Concerns](#alpha-versions-and-legal-concerns)
+9. [Why is X different than in Demo Y?](#why-is-x-different-than-in-demo-y)
+10. [Which engine is PHOENIX driven by?](#which-engine-is-phoenix-driven-by)
+   1. Why are you not using the Gothic 2 engine?
+11. [Will there be voice acting?](#will-there-be-voice-acting)
+12. [Is there new music?](#is-there-new-music)
+13. [Is Phoenix a modification?](#is-phoenix-a-modification)
+14. [System requirements](#system-requirements)
+15. [Release date?](#release-date)
+16. [How to support you?](#how-to-support)
+
+
+
+**-- All about GOTHIC --**
 
 
 ## Who were the Mad Scientists?
@@ -62,20 +68,6 @@ Read further:
 * [Original Team](https://gothicarchive.org/developers/piranhabytes/10.09.1999_team_crpg.de.txt)
 * [Team Presentation (1999)](https://gothicarchive.org/developers/piranhabytes/presentation.html)
 * [Photos of early PB](https://gothicarchive.org/developers/piranhabytes/photographies.html)
-
-
-## Who is Phoenix Tales?
-
-Phoenix Tales is a small team of independent developers led by Flosha. We are responsible for the [Gothic Archive](https://gothicarchive.org). On our [website](https://phoenixtales.de) we describe us as "indie developers of immersive tales (...), rising (like a Phoenix) "from the industrial ashes", with which we're referring to the gaming industry, which subjects everything to profit, while we follow an anti-commercial approach and try to oppose the industrial, corporate production with slow handwork, which does not care for profit.  
-
-Additionally, Phoenix Tales as the name of our team is a little reference to [Piranha Bytes](https://gothicarchive.org/developers/piranhabytes/presentation.html) (Tales -> Tails, Bytes -> Bites), while with our logo, which shows a small, mystic and quirky Phoenix, we want to remind of the Mad Scientists.  
-
-In these articles you can find more about us:  
-* [Phoenix Tales: The Team behind PHOENIX](/appendix/behind-the-scenes/team)
-* [Flosha: Making of Phoenix Tales](/appendix/behind-the-scenes/logo)
-* [Flosha: Phoenix & the Rescue of Design: A journey to Mike Ho...](..)
-* [Flosha: Art & the Demonic Threat](...)
-* Flosha: Phoenix & the Return of Design
 
 
 <!--
@@ -166,6 +158,22 @@ In the future we will provide further information about the Sequel such as a sum
 -->
 
 
+**-- All about PHOENIX --**
+
+## Who is Phoenix Tales?
+
+Phoenix Tales is a small team of independent developers led by Flosha. We are responsible for the [Gothic Archive](https://gothicarchive.org). On our [website](https://phoenixtales.de) we describe us as "indie developers of immersive tales (...), rising (like a Phoenix) "from the industrial ashes", with which we're referring to the gaming industry, which subjects everything to profit, while we follow an anti-commercial approach and try to oppose the industrial, corporate production with slow handwork, which does not care for profit.  
+
+Additionally, Phoenix Tales as the name of our team is a little reference to [Piranha Bytes](https://gothicarchive.org/developers/piranhabytes/presentation.html) (Tales -> Tails, Bytes -> Bites), while with our logo, which shows a small, mystic and quirky Phoenix, we want to remind of the Mad Scientists.  
+
+In these articles you can find more about us:  
+* [Phoenix Tales: The Team behind PHOENIX](/appendix/behind-the-scenes/team)
+* [Flosha: Making of Phoenix Tales](/appendix/behind-the-scenes/logo)
+* [Flosha: Phoenix & the Rescue of Design: A journey to Mike Ho...](..)
+* [Flosha: Art & the Demonic Threat](...)
+* Flosha: Phoenix & the Return of Design
+
+
 ## What is PHOENIX?
 
 PHOENIX (which was the working title of Gothic) is a 'Revision' of Gothic as a drama in two acts ([Orpheus](#what-is-orpheus-act-i) and [Nemesis](#what-is-nemesis-act-ii)). We consider Phoenix as a Gothic Reboot, a re-awakening of the alpha versions and the forgotten Sequel, but it also contains a lot of our own ideas, which is necessary in order to complete the story and follow the underlying design philosophy without compromises. 
@@ -221,7 +229,7 @@ It is certainly *not* for those who are convinced that Gothic, as it has been re
   -->
 
 
-### What is Orpheus (Act I)?
+### What is Orpheus (Act I) about?
 
 In Act I we have analysed the design, story, game mechanics and so on of the 'Gothic Alpha', by which we summarise all the unrealised content (see our [Gothic Archive](https://gothicarchive.org)). We have called the first act *Orpheus* because it was the first working title of Gothic. Here we collect, reconstruct and complete the Gothic "Alpha" in a properly playable way, based on all its different versions, with all its cut-content, with the original story and with all the ambitious ideas and concepts, by which we try to exhaust the potential of the original work. Beside the creaton of the Gothic Archive and additional minor projects of ours, the currently ongoing development of Act I is our first major goal in the Phoenix Project. For us, Orpheus represents what Gothic should have been, while Phoenix represents what Gothic could have been plus what we had wished it to become. 
 
@@ -233,7 +241,37 @@ In Act I we have analysed the design, story, game mechanics and so on of the 'Go
   </details>
 -->
 
-### What is Nemesis (Act II)?
+#### Features of Orpheus ("Gothic Alpha")
+
+* Gothic in the alpha style: Interface, Menus, Artworks, Fonts, Textures, Colour Range etc.
+* Decisive retro aesthetics, pixelated textures and low poly artstyle, which we describe as a mixture of gothic and wabi-sabi.
+* Alpha (Cut-)Content reconstructed/re-implemented: NPCs, Monsters, Armors, Items, Vegetation, Attributes, Skills, the entire Alpha gameworld with its dungeons (Orccity and Abandoned Mine).
+* Realisation (modeling and texturing) of the entirety of concept arts by Ralf Marczinczik, Mike Hoge and Frank Ziemlinski.
+* The original Story with its five central events retold (or actually: told for the first time).
+* Completely playable as one of the four announced classes: Mage, Thief, Warrior or Psionic.
+* New guilds for the player: Digger, Scraper, Psionic and a few secret guilds, as planned.
+* Situations known as described in old interviews and as shown on promotional screenshots implemented as scripted events based on diverse, complex conditions. 
+* No abstract levels, experience points or learning points; a completely different gameplay and a new form of character progression around the discarded alpha attributes (such as Madness, Willpower, Arcane Gift, Thievery and Weaponry), by our learning-by-acting system, where you improve your character by playing in accordance with your chosen role (which is not to be confused with 'learning-by-doing'). Abstract "Levels" are ingame ranks, abstract EXPs are concrete experience in different arts and attribute progression is not expressed by numbers either; just descriptive text, as it is also used by npcs referring to the player's abilities (see Floshas [Alpha Attributes](/mechanics/attributes-alpha) analysis and his concept for the [Phoenix Attributes](/mechanics/attributes-phoenix)).
+* Reintegration of the two seperate forms of magic: Rune-based magic and Psionics.
+* Unobtrusive survival elements in accordance with the immersive design approach, as partly known from the Alpha concepts (limited inventory, regeneration, wear and tear), and partly developed further by us (withering, decomposing etc.).
+* "Modular Armor Illusion System" (a progressive armor progression, based on the original armors that were conceptually deconstructed into its consisting armor- and clothing pieces and then all modeled and textured by hand leading to a plethora of variations).
+* Greatly enhanced visualisation and optical feedback, as originally dreamed of, which means even more animations, even less statistics and less necessary text overlay. 
+* Even more immersive crafting, e.g. alchemy in single, animated steps.
+* Diverse old and new skills: Alchemy, Sprinting, Axe fighting, Dagger tricks, Assassination, Master of fire, Herbal- and mushroom lore, Taming animals, Iron Will, Orcish language and so on.
+* Improved Underworld: No empty caves, every dungeon has a unique model, distinct lighting and individual objectation.
+* Removal of logical errors, grammatical errors and diverse bugfixing. <!-- later mention Auronen being involved in the bugfixing even for the official game for THQ -->
+* More details and discreet vegetation overhaul.
+* Plants are now growing in groups and at typical places, in accordance with the concepts by Stefan Nyul.
+* Improved routines for NPCs.
+* Improved AI.
+* No Cutscenes; everything happens in real time.
+* Character (face) selection, as once considered but never implemented.
+* Two different HUDs to choose from: The player can choose in the main menu between the Icon HUD from the early Alphas or the Bar HUD from the late Alphas.
+* Alpha Soundtrack from Kai (KaiRo) Rosenkranz.
+* and much more...
+
+
+### What is Nemesis (Act II) about?
 
 In Act II we tie in seemlessly with our reconstruction of the Alpha, revive the cancelled GOTHIC Sequel and go through with it in our own, creative ways without the corporate, financial and technical constraints the former Sequel developers were once held back by. *Nemesis* is the name of our second Act. It is to be seen as a realisation of the original Sequel, but based on our (Alpha) version of the game world, lore and story, as we have developed it in *Orpheus*. Our second Act represents a full-fledged continuation to (the) GOTHIC (Alpha), that deserves the name and follows through with the old vision of Stefan Nyul and Alex Brüggemann (see [Gothic Sequel](#what-is-the-gothic-sequel)).  
 Nemesis (the goddess of rage and "righteous wrath") was the internal name of a central event at the end of the Alpha story, in the context of the consequences of the archdemon's awakening. What was supposed to happen at this part of the story in GOTHIC laid the foundation for the background story of the Sequel. It is because of these essential, but discarded aspects of the story and the profound implications connected with it (such as the question of guilt of the player, the hero as an anti-hero and so on, which we elaborate on in our Sequel), that we have chosen this name for the second act of our drama. 
@@ -251,6 +289,36 @@ Note that there is an ukrainian project with the same name which is also focused
   <p>Es gibt eine ukrainische Modifikation mit dem gleichen Namen, die sich ebenfalls der Rekonstruktion von Alpha Material verschrieben hat; dieses Projekt hat nichts mit Phoenix Tales und unserem zweiten Akt zu tun.</p>
   </details>
   -->
+
+#### Features of Nemesis ("Gothic Sequel")
+
+* "Alpha-Sequel": A reconstruction of the Sequel on the basis of Orpheus (alpha style, game world etc.), with all four chapters as they were planned for the Sequel - and additional chapters inbetween, in form of an intelligent and profound enhancement of the originally planned (work in progress) story. 
+* Reconstruction of the modified Sequel game world (Old Camp and Mountain Fortress) on the basis of and in accordance with our alpha/concept version of the colony; modification of the rest of the game world in a similar style according to the Sequel teams concepts (New Camp, Free Mine, Psi Camp, Surface).
+* Access to the Outside World: Explore the world beyond the colony. In Phoenix you will also be able to explore the *real* Khorinis, the great Ore city as it was presented to us in the Comic, in form of an "Add-In" to the Sequel plot.
+* Four - in parts quite differing - plots depending on the chosen guild/class in the game, through which one experiences the complex story each from a different perspective; every plot opens up a new view on the tale and the events that the player causes or witnesses in course of the playable drama. 
+* New guilds and classes for the player.
+* A variety of new NPCs with meaningful characters and some in depth character development. 
+* Comprehensive enhancement of the lore by tying up to the diverse loose ends of the original with an obsession for detail, without loosing the feeling of a contingent and threatening world beyond. 
+* In parts hand-written notes and hand-drawn ingame artworks.
+* New animation repertoire for new skills and crafts.
+* Diverse new books and other ingame writings.
+* Consequent development of the gothic/wabi-sabi artstyle; the colony and the outside world are gloomier than ever before. 
+* New vegetation that is linked with the story and gameplay.
+* Discarded skills from the Sequel: (Armory, fletching (bow & arrow making), cooking, enhanced rune making, staff fighting) and new skills (acrobatics II & III, enhanced forging, shield fighting, scroll writing, ...).
+* New monsters (demonic variations from the Sequel, undead variations and a few completely new monsters).
+* New items (plants, food, armors, robes, weapons, arrow types etc.)
+* Two new dungeons.
+* New Soundtrack with samples from KaiRo, based on the drafts of Marco Rademacher for the Sequel and our own ideas.
+
+
+#### Why are you including Khorinis into your Sequel reconstruction? 
+
+Was this planned for the Sequel? No.  
+In fact the Sequel team worked under various limitations and had almost no 3D modelers, which is why they had chosen to restrict the scope of their project consciously by only modifying the existing world instead of adding a new world outside.  
+The conflict that led to the cancellation of the Sequel had also to do with this fact: When the publisher wanted to publish the Sequel, which was meant as an Addon, under the title of "Gothic 2", Mike intervened on principle reasons, since he was of the opinion that a game called "Gothic 2" must feature a new world to explore. By realising the Sequel and yet building a new world to explore, we attempt to reconcile Nyul and Mike and contribute a little to break up and heal the old scar tissue of the conflict.   
+
+Being non-commercial, by not being limited by time or financial dependencies, we are giving justice to the original Sequel and turn it into a worthy successor. To us this cannot mean to copy it blindly and restrict ourselves as much as them. It means to take everything they wanted to do and complete it by what could have been done on top of that, when having less restrictions and unlimited ressources. The Sequel we work on can be seen as a game as it could have turned out when both Piranha Bytes teams could have worked together instead of cancelling the project and throwing half of them out and when this united team followed the Gothic Alpha and Sequel art direction and their own lore and sources with the utmost consistency and love for detail instead of forgetting or changing half of it. While this is just an unrealistic dream of what could have been in theory, here we are, trying to make it come true in practice. 
+
 
 ### What about the official successors?
 
@@ -308,7 +376,7 @@ Works like [Sleeper's Ban](https://gothicarchive.org/documents/SleepersBan.html)
 -->
 
 
-## Legal Issues
+## Alpha Versions and Legal Concerns
 
 Since the project started we have received various alpha demos, concept arts, design documents and code from different sources. Some of this material was given to us to help in the development of PHOENIX and some of it for publication in the Gothic Archive (read #GothicArchive for further info about how and why the Archive was created).  
 
@@ -332,37 +400,6 @@ Phoenix Tales is against any form of commodification of the pre-release material
 Many things in Phoenix are different than in the Alpha demos, since every demo is just an image of one specific phase of development. Usually a game is first conceptionalised and then produced, but Gothic went through several conceptional changes *mid-production*. Our [Phoenix Concept](/) is an attempt to bring these ideas together and to unify them harmoniously - insofar they fit the vision and principles that we analysed as essential and that constitute the framework of our design. This does not only include the content of different alpha versions but also diverse concept arts, sketches, features and story ideas that were never implemented in any version of the game. Thus we do not try to reconstuct one specific version of the world or to tell one specific version of the story.  
 They are mere fragments. Phoenix is the mosaic.
 
-
-## What are the features of PHOENIX?
-
-### Orpheus
-
-* Gothic in the alpha style: Interface, Menus, Artworks, Fonts, Textures, Colour Range etc.
-* Decisive retro aesthetics, pixelated textures and low poly artstyle, which we describe as a mixture of gothic and wabi-sabi.
-* Alpha (Cut-)Content reconstructed/re-implemented: NPCs, Monsters, Armors, Items, Vegetation, Attributes, Skills, the entire Alpha gameworld with its dungeons (Orccity and Abandoned Mine).
-* Realisation (modeling and texturing) of the entirety of concept arts by Ralf Marczinczik, Mike Hoge and Frank Ziemlinski.
-* The original Story with its five central events retold (or actually: told for the first time).
-* Completely playable as one of the four announced classes: Mage, Thief, Warrior or Psionic.
-* New guilds for the player: Digger, Scraper, Psionic and a few secret guilds, as planned.
-* Situations known as described in old interviews and as shown on promotional screenshots implemented as scripted events based on diverse, complex conditions. 
-* No abstract levels, experience points or learning points; a completely different gameplay and a new form of character progression around the discarded alpha attributes (such as Madness, Willpower, Arcane Gift, Thievery and Weaponry), by our learning-by-acting system, where you improve your character by playing in accordance with your chosen role (which is not to be confused with 'learning-by-doing'). Abstract "Levels" are ingame ranks, abstract EXPs are concrete experience in different arts and attribute progression is not expressed by numbers either; just descriptive text, as it is also used by npcs referring to the player's abilities (see Floshas [Alpha Attributes](/mechanics/attributes-alpha) analysis and his concept for the [Phoenix Attributes](/mechanics/attributes-phoenix)).
-* Reintegration of the two seperate forms of magic: Rune-based magic and Psionics.
-* Unobtrusive survival elements in accordance with the immersive design approach, as partly known from the Alpha concepts (limited inventory, regeneration, wear and tear), and partly developed further by us (withering, decomposing etc.).
-* "Modular Armor Illusion System" (a progressive armor progression, based on the original armors that were conceptually deconstructed into its consisting armor- and clothing pieces and then all modeled and textured by hand leading to a plethora of variations).
-* Greatly enhanced visualisation and optical feedback, as originally dreamed of, which means even more animations, even less statistics and less necessary text overlay. 
-* Even more immersive crafting, e.g. alchemy in single, animated steps.
-* Diverse old and new skills: Alchemy, Sprinting, Axe fighting, Dagger tricks, Assassination, Master of fire, Herbal- and mushroom lore, Taming animals, Iron Will, Orcish language and so on.
-* Improved Underworld: No empty caves, every dungeon has a unique model, distinct lighting and individual objectation.
-* Removal of logical errors, grammatical errors and diverse bugfixing. <!-- later mention Auronen being involved in the bugfixing even for the official game for THQ -->
-* More details and discreet vegetation overhaul.
-* Plants are now growing in groups and at typical places, in accordance with the concepts by Stefan Nyul.
-* Improved routines for NPCs.
-* Improved AI.
-* No Cutscenes; everything happens in real time.
-* Character (face) selection, as once considered but never implemented.
-* Two different HUDs to choose from: The player can choose in the main menu between the Icon HUD from the early Alphas or the Bar HUD from the late Alphas.
-* Alpha Soundtrack from Kai (KaiRo) Rosenkranz.
-* and much more...
 
 <!--
 <details>
@@ -397,26 +434,6 @@ They are mere fragments. Phoenix is the mosaic.
   <li>uvm.</li>
   </ul>
 -->
-
-### Act II - Nemesis
-
-* "Alpha-Sequel": A reconstruction of the Sequel on the basis of Orpheus (alpha style, game world etc.), with all four chapters as they were planned for the Sequel - and more, in form of an intelligent and profound enhancement of the originally planned (work in progress) story. 
-* Reconstruction of the modified Sequel game world (Old Camp and Mountain Fortress) on the basis of and in accordance with our alpha/concept version of the colony, modification of the rest of the game world in a similar style according to the Sequel teams concepts (New Camp, Free Mine, Psi Camp, Surface).
-* Access to the Outside World: Explore the world beyond the colony. Was this planned for the Sequel? No. In fact the Sequel team worked under various limitations and had almost no 3D modelers, which is why they had chosen to restrict the scope of their project by only modifying the existing world instead of adding a new world outisde. We are not limited like that (only by our available time) and therefore we do just that: Giving justice to the original Sequel for us does not mean to copy it blindly and restrict ourselves in the same way. It means to take everything they wanted to do and complete it by what could have been done on top of that with less restrictions. Thus, in Phoenix you will also be able to explore the *real* Khorinis, the great Ore city as it was presented to us in the Comic.
-* Four - in parts quite differing - plots depending on the chosen guild/class in the game, through which one experiences the complex story each from a different perspective; every plot opens up a new view on the tale and the events that the player causes or witnesses in course of the playable drama. 
-* New guilds for the player (Worker, Recruit, Soldier, Mystic, Assassin, Demonhunter, and some secret guilds).
-* A variety of new NPCs and guilds with meaningful characters and some in depth character development. 
-* Comprehensive enhancement of the lore by tying up to the diverse loose ends of the original with an obsession for detail, without loosing the feeling of a contingent and threatening world beyond. 
-* In parts hand-written notes and hand-drawn ingame artworks.
-* New animation repertoire for new skills and crafts.
-* Diverse new books and other ingame writings.
-* Consequent development of the gothic/wabi-sabi artstyle; the colony and the outside world are gloomier than ever before. 
-* New vegetation that is linked with the story and gameplay.
-* Discarded skills from the Sequel: (Armory, fletching (bow & arrow making), cooking, enhanced rune making, staff fighting) and new skills (acrobatics II & III, enhanced forging, shield fighting, scroll writing, ...).
-* New monsters (demonic variations from the Sequel, undead variations and a few completely new monsters).
-* New items (plants, food, armors, robes, weapons, arrow types etc.)
-* Two new dungeons.
-* New Soundtrack with samples from KaiRo, based on the drafts of Marco Rademacher for the Sequel and our own ideas.
 
 <!--
   <ul class="features"><h3>NEMESIS</h3>
