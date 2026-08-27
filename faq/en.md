@@ -16,7 +16,7 @@
 1. [Who is Phoenix Tales?](#who-is-phoenix-tales)
 1. [What is PHOENIX?](#what-is-phoenix)
 2. [Why would anyone want to restore an Alpha version of a game?](#why-would-anyone-want-to-restore-an-alpha-version-of-a-game-was-not-the-alpha-version-completely-unfinished-and-was-the-game-as-it-released-not-the-best-outcome)
-   1. [Answer to the claim: "If something was changed in course of development, the developers had good reasons to do so! Everything is as it was intended!"](if-something-was-changed-in-course-of-development-the-developers-had-good-reasons-to-do-so-everything-is-as-it-was-intended)
+   1. [Answer to the claim: "If something was changed in course of development, the developers had good reasons to do so! Everything is as it was intended!"](#if-something-was-changed-in-course-of-development-the-developers-had-good-reasons-to-do-so-everything-is-as-it-was-intended)
 3. [Who is Phoenix for?](who-is-phoenix-for)
 4. [What is Orpheus (Act I) about?](#what-is-orpheus-act-i-about)
 5. [What is Nemesis (Act II) about?](#what-is-nemesis-act-ii-about)
