@@ -352,10 +352,10 @@ They are mere fragments. Phoenix is the mosaic.
   </ul>
 -->
 
-### Nemesis
+### Act II - Nemesis
 
-* "Alpha-Sequel": A reconstruction of the Sequel on the basis of Orpheus (alpha style, game world etc.), with all four chapters as they were planned for the Sequel - and a bit more, in form of an intelligent and profound enhancement of the originally planned (work in progress) story. 
-* Reconstruction of the modified Sequel game world (Old Camp and Mountain Fortress), modification of the rest of the game world in a similar style according to the Sequel teams concepts (New Camp, Free Mine, Psi Camp, Surface), all on top of and in accordance with our reconstructed Alpha game world.
+* "Alpha-Sequel": A reconstruction of the Sequel on the basis of Orpheus (alpha style, game world etc.), with all four chapters as they were planned for the Sequel - and more, in form of an intelligent and profound enhancement of the originally planned (work in progress) story. 
+* Reconstruction of the modified Sequel game world (Old Camp and Mountain Fortress) on the basis of and in accordance with our alpha/concept version of the colony, modification of the rest of the game world in a similar style according to the Sequel teams concepts (New Camp, Free Mine, Psi Camp, Surface).
 * Access to the Outside World: Explore the world beyond the colony. Was this planned for the Sequel? No. In fact the Sequel team worked under various limitations and had almost no 3D modelers, which is why they had chosen to restrict the scope of their project by only modifying the existing world instead of adding a new world outisde. We are not limited like that (only by our available time) and therefore we do just that: Giving justice to the original Sequel for us does not mean to copy it blindly and restrict ourselves in the same way. It means to take everything they wanted to do and complete it by what could have been done on top of that with less restrictions. Thus, in Phoenix you will also be able to explore the *real* Khorinis, the great Ore city as it was presented to us in the Comic.
 * Four - in parts quite differing - plots depending on the chosen guild/class in the game, through which one experiences the complex story each from a different perspective; every plot opens up a new view on the tale and the events that the player causes or witnesses in course of the playable drama. 
 * New guilds for the player (Worker, Recruit, Soldier, Mystic, Assassin, Demonhunter, and some secret guilds).
@@ -366,7 +366,7 @@ They are mere fragments. Phoenix is the mosaic.
 * Diverse new books and other ingame writings.
 * Consequent development of the gothic/wabi-sabi artstyle; the colony and the outside world are gloomier than ever before. 
 * New vegetation that is linked with the story and gameplay.
-* Discarded skills from the Sequel: (Armor making, bow making, fletching, cooking, enhanced rune making, staff fighting) and new skills (acrobatics II & III, enhanced forging, shield fighting, scroll writing, ...).
+* Discarded skills from the Sequel: (Armory, fletching (bow & arrow making), cooking, enhanced rune making, staff fighting) and new skills (acrobatics II & III, enhanced forging, shield fighting, scroll writing, ...).
 * New monsters (demonic variations from the Sequel, undead variations and a few completely new monsters).
 * New items (plants, food, armors, robes, weapons, arrow types etc.)
 * Two new dungeons.
@@ -398,22 +398,23 @@ They are mere fragments. Phoenix is the mosaic.
 
 ## Which engine is PHOENIX driven by?
 
-Gothic is driven by the ZenGin, which was developed by the Mad Scientists and comes with its own script language called Daedalus. Phoenix is based on this very engine with advanced functionality realised via [Union](https://worldofplayers.ru/threads/41415/), by which we can influence the game logic more profoundly than it would be possible via Daedalus alone. We write diverse engine injections (as union plugins) to (re-)implement the special features of the Gothic Alpha and realise our own ideas. <!--All these plugins combined form the nyxCore.-->
+Gothic is driven by the ZenGin, which was developed by the Mad Scientists and comes with its own script language called Daedalus. Phoenix is based on this very engine with advanced functionality realised via [Union](https://worldofplayers.ru/threads/41415/), by which we can influence the game logic more profoundly than it would be possible via Daedalus alone. We write diverse engine injections (as union plugins) to (re-)implement the special features of the Gothic Alpha and to realise our own ideas. <!--All these plugins combined form the nyxCore.-->
 
 
 ## Will there be voice acting?
 
-We cannot promise anything, but we wish to have professional voice acting with at least a few of the original voice actors. For this purpose we will most likely call for donations in due time. We may also utilise AI in an "ethical" way for new characters and for those actors who passed away.
+We cannot promise anything, but we would like to have professional or semi-professional voice acting with at least a few of the original voice actors. For this purpose we will most likely call for donations when the game's story is implemented.  
+We *may* also utilise AI in some cases, with clear moral guidelines, either by using our own voice and altering it for new characters, or in case of those actors who clearly allow using it for non-commercial purposes or for those who passed away, *if* the remaining family members are fine with it and regard it as a form of honouring the work of the deceased. We regard this as a very sensitive topic and try to handle it accordingly. 
 
 
 ## Is there new music?
 
-Yes. Phoenix contains unused and discarded audio tracks by the original composer Kai Rosenkranz (aka KaiRo), which he allows to use in non-commercial projects. But it also contains several new tracks specifically created for Phoenix by our own composers.
+Yes. Phoenix contains unused and discarded audio tracks by the original composer Kai Rosenkranz (aka KaiRo), which he allows to use in non-commercial projects. But it also contains several new tracks specifically created for Phoenix by our own composer and (unfinished) musical ideas by Marco Rademacher for the Gothic Sequel.  
 
 
 ## Is Phoenix a modification?
 
-Yes and no. We have the permission to release PHOENIX as an independent game on digital platforms like gog. In this case you need to have Gothic in your library, but you do not have to have it installed. Thus you can run PHOENIX independently, it contains all the game data and does not technically function as a mere modification, but of course it is based on Gothic and modifies the game. It will also be available for download on our website and can then be extracted as a modification unto the original game.
+Yes and no. We have the permission to release PHOENIX as an independent game on digital platforms like gog. In this case you need to have Gothic in your library, but you do not have to have it installed. Thus you can run PHOENIX independently, it contains all the game data and does not technically function as a modification, but of course it is based on Gothic. It will also be available for download on our website and can then be extracted as a modification unto the original game.
 
 
 ## System requirements
@@ -423,14 +424,14 @@ The system requirements will roughly equal those of Gothic (2001) on modern syst
 
 ## Release date?
 
-When it's done. Currently we are still working on the first act (Orpheus). Since we are a very small team working on it non-commercially and in our free time, several more years of development are to be expected and there is no way to change that, unless we would receive donations that would enable us to work on PHOENIX full-time. 
+When it's done. Since we are a very small team working on it non-commercially and in our free time, several more years of development are to be expected and there is no way to change that, unless we would receive donations that would enable us to work on PHOENIX full-time or find more contributors capable and willing to help. 
 
 
 ## How to support? 
 
-When you want to contribute, reach out to us on [Discord](https://discord.gg/5uHcsEJ44h). Apart from that you can donate. Donations help us to cover the costs of websites, the Gothic Archive, backups, equipment, rent and food. Small, but regular donations help us most and enable us to spend more time with development. You can support [Flosha on Ko-Fi](https://ko-fi.com/flosha). 
+When you want to contribute, reach out to us on [Discord](https://discord.gg/5uHcsEJ44h). Apart from that you can support us financially. Donations help us to cover the costs of websites, the Gothic Archive, backups, equipment, rent and food. Small, but regular donations help us most and enable us to spend more time with development. You can support [Flosha on Ko-Fi](https://ko-fi.com/flosha). 
 
-
+<!--
 <div class="authorship">
     <img src="/_img/authors/flosha-sm.png" alt="Flosha">
     <p>
@@ -441,6 +442,7 @@ When you want to contribute, reach out to us on [Discord](https://discord.gg/5uH
         <strong>Changed:</strong> 25.10.2023
     </p>
 </div>
+-->
 
 <!--
   <details>
