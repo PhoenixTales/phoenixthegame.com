@@ -1,6 +1,7 @@
 # Phoenix FAQ
 
-**Author:** Flosha
+**Author:** Flosha  
+**Last update:** 27.08.2026  
 
 **Content:**
 
@@ -30,11 +31,13 @@
 
 ## Who were the Mad Scientists?
 
-The Mad Scientists were the three programmers Dieter Hildebrandt, Ulf Wohlers and Bert Speckels. Inspired by games like Ultima Underworld (1992) and System Shock (1994) they wanted to make their own game (3D Realtime RPG, first person) with influences both from fantasy and science-fiction and without unnecessary interface elements and statistics. They wrote their own DOS Engine ('Space and Time') and prepared a demo named [Finster](https://gothicarchive.org/demos/finster/) in 1996 (released by us in 2022) that they'd send to various publishers to find a team to develop the game they dreamed of. 
+**Short:** The Mad scientists were three young developers, namely Dieter Hildebrandt, Ulf Wohlers and Bert Speckels. They developed the ZenGin (the engine of Gothic) and Daedalus (the related script language), on the basis of which Piranha Bytes made Gothic. Without them, Gothic and the Gothic Modding Community would not exist, because they also have been main responsible for the publication of the Gothic MDK. 
 
-Finally they signed contract with [Greenwood Entertainment](https://gothicarchive.org/misc/logos.html). Mike Hoge and the other founders of Piranha Bytes (which did not yet exist at this point) were working at Greenwood. Simultaneously to the Mad Scientists Mike had been working since 1995 on the design of a vision of his own with the working title 'Orpheus'. In 1997, when [Piranha Bytes](#who-was-piranha-bytes) was founded, Orpheus was resurrected under the working title 'Phoenix' (later "GOTHIC") and the Mad Scientists started to develop a new engine, first called zEngine (in allusion to Bethesdas XnGine), later called ZenGin, the engine of Gothic. During the development the Mad Scientists remained independent developers. They left after the release of Gothic in 2001 and did not work on any other projects with Piranha Bytes.
+**Additional Background:** Inspired by games like Ultima Underworld (1992) and System Shock (1994) the Mad Scientists wanted to make their own game (3D Realtime RPG, first person) with influences both from fantasy and science-fiction and without unnecessary interface elements and statistics. They wrote their own DOS Engine ('Space and Time') and prepared a demo named [Finster](https://gothicarchive.org/demos/finster/) in 1996 (that they shared with us to be released in our Archive in 2022). This demo they had send to various publishers in order to find a team to develop the game they dreamed of. 
 
-Without the Mad Scientists, Gothic would not exist. Not only did they develop the engine, but also a scripting language ("Daedalus") that enabled Piranha Bytes to script the game in a very simple way, a dedicated world editor for Gothic (the "Spacer") as well as various other tools. And it were also the Mad Scientists thanks to which we are able to modify the game, as they prepared the Gothic MDK. They are hardly mentioned when talking Gothic today, therefore we emphasize their role, that can hardly be underestimated.
+Finally they signed contract with [Greenwood Entertainment](https://gothicarchive.org/misc/logos.html). Mike Hoge and the other founders of Piranha Bytes (which did not yet exist at this point) were working at Greenwood. Simultaneously to the Mad Scientists Mike had been working since 1995 on the design of a vision of his own with the working title 'Orpheus'. In 1997, when [Piranha Bytes](#who-was-piranha-bytes) was founded, the Orpheus idea (which is solely owned by Mike Hoge and not by e.g. Piranha Bytes or THQ) was resurrected under the working title 'Phoenix' (later "GOTHIC") and the Mad Scientists started to develop a new engine, first called zEngine (in allusion to Bethesdas XnGine), later called ZenGin, the engine of Gothic. During the development the Mad Scientists remained independent developers. They left after the release of Gothic in 2001 and did not work on any other projects with Piranha Bytes.
+
+Without the Mad Scientists, Gothic would not exist. Not only did they develop the engine, but also the above mentioned scripting language ("Daedalus") that enabled Piranha Bytes to script the game in a very simple way, a dedicated world editor for Gothic (the "Spacer") as well as various other tools. And it were also the Mad Scientists thanks to which we are able to modify the game, as they prepared the Gothic MDK. They are hardly mentioned when talking Gothic today, therefore we emphasize their role especially, as it can hardly be underestimated.
 
 Read further:  
 * [Mike Hoge about the Mad Scientists](https://gothicarchive.org/postrelease/interviews/MikeHoge_30_01_2021_Part1.html#MadScientists)
@@ -42,9 +45,9 @@ Read further:
 
 ## Who was Piranha Bytes?
 
-Piranha Bytes is the name of the studio behind [GOTHIC](#what-is-gothic). It was founded by Alex Brüggemann, Michael Hoge, Stefan Nyul and Tom Putzki in 1997. Gothic was based on Mikes concept *Orpheus* and was developed from 1997 to 2001 under the working title 'Phoenix' on the basis of the engine by the Mad Scientists. 
+Piranha Bytes is the name of the studio behind [GOTHIC](#what-is-gothic). It was founded by Alex Brüggemann, Michael Hoge, Stefan Nyul and Tom Putzki in 1997. These four friends developed the vision of Gothic together. The overall setting was based on Mikes concept *Orpheus* (which is solely owned by Mike Hoge and no property of any studio or publisher) and was developed from 1997 to 2001 under the working title 'Phoenix' on the basis of the engine by the Mad Scientists. 
 
-After the release of Gothic in 2001 the old Piranha Bytes broke apart. The Mad Scientists were no longer involved. Tom Putzki left after release. Alex Brüggemann and Stefan Nyul as well as several other developers were chucked out of the company in the following conflicts around the original Gothic Sequel. Only Mike was left who had started to work on a Sci-Fi Shooter (working title 'Unplugged') but had now to make "Gothic 2" as an uninspired publisher request. With 3/4th of their leaders gone, 2001 marked the end of the old Piranha Bytes team. Mike left the studio (or what remained of it) in 2013.
+After the release of Gothic in 2001 the old Piranha Bytes broke apart. The Mad Scientists were no longer involved. Tom Putzki left after release. Alex Brüggemann and Stefan Nyul as well as several other developers were chucked out of the company in the following conflicts around the original Gothic Sequel. Only Mike was left who had started to work on a Sci-Fi Shooter (working title 'Unplugged') but had now to make "Gothic 2" as an uninspired publisher request. With 3/4th of their leaders gone, 2001 marked the end of the old Piranha Bytes team. Mike too left the studio (or what remained of it) in 2013, with similar conflicts involved; history was repeating itself.
 
 Piranha Bytes has since then cut off all connections to Gothic. They wanted to throw away the design folders by Mike that we have later digitised and published in the Gothic Archive in 2021. In the same year they sold Gothic to THQ Nordic. No one of the founders had a word in it.
 
