@@ -11,9 +11,7 @@
 3. [What is GOTHIC?](#what-is-gothic)
    1. [What is the Story of GOTHIC?](#what-is-the-story-of-gothic)
    2. [What is the Gothic Sequel?](#what-is-the-gothic-sequel)
-
----
-  
+ 
 -- PHOENIX --
 1. [Who is Phoenix Tales?](#who-is-phoenix-tales)
 1. [What is PHOENIX?](#what-is-phoenix)
@@ -40,8 +38,6 @@
 ---
 
 **-- GOTHIC --**
-
----
 
 ## Who were the Mad Scientists?
 
@@ -164,8 +160,6 @@ In the future we will provide further information about the Sequel such as a sum
 ---
 
 **-- PHOENIX --**
-
----
 
 ## Who is Phoenix Tales?
 
