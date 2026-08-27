@@ -35,9 +35,11 @@
 16. [How to support you?](#how-to-support)
 
 
+---
 
 **-- All about GOTHIC --**
 
+---
 
 ## Who were the Mad Scientists?
 
@@ -157,8 +159,11 @@ In the future we will provide further information about the Sequel such as a sum
   </details>
 -->
 
+---
 
 **-- All about PHOENIX --**
+
+---
 
 ## Who is Phoenix Tales?
 
@@ -201,6 +206,8 @@ This is an uninformed assumption that lacks critical reflection. We can say with
 We differentiate and are fully aware of these differing reasons. Our development is reflecting on all of them and follows clear principles and criteria by which we navigate the complex task of reconstructing this old vision of a game. By doing so we of course also do *not* blindly follow what the Gothic developers imagined, nor do we state that Phoenix will represent just that. Phoenix is not intending to simply realise an intended vision of the original developers, it intends to realise their old ideas and our own as they were formed inspired by those ideas.
 
 We are strictly dedicated to this vision. Some of us are not even considering themselves to be "Gothic fans", since we are inspired much more by what Gothic was once meant to be and by what they announced and promoted than by what it became. And this is what Phoenix is meant to become. 
+
+* See our [*Criteria of Reconstruction*]( https://docs.phoenixthegame.com/vision/reconstruction)
 
 
 ## Who is Phoenix for? 
@@ -462,6 +469,19 @@ They are mere fragments. Phoenix is the mosaic.
 ## Which engine is PHOENIX driven by?
 
 Gothic is driven by the ZenGin, which was developed by the Mad Scientists and comes with its own script language called Daedalus. Phoenix is based on this very engine with advanced functionality realised via [Union](https://worldofplayers.ru/threads/41415/), by which we can influence the game logic more profoundly than it would be possible via Daedalus alone. We write diverse engine injections (as union plugins) to (re-)implement the special features of the Gothic Alpha and to realise our own ideas. <!--All these plugins combined form the nyxCore.-->
+
+
+### Why are you not using the Gothic 2 engine?
+
+It makes no sense to use G2 for our project. The G2 engine contains a few improvements and got rid of many other stuff, which we would have to restore. Making all things work like in Gothic 1 again on the Gothic 2 engine is harder to accomplish than bringing the improvements that we need into the Gothic Engine.  
+No one has yet done a 100% faithful G1 to G2 port, which we would need, and doing so is also particularly forbidden. This makes it even more problematic since we want to release Phoenix standalone in the end, not as a mod, which we have the greenlight for, but would as well be a totally different thing if it would be a G2 port. 
+
+But most importantly: Gothic 2 Modding and Gothic Modding are two very different things due to the very different terms of use.  
+One cannot work with the Gothic 2 Modding Kit unless under the so called Gothic (2) Modding License. This modding license is a long text containing all kinds of articles which are mostly beneficial to the rightholder and not to the mod creator. For example, it takes away the rights over assets one has created as soon as published under the license. It also allows the rightholder, in theory, to take your mod and sell it and do whatever they want with it. 
+
+The situation is totally different with Gothic and the original Gothic MDK, to which the Gothic 2 license does not apply. Instead there are simple terms of use, that only forbid to use make anything commercially with the assets created with the help of the MDK; that's it. If you create something completrely on your own, without the use of existing assets, you retain complete rights after shipping the mod/game. You keep having the rights over your assets and modifications; no one is allowed to sell your work and the rightholder is also not able to just change these conditions retroactively because the Gothic MDK shipped under these conditions which do not contain any condition that would allow such retroactive changes of the conditions. It would not legally hold up. Therefore, as far as Gothic is concerned, the terms of use that the MDK shipped with, are all that matters, legally forever.
+
+Therefore, creating things for G1 and not for G2, is favourable for us for pragmatical reasons and is a matter of principle. 
 
 
 ## Will there be voice acting?
