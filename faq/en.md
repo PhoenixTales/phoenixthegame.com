@@ -509,7 +509,7 @@ When it's done. Since we are a very small team working on it non-commercially an
 
 ## How to support? 
 
-When you want to contribute, reach out to us on [Discord](https://discord.gg/5uHcsEJ44h). Apart from that you can support us financially. Donations help us to cover the costs of websites, the Gothic Archive, backups, equipment, rent and food. Small, but regular donations help us most and enable us to spend more time with development. You can support [Flosha on Ko-Fi](https://ko-fi.com/flosha). 
+When you want to contribute, reach out to us on [Discord](https://discord.gg/5uHcsEJ44h). Apart from that you can support us financially. Donations help us to cover the costs of websites, the Gothic Archive, backups, equipment, rent and food. Small, but regular donations help us most and enable us to spend more time with development. You can support [Flosha on Ko-Fi](https://ko-fi.com/flosha). We always list our financial expenses in a transparent way. 
 
 <!--
 <div class="authorship">
