@@ -9,24 +9,27 @@
 2. [Who was Piranha Bytes?](#who-was-piranha-bytes)
 3. [Who is Phoenix Tales?](#who-is-phoenix-tales)
 4. [What is GOTHIC?](#what-is-gothic)
-5. [What is the Gothic Sequel?](#what-is-the-gothic-sequel)
-6. [What is PHOENIX?](#what-is-phoenix)
+   * [What is the Story of GOTHIC?](#what-is-the-story-of-gothic)
+6. [What is the Gothic Sequel?](#what-is-the-gothic-sequel)
+7. [What is PHOENIX?](#what-is-phoenix)
+8. [Why would anyone want to restore an Alpha version of a game?](#why-would-anyone-want-to-restore-an-alpha-version-of-a-game-was-not-the-alpha-version-completely-unfinished-and-was-the-game-as-it-released-not-the-best-outcome)
+9. ["If something was changed in course of development, the developers had good reasons to do so! Everything is as it was intended!"](if-something-was-changed-in-course-of-development-the-developers-had-good-reasons-to-do-so-everything-is-as-it-was-intended) 
     1. [What is Orpheus (Act I)?](#what-is-orpheus-act-i)
     2. [What is Nemesis (Act II)?](#what-is-nemesis-act-ii)
     3. [What about the official successors?](#what-about-the-official-successors)
-7. [What is GOTHIC/PHOENIX Canon?](#what-is-gothicphoenix-canon)
-8. [Legal Issues](#legal-issues)
-9. [Why is X different than in Demo Y?](#why-is-x-different-than-in-demo-y)
-10. [What are the features of PHOENIX?](#what-are-the-features-of-phoenix)
+11. [What is GOTHIC/PHOENIX Canon?](#what-is-gothicphoenix-canon)
+12. [Legal Issues](#legal-issues)
+13. [Why is X different than in Demo Y?](#why-is-x-different-than-in-demo-y)
+14. [What are the features of PHOENIX?](#what-are-the-features-of-phoenix)
     1. [Orpheus](#orpheus)
     2. [Nemesis](#nemesis)
-11. [Which engine is PHOENIX driven by?](#which-engine-is-phoenix-driven-by)
-12. [Will there be voice acting?](#will-there-be-voice-acting)
-13. [Is there new music?](#is-there-new-music)
-14. [Is Phoenix a modification?](#is-phoenix-a-modification)
-15. [System requirements](#system-requirements)
-16. [Release date?](#release-date)
-17. [How to support? ](#how-to-support)
+15. [Which engine is PHOENIX driven by?](#which-engine-is-phoenix-driven-by)
+16. [Will there be voice acting?](#will-there-be-voice-acting)
+17. [Is there new music?](#is-there-new-music)
+18. [Is Phoenix a modification?](#is-phoenix-a-modification)
+19. [System requirements](#system-requirements)
+20. [Release date?](#release-date)
+21. [How to support? ](#how-to-support)
 
 
 ## Who were the Mad Scientists?
@@ -140,7 +143,7 @@ The player is thrown into this prison. He can decide which faction he joins and 
   -->
 
 
-## What is the Gothic Sequel? 
+### What is the Gothic Sequel? 
 
 The 'Gothic Sequel' was a project of the same name by Alex Brüggemann and Stefan Nyul, two of the four founders of Piranha Bytes of which only three were left at this point. Tom had left after the release of Gothic. At this point Mike worked on a Sci-Fi Shooter with the working title "[Unplugged](https://gothicarchive.org/postrelease/interviews/MikeHoge_30_01_2021_Part3.html#SciFiShooter)". With the Sequel they wanted to continue the story of Gothic in four new chapters. Of those four planned chapters only the first chapter was realised in fragments, before the development was cancelled. It came to a conflict about the continuation of Gothic, in course of which Piranha Bytes broke apart. The work at the Sequel had to be stopped, Alex and Stefan and most of the other Sequel developers either left the company or were dismissed. Instead, "Gothic 2" was ordered by the publisher, now under the direction of Mike Hoge. 
 
