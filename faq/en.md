@@ -119,18 +119,6 @@ The visions of a digger give rise to a third camp in the swamps: A brotherhood, 
 The player is thrown into this prison. He can decide which faction he joins and which path (and related playstyle) he prefers (Warrior, Mage, Thief or Psionic) in order to achieve the goal of the game: Freedom. 
 
 
-## Why would anyone want to restore an Alpha version of a game? Was not the Alpha version completely unfinished and was the game, as it released, not the best outcome? 
-
-We do not want to restore an Alpha *version*, but an Alpha ***vision***. The Gothic alpha or beta versions are a totally incomplete and unplayable fracture of a game. We do not want to restore them and get rid of anything valuable that has been added in course of time. But the release version is just as aell a "totally incomplete fracture of a game", with the difference that it is playable and is *conceived* as being complete only by those players who don't know about the development history of Gothic, about the plans of the developers and about what they had announced and promised this game to be. They had a vision of a game that extremely differs from the game as it was released, a vision of a much wider and deeper scope, and our project is to realise this vision. 
-
-
-### If something was changed in course of development, the developers had good reasons to do so! Everything is as it was intended! 
-
-This assumption is naive and lacks critical reflection. We can say with little doubt that no one has studied the development history of Gothic more than we did. We are aware of the nature of decisions, and they are not homogenous. Decisions were made, sometimes deliberately and sometimes forced. They were made sometimes out of conviction and at other times out of necessity. They were sometimes made merely out of the pressure of time or due to technical problems and not out of conviction. When the developers announced critical features and promised to offer a particular experience in interviews and promotional material, they did not get rid of these features in the end and offered a very different and more limited experience (differing from what they themselves once imagined) because they wanted to, but because they had to. 
-
-We differentiate and are fully aware of these differing reasons. Our development is reflecting on all of them and follows clear principles and criteria by which we navigate the complex task of reconstructing this old vision of a game. By doing so we of course also do *not* blindly follow what the Gothic developers imagined, nor do we state that Phoenix will represent just that. Phoenix is not intending to simply realise an intended vision of the original developers, it intends to realise their old ideas and our own as they were formed inspired by those ideas.
-
-We are strictly dedicated to this vision. Some of us are not even considering themselves to be "Gothic fans", since we are inspired much more by what Gothic was once meant to be and by what they announced and promoted than by what it became. And this is what Phoenix is meant to become. 
 
 <!--
   <details>
@@ -182,7 +170,34 @@ PHOENIX is an *Immersive Sim*, which *Dramatis Personae* deal with personal, psy
 
 Our own working title for Phoenix is "Project Nyx" as which it was known before. *Nyx* (goddess of night) refers to the two names ['Finster'](https://gothicarchive.org/demos/finster/) (dark) and ['Gothic'](/vision/gothic-defined) and thereby to the gloomy style inherent in the game. It refers to *Orpheus* (the first working title of Gothic): The lore of the Orphics says, that *Nyx*, the night, is the "beginning of all things". And it also refers to *Nemesis* (which was the internal name for perhaps the best part of the (unrealised) story of Gothic and was a major inspiration for the original Sequel): *Nemesis* is a daughter of *Nyx*.
 
-We try to fathom and to refine the essence of the vision behind the game. We consequently follow the underlying design principles in order to develop both the special style as well as the content of Gothic further.  
+We try to fathom and to refine the essence of "the Alpha", of the vision behind the game. We consequently follow the underlying design principles in order to develop both the special style as well as the content of Gothic further.  
+
+
+## Why would anyone want to restore an Alpha version of a game? Was not the Alpha version completely unfinished and was the game, as it released, not the best outcome? 
+
+We do not want to restore an Alpha *version*, but an Alpha ***vision***. 
+
+The Gothic alpha or beta versions are a totally incomplete and unplayable fracture of a game. We do not want to restore them and get rid of anything valuable that has been added in course of time. We want to restore what was lost in course of time and what the developers once dreamed of and wanted to do, but couldn't.   
+
+The release version is just as well a "totally incomplete fracture of a game", with the difference that it is playable. It is *conceived* as being complete only by those players who don't know about the development history of Gothic, about the plans of the developers and about what they had announced and promised this game to be. They had a vision of a game that extremely differs from the game as it was released, a vision of a much wider and deeper scope, and it is our project to realise this vision. 
+
+
+## If something was changed in course of development, the developers had good reasons to do so! Everything is as it was intended!  
+
+This is an uninformed assumption that lacks critical reflection. We can say with little doubt that no one has studied the development history of Gothic more than we did. We are aware of the nature of decisions, and they are not homogenous. Decisions were made, sometimes deliberately and sometimes forced. They were made sometimes out of conviction and at other times out of necessity. They were sometimes made merely out of the pressure of time or due to technical problems and not out of conviction. When the developers announced critical features and promised to offer a particular experience in interviews and promotional material, and then got rid of these features in the end and offered a very different and more limited experience (differing from what they themselves once imagined), in many regards they did not do so because they wanted to, but because they had to. 
+
+We differentiate and are fully aware of these differing reasons. Our development is reflecting on all of them and follows clear principles and criteria by which we navigate the complex task of reconstructing this old vision of a game. By doing so we of course also do *not* blindly follow what the Gothic developers imagined, nor do we state that Phoenix will represent just that. Phoenix is not intending to simply realise an intended vision of the original developers, it intends to realise their old ideas and our own as they were formed inspired by those ideas.
+
+We are strictly dedicated to this vision. Some of us are not even considering themselves to be "Gothic fans", since we are inspired much more by what Gothic was once meant to be and by what they announced and promoted than by what it became. And this is what Phoenix is meant to become. 
+
+
+## Who is Phoenix for? 
+
+The project is for those who are inspired by the original vision of Gothic and the ideas the devs had announced and promoted (preserved and presented by us in our Gothic Archive), who would like to experience this vision in playable form. It is as well for those who may not know about these ideas yet but are willing to engage with them while laying aside expectations based on what the release version of Gothic turned out to be. It is also for those who may have come across the old ideas due to our Archive, being overwhelmed and amazed by the sheer amount of unrealised ideas. And last but not least it is also very much for those who may not know Gothic at all, but are interested in story focused RPGs, Immersive Sims and retro aesthetics. For those people who promote the project. 
+It is certainly *not* for those who are convinced that Gothic, as it has been released, was perfect in every regard and aren't willing to dive into another kind of story and the different kind of gameplay.    
+
+
+
 
 <!--
   <details>
