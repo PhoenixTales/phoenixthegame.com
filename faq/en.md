@@ -484,7 +484,7 @@ Therefore, creating things for G1 and not for G2, is favourable for us for pragm
 ## Will there be voice acting?
 
 We cannot promise anything, but we would like to have professional or semi-professional voice acting with at least a few of the original voice actors. For this purpose we will most likely call for donations when the game's story is implemented.  
-We *may* also utilise AI in some cases, with clear moral guidelines, either by using our own voice and altering it for new characters, or in case of those actors who clearly allow using it for non-commercial purposes or for those who passed away, *if* the remaining family members are fine with it and regard it as a form of honouring the work of the deceased. We regard this as a very sensitive topic and try to handle it accordingly. 
+We *may* also utilise AI in some limited cases, with clear moral guidelines, either by using our own voice and altering it for new characters, or in case of those actors who clearly allow using it for non-commercial purposes or for those who passed away, *if* the remaining family members are fine with it and regard it as a form of honouring the work of the deceased. We regard this as a very sensitive topic and try to handle it accordingly.  
 
 
 ## Is there new music?
