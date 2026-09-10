@@ -1,0 +1,111 @@
+/* by flosha */
+
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  color-scheme: dark;   
+
+  --black: #000;
+  --dark: #1f1f1f;
+  --darker: #121212;
+  --light: #dddddd;
+  --light-dirt: #ccb9a5;
+  --dirt: #a89775;
+  --dark-dirt: #77584b;
+  --blood: #844d44;
+  --bloodier: #92443d;
+  --copper: #9e6f4b;
+  --demonic: #855f67;
+  --gold: #976b42;
+  --fire: #dba37b;
+  --swamp: #2b8872;
+  --ore: #48a28b;         /* #67ab97; */
+  --magic: darkslateblue;
+  --mana: #46609e;
+  --silver: #aaa;
+  --stone: #5b5b5b;
+  --link: #96574f;
+  --water: #1a2526;
+
+  --gothic-link: #A1BA40; 
+  --gothic-link2: #FF0033;
+  --gothic-text: #BBB79F;
+}
+
+@font-face {
+  font-family: "IBM VGA 8x16";
+  src: url("assets/fonts/ibm-vga/ibm-vga-8x16.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  font-size: 16px;
+}
+
+@font-face{
+  font-family: "Gothic Alpha";
+  src: url("assets/fonts/Gothic_alpha_font.ttf") format("truetype");
+}
+
+body {
+  background: var(--black);
+  color: var(--light-dirt); /* before: silver */
+  font-family: "Gothic Alpha", monospace;
+  font-size: 16px;
+  line-height: 1.6; 
+  width: 100%;
+  min-width: 0;
+}
+
+header nav .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  z-index: 4;
+  margin: 0;
+  padding: 1rem;
+  font-family: "IBM VGA 8x16";
+  color: #aaa;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+button {
+  display: block;
+  max-width: 100%;
+  max-width: 350px;
+  margin: 0 auto 2em;
+  padding: 0.5em 1em 0.5em;
+  font-size: 20px;
+  font-family: "IBM VGA 8x16", monospace;
+  color: var(--light-dirt);
+  border: 2px solid var(--black);
+  box-shadow: 7px 7px var(--darker);
+  background: var(--dark);
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+  button:hover {
+    color: var(--light-dirt);
+    border-right: 2px solid var(--black);
+    border-bottom: 2px solid var(--black);
+    border-top: 2px solid var(--dark);
+    border-left: 2px solid var(--dark);
+    background: var(--darker);
+    box-shadow: 7px 7px var(--dark);
+    transition: all 0.3s ease;
+  }
+
+a {
+  color: var(--link);
+};
