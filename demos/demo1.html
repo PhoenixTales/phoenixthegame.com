@@ -92,16 +92,16 @@
 
   <style>
     body {
-        display: flex;
-        max-width: 800px;
-        flex-direction: column;
-        margin: 0 auto 2.5em;
-        justify-content: center;
-        font-family: "IBM VGA 8x16";
+      display: flex;
+      max-width: 800px;
+      flex-direction: column;
+      margin: 0 auto 2.5em;
+      justify-content: center;
+      font-family: monospace;
     }
   
     header nav ul {
-      padding: 10px 20px;
+      padding: 15px 20px;
       display: flex;
       overflow: auto;
       gap: 1.5em;
@@ -136,19 +136,23 @@
     }
 
     main {
-        display: flex;
-        flex-direction: row;
-        gap: 2em;
+      display: flex;
+      flex-direction: row;
+      gap: 2em;
     }
 
         main div {
-            width: 50%;
+          width: 50%;
         }
 
         main div:nth-child(2) {
-            margin-top: 80px;
-            margin-bottom: 20px;
+          margin-top: 80px;
+          margin-bottom: 20px;
         }
+          main div:nth-child(2) ul {
+            font-family: "IBM VGA 8x16";
+            font-size: 20px; 
+          }
  
     h1 {
         margin-top: 1rem;
@@ -163,7 +167,6 @@
     h2 {
         font-size: 1.2em;
         padding: 3em 0;
-        font-family: monospace;
         text-align: center;
         max-width: 700px;
     }
@@ -179,10 +182,6 @@
     a:hover {
         color: var(--dark-dirt);
     };
-
-    #details {
-        margin: 1em 0 4em;
-    }
 
     details {
         margin: 0.5em;
@@ -266,7 +265,9 @@
         text-align: initial;
       }
 
-     
+      .languages {
+        background: var(--dark);
+      }   
     }
 
   </style>
