@@ -120,11 +120,7 @@
       header nav ul li {
         display: inline-block; 
       }
-      header nav ul a:link {
-        text-decoration: none; 
-      }
-   
-   
+      
     img {
         max-width: 100%;
     }
@@ -143,13 +139,10 @@
         gap: 1.5em;
         margin-bottom: 30px;
         font-size: 22px;
-        padding: 20px auto; 
+        padding: 30px auto; 
         list-style: none;
     }
-      .languages a:link {
-         text-decoration: none;
-      } 
-
+      
     main {
       display: flex;
       flex-direction: row;
@@ -161,7 +154,7 @@
         }
 
         main div:nth-child(1) li {
-          margin-bottom: 15px;
+          margin-bottom: 25px;
         }
    
         main div:nth-child(2) {
@@ -252,11 +245,18 @@
         main div {
           width: auto; 
         }
+        main div:nth-child(2) {
+          margin-top: 30px;
+        }
 
       header nav {
         font-size: 20px; 
         background: var(--dark);
         margin-bottom: 20px; 
+      }
+
+      header nav ul a:link {
+        text-decoration: none; 
       }
    
       header .version {
@@ -283,6 +283,9 @@
       .languages {
         background: var(--dark);
       }   
+        .languages a:link {
+          text-decoration: none;
+        } 
     }
 
   </style>
