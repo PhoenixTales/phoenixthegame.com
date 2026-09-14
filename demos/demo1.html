@@ -16,7 +16,7 @@
         <nav>
             <ul>
                 <li><a href="/">About Phoenix</a></li>
-                <li><a href="https://gothicarchive.org">Gothic Archive</a></li>
+                <li><a href="https://gothicarchive.org">Archive</a></li>
                 <li><a href="https://docs.phoenixthegame.com">Docs</a></li>
                 <li><a href="https://discord.gg/5uHcsEJ44h">Discord</a></li>
             </ul>
@@ -116,10 +116,12 @@
       list-style: none;
       white-space: nowrap; 
       list-style: none; 
-      text-decoration: none; 
     }
       header nav ul li {
         display: inline-block; 
+      }
+      header nav ul a:link {
+        text-decoration: none; 
       }
    
    
@@ -141,10 +143,12 @@
         gap: 1.5em;
         margin-bottom: 30px;
         font-size: 22px;
-        padding: 15px auto; 
-        text-decoration: none; 
+        padding: 20px auto; 
         list-style: none;
     }
+      .languages a:link {
+         text-decoration: none;
+      } 
 
     main {
       display: flex;
@@ -223,10 +227,6 @@
 
     main ol li, main ul li {
         margin-left: 1em;
-    }
-
-    ::selection {
-    background: darkslategrey;
     }
 
     .note {
