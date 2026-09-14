@@ -62,6 +62,11 @@ body {
   min-width: 0;
 }
 
+::selection {
+  background: var(--blood);
+  color: var(--black);
+}
+
 header nav .right {
   position: absolute;
   top: 0;
