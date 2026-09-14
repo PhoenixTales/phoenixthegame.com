@@ -14,7 +14,7 @@
     <body>
     <header>
         <nav>
-            <ul class="right">
+            <ul>
                 <li><a href="/">About Phoenix</a></li>
                 <li><a href="https://gothicarchive.org">Gothic Archive</a></li>
                 <li><a href="https://docs.phoenixthegame.com">Docs</a></li>
@@ -99,6 +99,21 @@
         justify-content: center;
         font-family: "IBM VGA 8x16";
     }
+
+    header nav {
+      display: flex;
+      overflow: auto;
+      gap: 1em;
+      font-family: "IBM VGA 8x16";
+      color: #aaa;
+      text-transform: uppercase;
+      list-style: none;
+      white-space: no-wrap; 
+    }
+      header nav ul li {
+        white-space: no-wrap; 
+      }
+   
    
     img {
         max-width: 100%;
@@ -190,7 +205,7 @@
         list-style-type: '− ';
     }
 
-    ol li, ul li {
+    main ol li, main ul li {
         margin-left: 2em;
     }
 
@@ -222,16 +237,12 @@
           width: auto; 
         }
 
-      header nav .right {
-        position: initial;
-        padding: 20px;
+      header nav {
+        padding: 20px 10px;
         font-size: 20px; 
-        overflow: auto; 
         background: var(--dark);  
-        white-space: no-wrap;
-        justify-content: flex-start;
       }
-
+   
       header .version {
         margin-top: -20px;
         margin-right: 50px;
