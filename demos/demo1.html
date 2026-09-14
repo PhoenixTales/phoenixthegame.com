@@ -27,7 +27,6 @@
 
         <h2>What Gothic would have been if v0.8 had been developed to completion, following the vision for Gothic in early 2000.</h2> 
 
-
     <div class="languages">EN - <a href="">PL</a> - <a href="">RU</a> - <a href="">DE</a></div>
     </header>
 
@@ -105,7 +104,7 @@
         justify-content: center;
         font-family: "IBM VGA 8x16";
     }
-
+   
     img {
         max-width: 100%;
     }
@@ -137,9 +136,20 @@
         main div:nth-child(2) {
             margin-top: 80px;
         }
-
-
-
+ 
+@media only screen
+and (max-width : 820px) {
+ 
+  body {
+    max-width: 100%;
+  }
+ 
+  main {
+    flex-direction: column; 
+    padding: 0 10px 0;
+  }
+}
+   
     h1 {
         margin-top: 1rem;
         margin-bottom: 1em;
