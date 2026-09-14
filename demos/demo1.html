@@ -22,12 +22,17 @@
             </ul>
         </nav>
 
-    <img src="demo1/logo.jpg" alt="Old Gothic Logo">
+        <img src="demo1/logo.jpg" alt="Old Gothic Logo">
         <div class="version">~v0.8</div>
 
         <h2>What Gothic would have been if following the vision for Gothic in early to mid 2000.</h2> 
 
-    <div class="languages">EN - <a href="">PL</a> - <a href="">RU</a> - <a href="">DE</a></div>
+        <ul class="languages">
+          <li>EN</li> 
+          <li><a href="">PL</a></li>
+          <li><a href="">RU</a></li> 
+          <li><a href="">DE</a></li>
+        </ul>
     </header>
 
     <main>
@@ -111,6 +116,7 @@
       list-style: none;
       white-space: nowrap; 
       list-style: none; 
+      text-decoration: none; 
     }
       header nav ul li {
         display: inline-block; 
@@ -130,9 +136,14 @@
     }
 
     .languages {
-        text-align: center;
+        display: flex; 
+        justify-content: center;
+        gap: 1.5em;
         margin-bottom: 30px;
         font-size: 22px;
+        padding: 15px auto; 
+        text-decoration: none; 
+        list-style: none;
     }
 
     main {
@@ -145,6 +156,10 @@
           width: 50%;
         }
 
+        main div:nth-child(1) li {
+          margin-bottom: 15px;
+        }
+   
         main div:nth-child(2) {
           margin-top: 80px;
           margin-bottom: 20px;
