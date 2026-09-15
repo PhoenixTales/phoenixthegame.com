@@ -291,7 +291,8 @@
     }
 
     .progress-text {
-      position: absolute; 
+      position: absolute;
+      margin: 0 auto; 
       /*text-align: center;*/
       display: flex;
       flex-direction: column; 
@@ -299,9 +300,14 @@
       color: white;
       font-family: monospace;
       font-size: 14px;
+      z-index: 2;
     }
 
     .progress-bar {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0; 
       /*background: #a93031;*/
       background: linear-gradient(to right, #a93031, var(--ore));
       border-radius: 4px;
