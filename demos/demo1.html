@@ -96,7 +96,7 @@
             <p class="todo">[Add Progress Bar based on the 0.9 progress texture, with an img max-width in percent, corresponding to the dev progress and a % in text form displayed in a layer on top in the center, like in the 0.9 loading screen.]</p>
 
             <div class="progress">
-              <div class="progress-bar"></div>
+              <div class="progress-bar">45%</div>
             </div>
             <!--<button>Download [X MB]</button>-->
 
@@ -284,13 +284,20 @@
       width: 100%;
       height: 30px; 
       border: 1px solid var(--dark);
-      border-radius: 2px; 
+      border-radius: 5px; 
+      padding: 4px;
+      margin: 30px 10px 50px;
     }
 
     .progress-bar {
       background: #a93031;
+      border-radius: 5px;
       height: 100%;
       width: 45%;  
+      color: white; 
+      text-align: center; 
+      display: flex;
+      align-items: center; 
     }
 
     footer {
