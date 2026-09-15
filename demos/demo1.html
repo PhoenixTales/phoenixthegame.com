@@ -95,10 +95,13 @@
 
             <p class="note"><strong>Requirements:</strong> To play this Demo you need a copy of GOTHIC (2001), which Phoenix is based on. You can legally <a href="https://www.gog.com/en/game/gothic" target="_blank">acquire it here</a>. After the installation of GOTHIC you can install the PHOENIX Demo in your Gothic directory.</p>
 
-            <p class="progress-title">Demo Progress</p>
             <div class="progress">
-              <div class="progress-bar">45%</div>
+              <p class="progress-title">Demo Progress</p>
+              <div class="progress-border">
+                <div class="progress-bar">45%</div>
+              </div>
             </div>
+                
             <!--<button>Download [X MB]</button>-->
 
             <ul>
@@ -286,20 +289,23 @@
     }
 
     .progress {
-      height: 50px; 
-      border: 2px solid var(--dark);
-      border-radius: 7px; 
-      padding: 2px;
-      margin: 5px 10px 60px;
-      display: flex;
+       margin: 50px 0 70px; 
     }
-
+      
       .progress-title {
-        margin-top: 50px;
         text-align: center;
         text-transform: uppercase;
         font-size: smaller; 
       }
+      
+    .progress-border {
+      height: 50px; 
+      border: 2px solid var(--dark);
+      border-radius: 7px; 
+      padding: 2px;
+      margin: 5px 10px;
+      display: flex;
+    }
 
     .progress-bar {
       display: flex; 
@@ -307,14 +313,42 @@
       justify-content: center;
       align-items: center;
       /*background: #a93031;*/
-      background: linear-gradient(to right, #a93031 10%, var(--ore) 90%);
       border-radius: 4px;
       height: 100%;
-      width: 45%;  
       color: white;
       font-family: monospace;
       font-size: 14px;
     }
+
+      .progress-world {
+         background: linear-gradient(to right, #a93031 10%, var(--ore) 90%); 
+         width: 45%;  
+      }
+
+      .progress-story {
+          background: linear-gradient(to right, #a93031 10%, var(--fire) 90%); 
+         width: 45%;  
+      }
+
+      .progress-items {
+          background: linear-gradient(to right, #a93031 10%, var(--dark-dirt) 90%); 
+         width: 45%;  
+      }
+
+      .progress-armors {
+          background: linear-gradient(to right, #a93031 10%, var(--blood) 90%); 
+         width: 45%;  
+      }
+
+      .progress-weapons {
+          background: linear-gradient(to right, #a93031 10%, var(--silver) 90%); 
+         width: 45%;  
+      }
+
+      .progress-engine {
+          background: linear-gradient(to right, #a93031 10%, var(--stone) 90%); 
+         width: 45%;  
+      }
 
     footer {
       font-family: "IBM VGA 8x16";
