@@ -88,7 +88,7 @@
         </div>
 
         <div>
-            <a href="demo1/screen-1.png"><img src="demo1/screen-1.png" alt="Psi Camp at night"></a>
+            <a href="demo1/scren-1.png"><img src="demo1/screen-1.png" alt="Psi Camp at night"></a>
             <a href="demo1/screen-2.png"><img src="demo1/screen-2.png" alt="Diego in front of the Old Camp"></a>
             <a href="demo1/screen-3.png"><img src="demo1/screen-3.png" alt="The four friends in their Alpha look"></a>
             <a href="demo1/screen-4.png"><img src="demo1/screen-4.png" alt="Against the Swampshark"></a>
@@ -97,7 +97,10 @@
 
             <div class="progress">
               <p class="progress-title">Demo Progress</p>
-              
+
+              <div class="progress-border">
+                <div class="progress-bar progress-demo">Demo: 35%</div>
+              </div> 
               <div class="progress-border">
                 <div class="progress-bar progress-world">World: 45%</div>
               </div>
@@ -337,34 +340,39 @@
       font-size: 14px;
     }
 
-      .progress-world {
+      .progress-demo {
          background: linear-gradient(to right, #a93031 10%, var(--ore) 90%); 
+         width: 35%;  
+      }
+
+      .progress-world {
+         background: linear-gradient(to right, #a93031 10%, var(--swamp) 90%); 
          width: 45%;  
       }
 
       .progress-story {
-         background: linear-gradient(to right, #a93031 10%, var(--fire) 90%); 
-         width: 5%;  
+         background: var(--fire); 
+         width: 20%;  
       }
 
       .progress-items {
-         background: linear-gradient(to right, #a93031 10%, var(--dark-dirt) 90%); 
+         background: var(--dark-dirt); 
          width: 35%;  
       }
 
       .progress-armors {
-         background: linear-gradient(to right, #a93031 10%, var(--blood) 90%); 
+         background: var(--gold); 
          width: 50%;  
       }
 
       .progress-monsters {
-         background: linear-gradient(to right, var(--demonic) 10%, #a93031 90%); 
+         background: var(--demonic); 
          width: 75%;  
       }
 
       .progress-engine {
-         background: linear-gradient(to right, #a93031 10%, var(--stone) 90%); 
-         width: 10%;  
+         background: var(--stone); 
+         width: 20%;  
       }
 
     footer {
