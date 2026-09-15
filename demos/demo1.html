@@ -97,29 +97,14 @@
 
             <div class="progress">
               <p class="progress-title">Demo Progress</p>
-
-              <div class="progress-border">
-                <div class="progress-bar progress-demo">Demo: 35%</div>
-              </div> 
-              <div class="progress-border">
-                <div class="progress-bar progress-world">World: 45%</div>
-              </div>
-              <div class="progress-border">
-                <div class="progress-bar progress-story">Story: 5%</div>
-              </div>
-              <div class="progress-border">
-                <div class="progress-bar progress-items">Items: 35%</div>
-              </div> 
-              <div class="progress-border">
-                <div class="progress-bar progress-armors">Armors: 50%</div>
-              </div> 
-              <div class="progress-border">
-                <div class="progress-bar progress-monsters">Monsters: 75%</div>
-              </div> 
-              <div class="progress-border">
-                <div class="progress-bar progress-engine">Engine: 10%</div>
-              </div>   
-                
+              <ul>
+                <li><div class="world">World: 45%</div></li>
+                <li><div class="story">Story: 5%</div></li>
+                <li><div class="armors">Armors: 50%</div></li>
+                <li><div class="monsters">Monsters: 75%</div></li>
+                <li><div class="items">Items: 35%</div></li>
+                <li><div class="engine">Engine: 10%</div></li>
+              </ul>  
             </div>
                 
             <!--<button>Download [X MB]</button>-->
@@ -211,27 +196,27 @@
       gap: 2em;
     }
 
-        main div {
+        main>div {
           width: 50%;
         }
 
-        main div:nth-child(1) ul {
+        main>div:nth-child(1) ul {
           list-style: none;
         }
-        main div:nth-child(1) li {
+        main>div:nth-child(1) li {
           margin-bottom: 25px;
           padding-left: 0;
         }
    
-        main div:nth-child(2) {
+        main>div:nth-child(2) {
           margin-top: 80px;
           margin-bottom: 20px;
         }
-          main div:nth-child(2) ul {
+          main>div:nth-child(2) ul {
             font-family: "IBM VGA 8x16";
             font-size: 20px; 
           }
-            main div:nth-child(2) ul li {
+            main>div:nth-child(2) ul li {
               margin-left: 1em;
             }
       
@@ -311,70 +296,43 @@
     .progress {
        margin: 50px 0 70px; 
     }
-      
       .progress-title {
         text-align: center;
         text-transform: uppercase;
         font-size: smaller; 
       }
-      
-    .progress-border {
-      height: 45px; 
-      border: 2px solid var(--dark);
-      border-radius: 7px; 
-      padding: 2px;
-      margin: 5px 10px;
-    }
-
-    .progress-bar {
-      display: flex; 
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      /*background: #a93031;*/
-      border-radius: 4px;
-      height: 100%;
-      color: white;
-      font-family: monospace;
-      font-size: 14px;
-      white-space: nowrap; 
-    }
-
-      .progress-demo {
-         background: linear-gradient(to right, #a93031 10%, var(--ore) 90%); 
-         width: 35%;  
+      .progress ul {
+        list-style-type: none;
+        padding: 0;
       }
-
-      .progress-world {
-         background: #008080; 
-         width: 45%;  
-      }
-
-      .progress-story {
-         background: var(--blood); 
-         width: 20%; 
-         align-items: flex-start; 
-      }
-
-      .progress-items {
-         background: #ffb366; 
-         width: 35%;  
-      }
-
-      .progress-armors {
-         background: #c68c53; 
-         width: 50%;  
-      }
-
-      .progress-monsters {
-         background: #c653c6; 
-         width: 75%;  
-      }
-
-      .progress-engine {
-         background: var(--mana); 
-         width: 20%;  
-      }
+        .progress ul li {         /* Bar Border */
+          height: 45px; 
+          border: 2px solid var(--dark);
+          border-radius: 7px; 
+          padding: 2px;
+          margin: 5px 10px;
+        }
+        .progress ul li div {     /* Bar */
+          display: flex; 
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          /*background: #a93031;*/
+          border-radius: 4px;
+          height: 100%;
+          color: white;
+          font-family: monospace;
+          font-size: 14px;
+          white-space: nowrap; 
+          padding-left: 20px;
+          padding-right: 20px;
+        }   
+          .progress .world { background: linear-gradient(to right, #a93031 10%, var(--ore) 90%); width: 45%; }
+          .progress .story { background: #a43839; width: 20%; align-items: flex-start; }
+          .progress .armors { background: #885c4b; width: 50%; }
+          .progress .monsters { background: #5b355b; width: 75%; }
+          .progress .items { background: #35744d; width: 35%; }
+          .progress .engine { background: #34456e; width: 20%; align-items: flex-start; }
 
     footer {
       font-family: "IBM VGA 8x16";
