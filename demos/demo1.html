@@ -93,10 +93,8 @@
 
             <p class="note"><strong>Requirements:</strong> To play this Demo you need a copy of GOTHIC (2001), which Phoenix is based on. You can legally <a href="https://www.gog.com/en/game/gothic" target="_blank">acquire it here</a>. After the installation of GOTHIC you can install the PHOENIX Demo in your Gothic directory.</p>
 
-            <p class="todo">[Add Progress Bar based on the 0.9 progress texture, with an img max-width in percent, corresponding to the dev progress and a % in text form displayed in a layer on top in the center, like in the 0.9 loading screen.]</p>
-
             <div class="progress">
-              <div class="progress-text">45%</div>
+              <span>45%</span>
               <div class="progress-bar"></div>
             </div>
             <!--<button>Download [X MB]</button>-->
@@ -282,7 +280,6 @@
     }
 
     .progress {
-      display: flex; 
       height: 40px; 
       border: 2px solid var(--dark);
       border-radius: 4px; 
@@ -290,8 +287,10 @@
       margin: 30px 10px 50px;
     }
 
-    .progress-text {
-      /*text-align: center;*/
+    .progress p {
+      position: absolute;
+      margin: 0 auto; 
+        /*text-align: center;*/
       display: flex;
       flex-direction: column; 
       justify-content: center; 
@@ -302,8 +301,6 @@
     }
 
     .progress-bar {
-      display: flex; 
-      justify-content: flex-start; 
       z-index: 1;
       /*background: #a93031;*/
       background: linear-gradient(to right, #a93031 10%, var(--ore) 90%);
@@ -311,6 +308,9 @@
       height: 100%;
       width: 45%;  
     }
+      .progress-bar span {
+        
+      }
 
     footer {
       font-family: "IBM VGA 8x16";
