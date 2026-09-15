@@ -202,7 +202,10 @@
             font-family: "IBM VGA 8x16";
             font-size: 20px; 
           }
-
+            main div:nth-child(2) ul li {
+              margin-left: 1em;
+            }
+      
        main p {
          margin-bottom: 25px;
        }
@@ -237,7 +240,7 @@
 
     a:hover {
         color: var(--dark-dirt);
-    };
+    }
 
     details {
         margin: 0.5em;
@@ -260,10 +263,6 @@
     details[open] > summary {
         color: darkslategray;
         list-style-type: '− ';
-    }
-
-    main ol li, main ul li {
-        margin-left: 1em;
     }
 
     .note {
