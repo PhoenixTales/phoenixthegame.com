@@ -290,16 +290,7 @@
       border-radius: 4px; 
       padding: 2px;
       margin: 50px 10px 60px;
-    }
-
-    .progress span {
-      position: absolute;
-      margin: 0 auto; 
-        /*text-align: center;*/
-      color: white;
-      font-family: monospace;
-      font-size: 14px;
-      z-index: 2;
+      display: flex;
     }
 
     .progress-bar {
@@ -310,9 +301,15 @@
       height: 100%;
       width: 45%;  
     }
-      .progress-bar span {
-        
-      }
+      .progress span {
+      /*position: absolute;*/
+      margin: 0 auto; 
+        /*text-align: center;*/
+      color: white;
+      font-family: monospace;
+      font-size: 14px;
+      z-index: 10;
+    }
 
     footer {
       font-family: "IBM VGA 8x16";
