@@ -42,24 +42,48 @@
 * [x] 0.7-0.9 OrcDog (restored)
   * [ ] Warn/Thread Animations
 * [x] 0.6-0.8 Crawler (restored)
-* [ ] 
-* [ ] Monster Mapping 
+* [ ] 0.5-0.8 Gobbo
+    * [x] Green Gobbo (restored)
+    * [ ] Black Gobbo (wip)
+    * [ ] Gobbo Warn/Thread Animations (wip)
+* [ ] 0.7-0.8 Snapper Texture (wip)
+* [ ] Monster Mapping (wip)
 
 ## Interface
 * [x] 0.6-0.9 Menu Logo (restored)
 * [x] 0.9 Menu Structure
-* [ ] 0.9 Menu Animations
+* [ ] 0.9 Menu Animations (no one working on it) 
 * [x] 0.7-0.8 Menu Sound Effects
-* [ ] 0.8 HUD Textures (reconstructed)
+* [ ] HUD
+  * [x] 0.9 HUD Textures (restored)
+  * [x] 0.8 HUD Textures (reconstructed)
+  * [ ] HUD Texture Style Selection (wip)
+  * [ ] HUD Element Scaling via Daedalus
+  * [ ] Alpha Bar functionality (no one working on it)
+  * [x] 0.8 Inventory Textures (created)
+  * [ ] 0.5-0.9 Inventory Item Info Display (wip)
 * [ ] Alpha Fonts 
   * [x] 1.01 Unused Menu Font
   * [ ] Font for messy handwritten notes
   * [ ] Font for clean handwritten notes
   * [ ] Unziale Font for old books 
-
+* [ ] 
+  * [ ] 
+* [ ] 
 
 ## Items
-
+* [x] Alchemy Items (remapped)
+  * [ ] Included in the world
+* [ ] Animal Trophies (remapped, fixed, lacking ones added)
+* [x] Food Items (wip)
+* [ ] 0.9 Weapons (wip)
+* [ ] 0.8 Weapons (wip)
+* [ ] Item Distribution
+  * [ ] Misc Items
+  * [ ] Food Items
+  * [ ] Alchemy Items
+  * [ ] Plant Items
+  * [ ] ...
 
 ## Engine
 * [x] FogZones (restored/fixed)
