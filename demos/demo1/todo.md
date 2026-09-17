@@ -16,8 +16,8 @@
 * [x] 0.8 Old Mine (restored)
 * [x] OrcCity (restored)
 * [ ] 1.00 OrcTemple (restored, fixes wip)
-* [ ] Environmental Textures (Sky)
-* [ ] Unused Barrier Model
+* [x] Environmental Textures (Sky)
+* [ ] Unused Barrier Model (wip)
 * [ ] Barrier Madness Effect
 
 
@@ -51,14 +51,14 @@
 * [x] 0.7-0.9 OrcDog (restored)
   * [ ] Warn/Thread Animations
 * [x] 0.6-0.8 Crawler (restored)
-* [ ] 0.6-0.8 MCQ (...)
+* [ ] 0.6-0.8 MCQ (wip?) 
 * [ ] 0.6-0.9 Orc Shamans (wip)
 * [x] 0.6-0.9 Orc Zombies
 * [x] 0.6-0.9 Undead Shamans
 * [x] Black Wolf
 * [x] 1.00 Zombies
 * [x] Alpha Ice Golem
-* [ ] 0.6-0.8 Swampshark (wip restoration)
+* [x] 0.6-0.8 Swampshark // restored, but badly, needs improvement
 * [ ] Render Skeleton (restored/fixed/wip)
 * [ ] 0.5-0.8 Gobbo
     * [x] Green Gobbo (restored)
@@ -66,7 +66,7 @@
     * [ ] Gobbo Warn/Thread Animations (wip)
 * [ ] 0.7-0.8 Snapper Texture (wip)
 * [ ] 1.01 Razor (wip)
-* [ ] 0.7-1.01 Troll
+* [ ] 0.7-1.01 Troll // tex has to be added additionally, will do so. 
 * [x] Unused Young Scavenger (used)
 * [X] Firewaran Rendering Texture (reconstructed)
 * [x] 0.7-0.9 Sleeper (restored)
@@ -76,11 +76,11 @@
 ## Interface
 * [x] 0.6-0.9 Menu Logo (restored)
 * [x] 0.9 Menu Structure
-* [ ] 0.9 Menu Animations (no one working on it) 
+* [ ] 0.9 Menu Animations 
 * [ ] HUD
   * [x] 0.9 HUD Textures (restored)
   * [x] 0.8 HUD Textures (reconstructed)
-  * [ ] Alpha Bar functionality (no one working on it)
+  * [ ] Alpha Bar functionality 
   * [x] 0.8 Inventory Textures (created)
   * [ ] 0.5-0.9 Inventory Item Info Display (wip)
 * [ ] Alpha Fonts 
@@ -90,6 +90,11 @@
   * [ ] Unziale Font for old books 
 * [ ] Consumables Effect Preview (wip)
 * [ ] Spell Effects/Tex in Spell Selection Circle (no one working on it)
+* [x] Character Status Screen
+  * [X] 1.01 // Alpha Talents lacking
+  * [ ] 0.94 // ...
+ * [ ] Spellbook (instead of spells in status screen)
+ * [ ] 1.01 log book / diary (wip)
 
 ## Items
 * [x] Alchemy Items (remapped)
