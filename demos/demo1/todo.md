@@ -113,9 +113,14 @@
 * [ ] 0.8 Music (wip)
 * [x] Music Transition Fix
 
+## Skills
+* [ ] Master of Fire (Faster Mana Reg)
+* [ ] Life Regeneration (Faster HP Reg)
+
 ## Misc
 * [x] FogZones (restored/fixed)
   * [ ] fadeOutSky (wip)
+* [x] Mover Collision Patch 
 * [X] Gamepad (realised)
   * [ ] Proper Menu Integration
 * [ ] Campfire Fire Damage (wip)
@@ -127,6 +132,7 @@
 * [ ] Key Chain Mechanic
 * [ ] Herb Bag
 * [ ] Potion Belt
+* [ ] Trader Inventory fix
 * [ ] Quivers
 
 
