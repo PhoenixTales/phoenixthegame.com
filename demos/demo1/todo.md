@@ -65,7 +65,6 @@
 * [x] 0.7-0.9 Sleeper (restored)
   * [ ] Animations (wip)
 * [ ] Monster Mapping (wip)
-* [ ] Spell Learning
 
 ## Interface
 * [x] 0.6-0.9 Menu Logo (restored)
@@ -87,7 +86,7 @@
   * [ ] Font for clean handwritten notes
   * [ ] Unziale Font for old books 
 * [ ] Consumables Effect Preview (wip)
-* [ ] 
+* [ ] Spell Effects/Tex in Spell Selection Circle (no one working on it)
 
 ## Items
 * [x] Alchemy Items (remapped)
@@ -125,6 +124,7 @@
 * [x] Music Transition Fix
 
 ## Skills
+* [ ] Spell Learning
 * [ ] Master of Fire (Faster Mana Reg)
 * [ ] Life Regeneration (Faster HP Reg)
 * [ ] Alchemy (wip)
