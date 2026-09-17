@@ -39,11 +39,31 @@
   * [x] 0.9 Armors (reconstructed)
   * [x] 0.8 Armors (reconstructed)
 * [ ] Armor Mapping (wip)
-* [x] 0.8 Menu (restored)
+* [x] 0.7-0.9 OrcDog (restored)
+  * [ ] Warn/Thread Animations
+* [x] 0.6-0.8 Crawler (restored)
+* [ ] 
+* [ ] Monster Mapping 
+
+## Interface
+* [x] 0.6-0.9 Menu Logo (restored)
+* [x] 0.9 Menu Structure
+* [ ] 0.9 Menu Animations
+* [x] 0.7-0.8 Menu Sound Effects
 * [ ] 0.8 HUD Textures (reconstructed)
-* [ ] Alpha Fonts
-  * [x] 1.01 Fonts
-  * [ ] 1.
+* [ ] Alpha Fonts 
+  * [x] 1.01 Unused Menu Font
+  * [ ] Font for messy handwritten notes
+  * [ ] Font for clean handwritten notes
+  * [ ] Unziale Font for old books 
 
 
 ## Items
+
+
+## Engine
+* [x] FogZones (restored/fixed)
+  * [ ] fadeOutSky (wip)
+* [ ] 
+
+
