@@ -43,11 +43,37 @@
 * [x] setPsiVisuals
 
 
-## Style/Aesthetics
+## Armors
 * [x] Armor Textures
   * [x] 0.9 Armors (reconstructed)
+    * [x] EbrS // reconstructed
+    * [x] EbrG // reconstructed
+    * [x] GrdL // reconstructed
+    * [x] GrdM // reconstructed
+    * [x] GrdS // reconstructed
+    * [x] OrgL // reconstructed
+    * [x] OrgM // reconstructed
+    * [ ] OrgS // wip
+    * [ ] SfbL // reconstructed
+    * [x] SldL // reconstructed
+    * [x] SldM // reconstructed
+    * [x] SldS // reconstructed
+    * [x] SttM // reconstructed
+    * [ ] NovM (Seq) // restored
   * [x] 0.8 Armors (reconstructed)
-* [ ] Armor Mapping (wip)
+  * [ ] Demo 1 New Armors/Cloth
+    * [x] SttH // created
+    * [x] SttJ // created (hat may be needed)
+    * [ ] Improved/Overhauled GrdI
+    * [ ] Vlk Knickers Broken (tex) // wip
+* [ ] Armor models
+  * [ ] 0.8 GrdM // wip 
+  * [ ] Improved/Overhauled GrdI
+  * [x] Vlk Knickers Low
+  * [x] Vlk Knickers Mid
+  * [x] Vlk Knickers Broken
+
+## Monsters
 * [x] 0.7-0.9 OrcDog (restored)
   * [ ] Warn/Thread Animations
 * [x] 0.6-0.8 Crawler (restored)
@@ -130,7 +156,7 @@
 * [x] Alchemy (remapped)
 * [ ] Ammunition (wip)
 * [x] Animal Trophies (remapped, fixed, lacking ones added)
-* [x] Armor (remapped & remodeled) // A few additional improvements can be made for armor upgrades
+* [x] Armors (remapped & remodeled) // A few additional improvements can be made for armor upgrades
 * [ ] Artefacts (amulets, rings, ...)
 * [ ] Bags
 * [x] Food Items (remapped) // A few additional changes are needed, and a few old items to be restored
