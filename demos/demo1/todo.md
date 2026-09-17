@@ -109,7 +109,8 @@
 * [ ] HUD
   * [x] 0.9 HUD Textures (restored)
   * [x] 0.8 HUD Textures (reconstructed)
-  * [ ] Alpha Bar functionality 
+  * [ ] Alpha Bar functionality (maximum width of the bar determined by maximum value instead of being stretched to full width of background texture; instead background texture as small as the maximum bar width.)
+  * [ ] Smaller Focus Bars (HP bar of NPCs in focus were smaller than the players HP bar).
   * [x] 0.8 Inventory Textures (created)
   * [ ] 0.5-0.9 Inventory Item Info Display (wip)
 * [ ] Alpha Fonts 
