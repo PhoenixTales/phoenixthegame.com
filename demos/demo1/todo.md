@@ -45,7 +45,7 @@
 
 ## Armors
 * [x] Armor Textures
-  * [x] 0.9 Armors (reconstructed)
+  * [x] 0.7-0.9 Armors 
     * [x] EbrS // reconstructed
     * [x] EbrG // reconstructed
     * [x] GrdL // reconstructed
@@ -54,12 +54,13 @@
     * [x] OrgL // reconstructed
     * [x] OrgM // reconstructed
     * [ ] OrgS // wip
-    * [ ] SfbL // reconstructed
+    * [x] SfbL // reconstructed
     * [x] SldL // reconstructed
     * [x] SldM // reconstructed
     * [x] SldS // reconstructed
     * [x] SttM // reconstructed
-    * [ ] NovM (Seq) // restored
+  * [ ] Improvements/Fixes
+    * [x] NovM (Seq) // restored
   * [x] 0.8 Armors (reconstructed)
   * [ ] Demo 1 New Armors/Cloth
     * [x] SttH // created
@@ -69,6 +70,7 @@
 * [ ] Armor models
   * [ ] 0.8 GrdM // wip 
   * [ ] Improved/Overhauled GrdI
+  * [x] NovM Arm Guards removed
   * [x] Vlk Knickers Low
   * [x] Vlk Knickers Mid
   * [x] Vlk Knickers Broken
@@ -122,16 +124,17 @@
   * [x] 1.01 // Alpha Talents lacking
   * [ ] 0.94 // ...
 * [ ] Spellbook (instead of spells in status screen)
-* [ ] 1.01 log book / diary (wip)
+* [ ] 1.01 log book / diary // wip
+  * [ ] Immersive diary (item + anim)
 
 
 ## Texture Overhaul/Fixes 
 * [x] Alpha Item textures (0.94, 1.00, 1.01) // restored
 * [ ] Necessary Color adjustments to fit general color scheme
-  * [x] Reed texture desaturation
-  * [x] OC Flag desaturation
+  * [x] Reed texture // desaturated
+  * [x] OC Flag // desaturated
   * [ ] Arrow & Bolt Feathers (replacing the placeholders)
-  * [ ] Golden Crossbow desaturation
+  * [ ] "Golden" Crossbow desaturation
 
 
 ## Model Fixes & Mapping Overhaul
@@ -148,7 +151,7 @@
   * [ ] Nature (Vegetation) // wip
   * [ ] Planks
   * [ ] Stones
-* [ ] ~~Level~~ [not yet; to do for final version due to the many changes coming in future demos]
+* [ ] ~~Level~~ [not yet? To do for final version due to the many changes coming in future demos]
   * [ ] Creation of lacking transitional level textures (wip)
 
 
@@ -181,8 +184,7 @@
 ## Gameplay 
 * [ ] Limited Inventory (wip)
 * [ ] Sprinting (wip)
-* [x] Troll Stone Throwing (reconstructed)
-  * [ ] Proper Menu Integration
+* [ ] Troll Stone Throwing // reconstructed by Gratt, but some tweaks and a different menu integration are needed
 * [x] Item Throwing
 * [ ] Distraction Mechanic
 * [x] Climb out of water (restored)
@@ -224,23 +226,22 @@
 
 
 ## Balancing
-* [ ] Human NPC Stats (wip)
+* [ ] Human NPC Stats // wip
 * [x] Monster Stats // 0.94 ones, to be balanced
-* [ ] Consumable Stats (wip)
-* [ ] Weapon Stats (wip)
-* [ ] Experience for Missions (wip)
+* [ ] Consumable Stats // wip
+* [ ] Weapon Stats // wip
+* [ ] Experience for Missions // wip
 * [ ] Removing Exp for Monsters?
 
 
 ## Misc
-* [x] FogZones (restored/fixed)
-  * [ ] fadeOutSky (wip)
+* [x] FogZones // restored/fixed by Pierre
+  * [ ] fadeOutSky // wip (Vincenzo tries it with Claude) 
 * [x] Mover Collision Patch 
 * [ ] Will Attribute 
 * [X] Gamepad (realised)
   * [ ] Proper Menu Integration
 * [x] Sleeper Idols (mapped, fixed)
-  * [x] Praying Mechanic (restored)
   * [ ] Will Reg by Prayer
 * [ ] Daily Convoy's
 * [ ] 0.8 Alpha Screen based Ambient Events
@@ -249,6 +250,7 @@
 * [ ] GiveItem (visual exchange + going close enough)
 * [ ] Sky Controller (wip)
 * [ ] Guild Greetings
+* [ ] Guild demands wearing Armor appropriate to Rank (G2) 
 * [ ] Disguise via FakeGuild through Armor
 * [ ] FadeAway for Demons
 * [ ] Gate Guard Fix (Drawing Weapon)
@@ -258,8 +260,8 @@
 ---
 
 ## Nice to have
-* [ ] HUD Texture Style Selection (wip)
-    * [ ] Style Bonus/Malus
+* [ ] HUD Texture Style Selection // wip
+  * [ ] Style Bonus/Malus
   * [ ] HUD Element Scaling via Daedalus
 * [ ] InEx as NPCs as planned
 * [ ] Dialogue FacialExpressions
@@ -275,7 +277,7 @@
 * [ ] EnhancedCTriggerScripts
 * [ ] MoonPhases
 * [ ] NoAmmoPrint
-* [ ] despawnOnlyIfEmpty
+* [ ] despawnOnlyIfEmpty (then remove coin workaround) 
 * [ ] Item Splitting
 * [ ] Chargeable spells fix
 * [ ] NPC door opening/closing fix
@@ -288,6 +290,7 @@
 * [ ] Potion Belt
 * [ ] Quivers
 * [ ] Secrets
+* [ ] Game Over Screen(s) (Sequel)
 
 
 
