@@ -47,6 +47,10 @@
     * [ ] Black Gobbo (wip)
     * [ ] Gobbo Warn/Thread Animations (wip)
 * [ ] 0.7-0.8 Snapper Texture (wip)
+* [ ] 1.01 Razor (wip)
+* [ ] 0.7-1.01 Troll
+* [x] Unused Young Scavenger (used)
+* [X] Firewaran Rendering Texture (reconstructed)
 * [ ] Monster Mapping (wip)
 
 ## Interface
@@ -67,17 +71,18 @@
   * [ ] Font for messy handwritten notes
   * [ ] Font for clean handwritten notes
   * [ ] Unziale Font for old books 
-* [ ] 
-  * [ ] 
-* [ ] 
+* Consumables Effect Preview (wip)
 
 ## Items
 * [x] Alchemy Items (remapped)
   * [ ] Included in the world
 * [ ] Animal Trophies (remapped, fixed, lacking ones added)
-* [x] Food Items (wip)
+* [ ] Food Items (wip) 
 * [ ] 0.9 Weapons (wip)
 * [ ] 0.8 Weapons (wip)
+* [ ] Ammunition (wip)
+* [ ] Written Items (wip)
+* [ ] Artefacts/Runes/Scrolls (wip)
 * [ ] Item Distribution
   * [ ] Misc Items
   * [ ] Food Items
@@ -85,9 +90,48 @@
   * [ ] Plant Items
   * [ ] ...
 
-## Engine
+## Gameplay 
+* [ ] Limited Inventory (wip)
+* [ ] Sprinting (wip)
+* [x] Troll Stone Throwing (reconstructed)
+  * [ ] Proper Menu Integration
+* [x] Item Throwing
+* [ ] Distraction Mechanic
+* [x] Climb out of water (restored)
+* [ ] Forward jump to Hang on ledge (no one working on it)
+* [ ] Armor Looting
+* [ ] Crafting
+  * [ ] Alchemy (wip)
+  * [ ] Cooking
+* [ ] Torch Switching
+* [ ] 1H Sword + Torch Combat
+
+## Animations 
+* ...
+
+## Music 
+* [ ] 0.8 Music (wip)
+* [x] Music Transition Fix
+
+## Misc
 * [x] FogZones (restored/fixed)
   * [ ] fadeOutSky (wip)
-* [ ] 
+* [X] Gamepad (realised)
+  * [ ] Proper Menu Integration
+* [ ] Campfire Fire Damage (wip)
+* [ ] NPCs hiding in Rain
+* [ ] Daily Convoy's
+* [ ] 0.8 Alpha Screen based Ambient Events
+* [ ] Basket Rice Overlay
+* [ ] Backpack Overlay
+* [ ] Key Chain Mechanic
+* [ ] Herb Bag
+* [ ] Potion Belt
+* [ ] Quivers
+
+
+
+
+
 
 
