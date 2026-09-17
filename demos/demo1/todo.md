@@ -89,7 +89,7 @@
   * [ ] Font for clean handwritten notes
   * [ ] Unziale Font for old books 
 * [ ] Consumables Effect Preview (wip)
-* [ ] Spell Effects/Tex in Spell Selection Circle (no one working on it)
+* [ ] Spell Effects/Tex in Spell Selection Circle
 * [x] Character Status Screen
   * [X] 1.01 // Alpha Talents lacking
   * [ ] 0.94 // ...
@@ -98,8 +98,7 @@
 
 ## Items
 * [x] Alchemy Items (remapped)
-  * [ ] Included in the world
-* [ ] Animal Trophies (remapped, fixed, lacking ones added)
+* [x] Animal Trophies (remapped, fixed, lacking ones added)
 * [ ] Food Items (wip) 
 * [ ] 0.9 Weapons (wip)
 * [ ] 0.8 Weapons (wip)
@@ -134,7 +133,8 @@
 * [ ] Monster Sleeping (wip)
 * [ ] Unused Monster Animations
 * [ ] Unused Dialogue Animations
-* [ ] Any Combat Animations to restore for Demo 1? 
+* [ ] Any Combat Animations to restore for Demo 1?
+* [ ] Too heavy to fight with 2H anim
 
 ## Music & SFX
 * [ ] 0.8 Music (wip)
@@ -152,6 +152,15 @@
 * [ ] Alchemy (wip)
 * [ ] Cooking
 
+## Balancing
+* [ ] Human NPC Stats (wip)
+* [x] Monster Stats // 0.94 ones, to be balanced
+* [ ] Consumable Stats (wip)
+* [ ] Weapon Stats (wip)
+* [ ] Experience for Missions (wip)
+* [ ] Removing Exp for Monsters?
+
+
 ## Misc
 * [x] FogZones (restored/fixed)
   * [ ] fadeOutSky (wip)
@@ -166,7 +175,7 @@
 * [ ] 0.8 Alpha Screen based Ambient Events
 * [ ] Trader Inventory fix
 * [ ] FindItem
-* [ ] GiveItem
+* [ ] GiveItem (visual exchange + going close enough)
 * [ ] Sky Controller (wip)
 * [ ] Guild Greetings
 * [ ] Disguise via FakeGuild through Armor
