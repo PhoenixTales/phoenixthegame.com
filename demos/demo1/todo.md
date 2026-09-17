@@ -126,6 +126,10 @@
 * [ ] MadnessOverlay
 * [ ] Basket Rice Overlay
 * [ ] Backpack Overlay
+* [ ] Monster Sleeping (wip)
+* [ ] Unused Monster Animations
+* [ ] Unused Dialogue Animations
+* [ ] Any Combat Animations to restore for Demo 1? 
 
 ## Music & SFX
 * [ ] 0.8 Music (wip)
