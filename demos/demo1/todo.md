@@ -38,6 +38,8 @@
 * [ ] Cutscenes
   * [ ] 0.94
   * [ ] 0.96
+* [x] setPsiVisuals
+
 
 ## Style/Aesthetics
 * [x] Armor Textures
@@ -51,7 +53,10 @@
 * [ ] 0.6-0.9 Orc Shamans (wip)
 * [x] 0.6-0.9 Orc Zombies
 * [x] 0.6-0.9 Undead Shamans
+* [x] Black Wolf
 * [x] 1.00 Zombies
+* [x] Alpha Ice Golem
+* [ ] 0.6-0.8 Swampshark (wip restoration)
 * [ ] Render Skeleton (restored/fixed/wip)
 * [ ] 0.5-0.8 Gobbo
     * [x] Green Gobbo (restored)
