@@ -81,9 +81,6 @@
 * [ ] HUD
   * [x] 0.9 HUD Textures (restored)
   * [x] 0.8 HUD Textures (reconstructed)
-  * [ ] HUD Texture Style Selection (wip)
-    * [ ] Style Bonus/Malus
-  * [ ] HUD Element Scaling via Daedalus
   * [ ] Alpha Bar functionality (no one working on it)
   * [x] 0.8 Inventory Textures (created)
   * [ ] 0.5-0.9 Inventory Item Info Display (wip)
@@ -168,6 +165,9 @@
 ---
 
 ## Nice to have
+* [ ] HUD Texture Style Selection (wip)
+    * [ ] Style Bonus/Malus
+  * [ ] HUD Element Scaling via Daedalus
 * [ ] InEx as NPCs as planned
 * [ ] Dialogue FacialExpressions
 * [ ] Immersive Looting
