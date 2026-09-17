@@ -115,6 +115,7 @@
 * [x] Climb out of water (restored)
 * [ ] Forward jump to Hang on ledge (no one working on it)
 * [ ] Armor Looting
+* [ ] Assassination
 
 ## Animations 
 * ...
@@ -156,6 +157,9 @@
 ---
 
 ## Nice to have
+* [ ] Immersive Looting
+* [ ] Improved Mob Interaction (Sequel)
+* [ ] Staff Combat and Overlays (Sequel)
 * [ ] Improved Inventory Controls
 * [ ] Enhanced Picklocking
 * [ ] PicklockHelper
