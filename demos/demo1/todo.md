@@ -56,6 +56,7 @@
 * [x] Unused Young Scavenger (used)
 * [X] Firewaran Rendering Texture (reconstructed)
 * [ ] Monster Mapping (wip)
+* [ ] Spell Learning
 
 ## Interface
 * [x] 0.6-0.9 Menu Logo (restored)
@@ -66,6 +67,7 @@
   * [x] 0.9 HUD Textures (restored)
   * [x] 0.8 HUD Textures (reconstructed)
   * [ ] HUD Texture Style Selection (wip)
+    * [ ] Style Bonus/Malus
   * [ ] HUD Element Scaling via Daedalus
   * [ ] Alpha Bar functionality (no one working on it)
   * [x] 0.8 Inventory Textures (created)
@@ -75,7 +77,8 @@
   * [ ] Font for messy handwritten notes
   * [ ] Font for clean handwritten notes
   * [ ] Unziale Font for old books 
-* Consumables Effect Preview (wip)
+* [ ] Consumables Effect Preview (wip)
+* [ ] 
 
 ## Items
 * [x] Alchemy Items (remapped)
@@ -104,8 +107,6 @@
 * [x] Climb out of water (restored)
 * [ ] Forward jump to Hang on ledge (no one working on it)
 * [ ] Armor Looting
-* [ ] Torch Switching
-* [ ] 1H Sword + Torch Combat
 
 ## Animations 
 * ...
@@ -127,8 +128,6 @@
 * [x] Mover Collision Patch 
 * [X] Gamepad (realised)
   * [ ] Proper Menu Integration
-* [ ] Campfire Fire Damage (wip)
-* [ ] NPCs hiding in Rain
 * [x] Sleeper Idols (mapped, fixed)
   * [x] Praying Mechanic (restored)
   * [ ] Will Reg by Prayer
@@ -136,20 +135,25 @@
 * [ ] 0.8 Alpha Screen based Ambient Events
 * [ ] Basket Rice Overlay
 * [ ] Backpack Overlay
-* [ ] Key Chain Mechanic
-* [ ] Herb Bag
-* [ ] Potion Belt
 * [ ] Trader Inventory fix
-* [ ] Quivers
 * [ ] FindItem
 * [ ] GiveItem
 * [ ] Guild Greetings
 * [ ] Disguise
+
+
+---
+
+## Nice to have
+* [ ] Campfire Fire Damage (wip)
+* [ ] NPCs hiding in Rain
+* [ ] Torch Switching
+* [ ] 1H Sword + Torch Combat
+* [ ] Key Chain Mechanic
+* [ ] Herb Bag
+* [ ] Potion Belt
+* [ ] Quivers
 * [ ] Secrets
-
-
-
-
 
 
 
