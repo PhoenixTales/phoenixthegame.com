@@ -77,7 +77,6 @@
 * [x] 0.6-0.9 Menu Logo (restored)
 * [x] 0.9 Menu Structure
 * [ ] 0.9 Menu Animations (no one working on it) 
-* [x] 0.7-0.8 Menu Sound Effects
 * [ ] HUD
   * [x] 0.9 HUD Textures (restored)
   * [x] 0.8 HUD Textures (reconstructed)
@@ -128,9 +127,14 @@
 * [ ] Basket Rice Overlay
 * [ ] Backpack Overlay
 
-## Music 
+## Music & SFX
 * [ ] 0.8 Music (wip)
-* [x] Music Transition Fix
+* [x] Music Transition Fix // still bugged?
+* [x] 0.7-0.8 Menu Sound Effects
+* [ ] 0.7-0.8 Scavenger Sounds
+* [ ] Unused/Alpha Monster Sounds
+* [ ] Unused/Alpha Human NPC Sounds
+* [ ] Unused/Alpha Ambient Sounds
 
 ## Skills
 * [ ] Spell Learning
