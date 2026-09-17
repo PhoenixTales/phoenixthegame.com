@@ -97,13 +97,29 @@
 * [ ] Spellbook (instead of spells in status screen)
 * [ ] 1.01 log book / diary (wip)
 
-## Items
-* [x] Alchemy Items (remapped)
+## Texture Fixes 
+* 
+
+## Model Fixes & Mapping Overhaul
+*Remapping of unmapped models & mapping fixes of wrongly mapped models*  
+* [ ] Anims
+  * [ ] Mapping of ASC Bodies
+  * [ ] Mapping of ASC Mobsis
+  * [ ] Mapping of Morph Meshes
+  * [ ] Mapping of ASC Static
+* Items [see below]
+* [ ] MOBs (wip)
+* [ ] Creation of lacking transitional level textures (wip)
+* [ ] Level [perhaps not yet; to do for final version due to the many changes coming in future demos]
+
+### Items
+* [x] Alchemy (remapped)
+* [ ] Ammunition (wip)
 * [x] Animal Trophies (remapped, fixed, lacking ones added)
 * [ ] Food Items (wip) 
 * [ ] 0.9 Weapons (wip)
 * [ ] 0.8 Weapons (wip)
-* [ ] Ammunition (wip)
+
 * [ ] Written Items (wip)
 * [ ] Artefacts/Runes/Scrolls (wip)
 * [ ] Item Distribution
@@ -112,6 +128,12 @@
   * [ ] Alchemy Items
   * [ ] Plant Items
   * [ ] ...
+
+
+
+## Vobs and Mobs (Static Models used in Animations)
+* [ ] Remapping and/or mapping fixes of all unmapped or wrongly mapped objects
+* 
 
 ## Gameplay 
 * [ ] Limited Inventory (wip)
@@ -137,7 +159,7 @@
 * [ ] Any Combat Animations to restore for Demo 1?
 * [ ] Too heavy to fight with 2H anim
 
-## Music & SFX
+## Music, SFX & Speech
 * [ ] 0.8 Music (wip)
 * [x] Music Transition Fix // still bugged?
 * [x] 0.7-0.8 Menu Sound Effects
@@ -145,6 +167,7 @@
 * [ ] Unused/Alpha Monster Sounds
 * [ ] Unused/Alpha Human NPC Sounds
 * [ ] Unused/Alpha Ambient Sounds
+* [ ] Speech modifications necessary for Demo 1 purposes
 
 ## Skills
 * [ ] Spell Learning
