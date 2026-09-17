@@ -125,10 +125,11 @@
 * [ ] Assassination
 
 ## Animations 
-* DrunkenOverlay
-* InjuredOverlay
-* MadnessOverlay
-* ...
+* [ ] DrunkenOverlay
+* [ ] InjuredOverlay
+* [ ] MadnessOverlay
+* [ ] Basket Rice Overlay
+* [ ] Backpack Overlay
 
 ## Music 
 * [ ] 0.8 Music (wip)
@@ -153,20 +154,21 @@
   * [ ] Will Reg by Prayer
 * [ ] Daily Convoy's
 * [ ] 0.8 Alpha Screen based Ambient Events
-* [ ] Basket Rice Overlay
-* [ ] Backpack Overlay
 * [ ] Trader Inventory fix
 * [ ] FindItem
 * [ ] GiveItem
 * [ ] Sky Controller (wip)
 * [ ] Guild Greetings
-* [ ] Disguise
+* [ ] Disguise via FakeGuild through Armor
 * [ ] FadeAway for Demons
+* [ ] Gate Guard Fix (Drawing Weapon)
+* [x] All campfires interactable
 
 
 ---
 
 ## Nice to have
+* [ ] InEx as NPCs as planned
 * [ ] Dialogue FacialExpressions
 * [ ] Immersive Looting
 * [ ] Improved Mob Interaction (Sequel)
