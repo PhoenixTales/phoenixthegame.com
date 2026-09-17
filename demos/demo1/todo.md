@@ -1,6 +1,6 @@
 # Demo 1 - Checklist
 
-## World
+## Levels
 * [x] 0.9 Surface (restored)
 * [ ] CH5/OrcAssault Surface 
 * [x] 0.8 Northern Path into Valley (reconstructed)
@@ -131,10 +131,10 @@
 * [ ] Cooking
 
 ## Misc
-* [ ] Will Attribute 
 * [x] FogZones (restored/fixed)
   * [ ] fadeOutSky (wip)
 * [x] Mover Collision Patch 
+* [ ] Will Attribute 
 * [X] Gamepad (realised)
   * [ ] Proper Menu Integration
 * [x] Sleeper Idols (mapped, fixed)
