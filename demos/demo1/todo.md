@@ -17,6 +17,8 @@
 * [x] OrcCity (restored)
 * [ ] 1.00 OrcTemple (restored, fixes wip)
 * [ ] Environmental Textures (Sky)
+* [ ] Unused Barrier Model
+* [ ] Barrier Madness Effect
 
 
 ## Story
@@ -123,6 +125,9 @@
 * [ ] Assassination
 
 ## Animations 
+* DrunkenOverlay
+* InjuredOverlay
+* MadnessOverlay
 * ...
 
 ## Music 
