@@ -167,6 +167,7 @@
 ---
 
 ## Nice to have
+* [ ] Dialogue FacialExpressions
 * [ ] Immersive Looting
 * [ ] Improved Mob Interaction (Sequel)
 * [ ] Staff Combat and Overlays (Sequel)
