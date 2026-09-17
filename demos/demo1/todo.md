@@ -194,6 +194,7 @@
 
 
 ## Animations 
+* [ ] HumAnims (still have to be studied thoroughly, compared and the findings documented)
 * [ ] DrunkenOverlay
 * [ ] InjuredOverlay
 * [ ] MadnessOverlay
@@ -204,6 +205,10 @@
 * [ ] Unused Dialogue Animations
 * [ ] Any Combat Animations to restore for Demo 1?
 * [ ] Too heavy to fight with 2H anim
+
+
+## Controls
+* [ ] Walk/Run/Sprint Controls as described in early document, all via Shift
 
 
 ## Music, SFX & Speech
