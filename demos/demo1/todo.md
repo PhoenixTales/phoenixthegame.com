@@ -42,6 +42,10 @@
 * [x] 0.7-0.9 OrcDog (restored)
   * [ ] Warn/Thread Animations
 * [x] 0.6-0.8 Crawler (restored)
+* [ ] 0.6-0.8 MCQ (...)
+* [ ] 0.6-0.9 Orc Shamans (wip)
+* [x] 0.6-0.9 Orc Zombies
+* [x] 0.6-0.9 Undead Shamans
 * [ ] 0.5-0.8 Gobbo
     * [x] Green Gobbo (restored)
     * [ ] Black Gobbo (wip)
@@ -100,9 +104,6 @@
 * [x] Climb out of water (restored)
 * [ ] Forward jump to Hang on ledge (no one working on it)
 * [ ] Armor Looting
-* [ ] Crafting
-  * [ ] Alchemy (wip)
-  * [ ] Cooking
 * [ ] Torch Switching
 * [ ] 1H Sword + Torch Combat
 
@@ -116,8 +117,11 @@
 ## Skills
 * [ ] Master of Fire (Faster Mana Reg)
 * [ ] Life Regeneration (Faster HP Reg)
+* [ ] Alchemy (wip)
+* [ ] Cooking
 
 ## Misc
+* [ ] Will Attribute 
 * [x] FogZones (restored/fixed)
   * [ ] fadeOutSky (wip)
 * [x] Mover Collision Patch 
@@ -125,6 +129,9 @@
   * [ ] Proper Menu Integration
 * [ ] Campfire Fire Damage (wip)
 * [ ] NPCs hiding in Rain
+* [x] Sleeper Idols (mapped, fixed)
+  * [x] Praying Mechanic (restored)
+  * [ ] Will Reg by Prayer
 * [ ] Daily Convoy's
 * [ ] 0.8 Alpha Screen based Ambient Events
 * [ ] Basket Rice Overlay
@@ -134,6 +141,11 @@
 * [ ] Potion Belt
 * [ ] Trader Inventory fix
 * [ ] Quivers
+* [ ] FindItem
+* [ ] GiveItem
+* [ ] Guild Greetings
+* [ ] Disguise
+* [ ] Secrets
 
 
 
