@@ -138,6 +138,7 @@
 * [ ] Trader Inventory fix
 * [ ] FindItem
 * [ ] GiveItem
+* [ ] Sky Controller (wip)
 * [ ] Guild Greetings
 * [ ] Disguise
 
@@ -145,6 +146,14 @@
 ---
 
 ## Nice to have
+* [ ] Improved Inventory Controls
+* [ ] Enhanced Picklocking
+* [ ] Enhanced Pickpocketing
+* [ ] Enhanced Trading
+* [ ] despawnOnlyIfEmpty
+* [ ] Item Splitting
+* [ ] Chargeable spells fix
+* [ ] NPC door opening/closing fix
 * [ ] Campfire Fire Damage (wip)
 * [ ] NPCs hiding in Rain
 * [ ] Torch Switching
