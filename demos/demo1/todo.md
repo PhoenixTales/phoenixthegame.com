@@ -136,6 +136,7 @@
   * [x] OC Flag // desaturated
   * [ ] Arrow & Bolt Feathers (replacing the placeholders)
   * [ ] "Golden" Crossbow desaturation
+* [ ] Creation of lacking transitional level textures (wip)
 
 
 ## Model Fixes & Mapping Overhaul
@@ -145,7 +146,6 @@
   * [ ] Mapping of ASC Mobsis
   * [ ] Mapping of Morph Meshes
   * [ ] Mapping of ASC Static
-* Items [see below]
 * [ ] MOBs // wip
   * [ ] Household Objects // wip
   * [ ] Misc Objects // wip
@@ -153,12 +153,11 @@
   * [ ] Planks
   * [ ] Stones
 * [ ] ~~Level~~ [not yet? To do for final version due to the many changes coming in future demos]
-  * [ ] Creation of lacking transitional level textures (wip)
 
-
+  
 ### Items
-* [x] Alchemy (remapped)
-* [ ] Ammunition (wip)
+* [x] Alchemy (remapped) // Alcohol, Quicksilver & Syrian Oil texture to be improved. 
+* [ ] Ammunition (wip) // shaft texture has to be made tileable top/bottom   
 * [x] Animal Trophies (remapped, fixed, lacking ones added)
 * [x] Armors (remapped & remodeled) // A few additional improvements can be made for armor upgrades
 * [ ] Artefacts (amulets, rings, ...)
@@ -173,7 +172,7 @@
 * [ ] Written Items (wip)
 * [ ] Item Distribution
 
-  
+
 #### Weapons
 * [ ] 1.06 Melee Weapons 1H 
 * [ ] 1.06 Melee Weapons 2H
