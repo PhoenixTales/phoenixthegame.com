@@ -41,6 +41,20 @@
   * [ ] 0.94
   * [ ] 0.96
 * [x] setPsiVisuals
+* [ ] 0.8-0.9 WIP routine restoration
+  * [ ] Start
+  * [ ] PrepareRitual
+  * [ ] OMFull
+  * [ ] FMTaken
+  * [ ] OrcAssault
+  * [ ] Nemesis
+* [ ] Demo 1 routines (developing/completing the above)
+  * [ ] Start
+  * [ ] PrepareRitual
+  * [ ] OMFull
+  * [ ] FMTaken
+  * [ ] OrcAssault
+  * [ ] Nemesis
 
 
 ## Armors
@@ -222,7 +236,7 @@
 
 ## Music, SFX & Speech
 * [ ] 0.8 Music (wip)
-* [x] Music Transition Fix // still bugged?
+* [x] MusicPlaybackTracker.dll // still bugged?
 * [x] 0.7-0.8 Menu Sound Effects
 * [ ] 0.7-0.8 Scavenger Sounds
 * [ ] Unused/Alpha Monster Sounds
