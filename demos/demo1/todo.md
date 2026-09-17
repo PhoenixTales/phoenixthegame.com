@@ -2,8 +2,10 @@
 
 ## World
 * [x] 0.9 Surface (restored)
+* [ ] CH5/OrcAssault Surface 
 * [x] 0.8 Northern Path into Valley (reconstructed)
 * [x] 0.8 Old Camp (restored, fixed, improved)
+* [ ] CH5/OrcAssault OC
 * [x] 0.8 Psi Camp (restored, fixed, improved)
 * [x] 0.8 New Camp (restored, fixes wip)
 * [x] 1.00+1.12 Mountain Fortress (restored, combined, fixed, improved)
@@ -14,6 +16,8 @@
 * [x] 0.8 Old Mine (restored)
 * [x] OrcCity (restored)
 * [ ] 1.00 OrcTemple (restored, fixes wip)
+* [ ] Environmental Textures (Sky)
+
 
 ## Story
 * [ ] Cut NPCs
@@ -30,6 +34,7 @@
   * [ ] 0.94
   * [ ] Documents (2000)
 * [ ] 0.1-0.9 Chapter Structure
+* [x] zMultilogue
 * [ ] Cutscenes
   * [ ] 0.94
   * [ ] 0.96
@@ -46,6 +51,8 @@
 * [ ] 0.6-0.9 Orc Shamans (wip)
 * [x] 0.6-0.9 Orc Zombies
 * [x] 0.6-0.9 Undead Shamans
+* [x] 1.00 Zombies
+* [ ] Render Skeleton (restored/fixed/wip)
 * [ ] 0.5-0.8 Gobbo
     * [x] Green Gobbo (restored)
     * [ ] Black Gobbo (wip)
@@ -55,6 +62,8 @@
 * [ ] 0.7-1.01 Troll
 * [x] Unused Young Scavenger (used)
 * [X] Firewaran Rendering Texture (reconstructed)
+* [x] 0.7-0.9 Sleeper (restored)
+  * [ ] Animations (wip)
 * [ ] Monster Mapping (wip)
 * [ ] Spell Learning
 
@@ -141,6 +150,7 @@
 * [ ] Sky Controller (wip)
 * [ ] Guild Greetings
 * [ ] Disguise
+* [ ] FadeAway for Demons
 
 
 ---
@@ -148,11 +158,13 @@
 ## Nice to have
 * [ ] Improved Inventory Controls
 * [ ] Enhanced Picklocking
+* [ ] PicklockHelper
 * [ ] Enhanced Pickpocketing
 * [ ] Enhanced Trading
 * [ ] Enhanced Info Manager
 * [ ] EnhancedCTriggerScripts
 * [ ] MoonPhases
+* [ ] NoAmmoPrint
 * [ ] despawnOnlyIfEmpty
 * [ ] Item Splitting
 * [ ] Chargeable spells fix
