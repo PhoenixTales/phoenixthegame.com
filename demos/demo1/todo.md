@@ -73,6 +73,7 @@
   * [ ] Animations (wip)
 * [ ] Monster Mapping (wip)
 
+
 ## Interface
 * [x] 0.6-0.9 Menu Logo (restored)
 * [x] 0.9 Menu Structure
@@ -92,13 +93,20 @@
 * [ ] Consumables Effect Preview (wip)
 * [ ] Spell Effects/Tex in Spell Selection Circle
 * [x] Character Status Screen
-  * [X] 1.01 // Alpha Talents lacking
+  * [x] 1.01 // Alpha Talents lacking
   * [ ] 0.94 // ...
 * [ ] Spellbook (instead of spells in status screen)
 * [ ] 1.01 log book / diary (wip)
 
-## Texture Fixes 
-* 
+
+## Texture Overhaul/Fixes 
+* [x] Alpha Item textures (0.94, 1.00, 1.01) // restored
+* [ ] Necessary Color adjustments to fit general color scheme
+  * [x] Reed texture desaturation
+  * [x] OC Flag desaturation
+  * [ ] Arrow & Bolt Feathers (replacing the placeholders)
+  * [ ] Golden Crossbow desaturation
+
 
 ## Model Fixes & Mapping Overhaul
 *Remapping of unmapped models & mapping fixes of wrongly mapped models*  
@@ -108,32 +116,41 @@
   * [ ] Mapping of Morph Meshes
   * [ ] Mapping of ASC Static
 * Items [see below]
-* [ ] MOBs (wip)
-* [ ] Creation of lacking transitional level textures (wip)
-* [ ] Level [perhaps not yet; to do for final version due to the many changes coming in future demos]
+* [ ] MOBs // wip
+  * [ ] Household Objects // wip
+  * [ ] Misc Objects // wip
+  * [ ] Nature (Vegetation) // wip
+  * [ ] Planks
+  * [ ] Stones
+* [ ] ~~Level~~ [not yet; to do for final version due to the many changes coming in future demos]
+  * [ ] Creation of lacking transitional level textures (wip)
+
 
 ### Items
 * [x] Alchemy (remapped)
 * [ ] Ammunition (wip)
 * [x] Animal Trophies (remapped, fixed, lacking ones added)
-* [ ] Food Items (wip) 
+* [x] Armor (remapped & remodeled) // A few additional improvements can be made for armor upgrades
+* [ ] Artefacts (amulets, rings, ...)
+* [ ] Bags
+* [x] Food Items (remapped) // A few additional changes are needed, and a few old items to be restored
+* [ ] Keys
+* [ ] Light Sources
+* [ ] Magic (Runes/Scrolls)
+* [ ] Misc Items
+* [ ] Plants (wip)
+* [ ] Potions (wip)
+* [ ] Written Items (wip)
+* [ ] Item Distribution
+
+  
+#### Weapons
+* [ ] 1.06 Melee Weapons 1H 
+* [ ] 1.06 Melee Weapons 2H
+* [ ] 1.06 Ranged Weapons
 * [ ] 0.9 Weapons (wip)
 * [ ] 0.8 Weapons (wip)
 
-* [ ] Written Items (wip)
-* [ ] Artefacts/Runes/Scrolls (wip)
-* [ ] Item Distribution
-  * [ ] Misc Items
-  * [ ] Food Items
-  * [ ] Alchemy Items
-  * [ ] Plant Items
-  * [ ] ...
-
-
-
-## Vobs and Mobs (Static Models used in Animations)
-* [ ] Remapping and/or mapping fixes of all unmapped or wrongly mapped objects
-* 
 
 ## Gameplay 
 * [ ] Limited Inventory (wip)
@@ -147,6 +164,7 @@
 * [ ] Armor Looting
 * [ ] Assassination
 
+
 ## Animations 
 * [ ] DrunkenOverlay
 * [ ] InjuredOverlay
@@ -159,6 +177,7 @@
 * [ ] Any Combat Animations to restore for Demo 1?
 * [ ] Too heavy to fight with 2H anim
 
+
 ## Music, SFX & Speech
 * [ ] 0.8 Music (wip)
 * [x] Music Transition Fix // still bugged?
@@ -169,12 +188,14 @@
 * [ ] Unused/Alpha Ambient Sounds
 * [ ] Speech modifications necessary for Demo 1 purposes
 
+
 ## Skills
 * [ ] Spell Learning
 * [ ] Master of Fire (Faster Mana Reg)
 * [ ] Life Regeneration (Faster HP Reg)
 * [ ] Alchemy (wip)
 * [ ] Cooking
+
 
 ## Balancing
 * [ ] Human NPC Stats (wip)
