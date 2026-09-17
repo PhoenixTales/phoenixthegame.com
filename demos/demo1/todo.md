@@ -150,6 +150,9 @@
 * [ ] Enhanced Picklocking
 * [ ] Enhanced Pickpocketing
 * [ ] Enhanced Trading
+* [ ] Enhanced Info Manager
+* [ ] EnhancedCTriggerScripts
+* [ ] MoonPhases
 * [ ] despawnOnlyIfEmpty
 * [ ] Item Splitting
 * [ ] Chargeable spells fix
