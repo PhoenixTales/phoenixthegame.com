@@ -100,6 +100,15 @@
 * [x] 0.7-0.9 Sleeper (restored)
   * [ ] Animations (wip)
 * [ ] Monster Mapping (wip)
+* [ ] Monster Placement
+  * [ ] Surface // ~50%
+  * [ ] Surface CH5 // 0%
+  * [ ] Old Mine // 0%
+  * [ ] Free Mine // ~75%
+  * [ ] Abandoned Mine // 0%
+  * [ ] Orc Graveyard // 65%
+  * [ ] OrcCity // 0%
+  * [ ] OrcTemple // 45%
 
 
 ## Interface
