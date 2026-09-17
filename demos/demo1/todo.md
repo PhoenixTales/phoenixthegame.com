@@ -87,14 +87,15 @@
   * [x] 1.01 Unused Menu Font
   * [ ] Font for messy handwritten notes
   * [ ] Font for clean handwritten notes
-  * [ ] Unziale Font for old books 
+  * [ ] Unziale Font for old books
+* [ ] Combat Camera Selection (off-set/centered)
 * [ ] Consumables Effect Preview (wip)
 * [ ] Spell Effects/Tex in Spell Selection Circle
 * [x] Character Status Screen
   * [X] 1.01 // Alpha Talents lacking
   * [ ] 0.94 // ...
- * [ ] Spellbook (instead of spells in status screen)
- * [ ] 1.01 log book / diary (wip)
+* [ ] Spellbook (instead of spells in status screen)
+* [ ] 1.01 log book / diary (wip)
 
 ## Items
 * [x] Alchemy Items (remapped)
