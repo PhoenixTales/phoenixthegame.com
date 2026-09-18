@@ -323,18 +323,21 @@
 
 <style>
   body {
-   background: black;
-   color: white;
+   background: #121212;
+   color: #ccb9a5;
    font-family: monospace !important; 
    font-size: 12px !important; 
   }
 
-  h1 { font-size: 12px !important; }
-  h2 { font-size: 12px !important; }
+  h1, h2, .task-list-item { 
+   font-size: 14px !important; 
+   font-family: monospace !important; 
+  }
+
   a { color: #96574f; };
   a:hover { color: #77584b; }
  
   .task-list-item-checkbox {
-   margin-right: 10px !important;
+   margin-right: 5px !important;
   }
 </style>
