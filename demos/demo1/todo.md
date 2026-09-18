@@ -284,9 +284,6 @@
 * [ ] Gate Guard Fix (Drawing Weapon)
 * [x] All campfires interactable
 
-
----
-
 ## Nice to have
 * [ ] HUD Texture Style Selection // wip
   * [ ] Style Bonus/Malus
@@ -338,18 +335,24 @@
    font-family: monospace !important; 
   }
 
-  h1, h2, h3 { border: none !important; }
-
   h1::before { content: "#"; }
   h2::before { content: "##"; }
   h3::before { content: "###"; }
   h1:nth-of-type(1)::before { content: none; }
-  
+
+  h1:nth-of-type(1) {
+    margin-top: 20px;
+  }
+ 
   h1::before, h2::before, h3::before {
    color: #96574f;
    margin-right: 10px; 
   }
 
+ .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  border-bottom: 1px solid #96574f;
+ }
+  
   .task-list {
   }
  
