@@ -329,7 +329,7 @@
    font-size: 12px !important; 
   }
 
-  h1, h2, .task-list-item { 
+  h1, h2, p, .task-list-item { 
    font-size: 14px !important; 
    font-family: monospace !important; 
   }
