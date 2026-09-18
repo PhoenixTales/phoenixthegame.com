@@ -359,6 +359,8 @@
  
   .task-list-item-checkbox {
    margin-right: 5px !important;
+   background: none !important;
+   border: 1px solid #96574f;
   }
 
   hr {
