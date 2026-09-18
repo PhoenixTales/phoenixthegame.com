@@ -334,28 +334,18 @@
    font-family: monospace !important; 
   }
 
-  h1, h2 {
-   border: none !important;
-  }
+  h1, h2, h3 { border: none !important; }
 
-  h1::before {
-   content: "#";
-   margin-right: 10px;
-  }
-
-  h2::before {
-   content: "##";
+  h1::before { content: "#"; }
+  h2::before { content: "##"; }
+  h3::before { content: "###"; }
+  h1:nth-of-type(1)::before; { content: none; }
+  
+  h1::before, h2::before, h3;:before {
+   color: #96574f;
    margin-right: 10px; 
   }
 
-  h1::before, h2::before {
-   color: #96574f;
-  }
-
-  h1:nth-of-type(1)::before; {
-   content: none;
-  }
-  
   .task-list-item {
    list-style-type: none;
    padding-left: 10px; 
