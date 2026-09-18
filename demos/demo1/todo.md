@@ -1,4 +1,4 @@
-# Demo 1 - Checklist
+# Phoenix Demo 1 - Checklist
 
 ## Levels
 * [x] 0.9 Surface (restored)
@@ -326,8 +326,12 @@
    background: black;
    color: white;
    font-family: monospace; 
-   font-size: 14px; 
+   font-size: 12px; 
   }
+
+  h1 { font-size: 12px; }
+  a { color: #96574f; };
+  a:hover { color: #77584b; }
  
   span[class="checked"]{
    color: green;
