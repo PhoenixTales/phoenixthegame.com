@@ -332,7 +332,6 @@
 
   h1, h2, h3, p, .task-list-item { 
    font-size: 14px !important; 
-   font-family: monospace !important; 
   }
 
   h1::before { content: "#"; }
@@ -352,12 +351,37 @@
  .markdown-body h1, .markdown-body h2, .markdown-body h3 {
   border-bottom: 1px solid #96574f;
  }
+
+ input[type="checkbox"] {
+  min-height: 16px;
+  min-width: 16px;
+  border-radius: 0;
+  appearance: none;
+  background: none;
+  border: 1px solid #96574f;
+ }  
+
+ input[type="checkbox"]::after {
+  font-weight: 100;
+  content: "X";
+  font-size: 12px;
+  color: #96574f;
+  display: none;
+ }
+
+ input[type="checkbox"]:checked::after {
+  display: flex;
+  justify-content: center;
+}
   
-  .task-list {
-  }
- 
   .task-list-item {
    list-style-type: none; 
+  }
+
+  .task-list-item {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
   }
 
   a { 
@@ -368,7 +392,7 @@
   a:hover { color: #77584b; }
  
   .task-list-item-checkbox {
-   margin-right: 5px !important;
+   margin-right: 9px !important;
    background: none !important;
    color: #96574f;  
    border: 1px solid #96574f;
