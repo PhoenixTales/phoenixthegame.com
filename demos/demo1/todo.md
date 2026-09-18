@@ -259,7 +259,7 @@
 * [ ] Consumable Stats // wip
 * [ ] Weapon Stats // wip
 * [ ] Experience for Missions // wip
-* [ ] Removing Exp for Monsters?
+* [ ] Removal of Exp for Kills
 
 
 ## Misc
@@ -278,7 +278,7 @@
 * [ ] GiveItem (visual exchange + going close enough)
 * [ ] Sky Controller (wip)
 * [ ] Guild Greetings
-* [ ] Guild demands wearing Armor appropriate to Rank (G2) 
+* [ ] Guild demanding Armor appropriate to Rank (G2) 
 * [ ] Disguise via FakeGuild through Armor
 * [ ] FadeAway for Demons
 * [ ] Gate Guard Fix (Drawing Weapon)
