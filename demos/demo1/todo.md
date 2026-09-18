@@ -351,9 +351,14 @@
   h1::before, h2::before {
    color: #96574f;
   }
- 
+
+  h1:nth-of-type(1)::before; {
+   content: none;
+  }
+  
   .task-list-item {
    list-style-type: none;
+   padding-left: 10px; 
   }
 
   a { color: #96574f; };
@@ -361,5 +366,10 @@
  
   .task-list-item-checkbox {
    margin-right: 5px !important;
+  }
+
+  hr {
+    height: 1px;
+    color: 
   }
 </style>
