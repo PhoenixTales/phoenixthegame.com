@@ -355,14 +355,12 @@
  input[type="checkbox"] {
   min-height: 16px;
   min-width: 16px;
-  border-radius: 0;
   appearance: none;
   background: none;
-  border: 1px solid #96574f;
+  border: 1px solid #3f3f3f;
  }  
 
  input[type="checkbox"]::after {
-  font-weight: 100;
   content: "X";
   font-size: 12px;
   color: #96574f;
@@ -379,7 +377,6 @@
   }
 
   .task-list-item {
-   display: flex;
    flex-direction: row;
    align-items: center;
   }
@@ -393,9 +390,6 @@
  
   .task-list-item-checkbox {
    margin-right: 9px !important;
-   background: none !important;
-   color: #96574f;  
-   border: 1px solid #96574f;
   }
 
   .markdown-body hr {
