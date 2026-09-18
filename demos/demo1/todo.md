@@ -325,15 +325,16 @@
   body {
    background: black;
    color: white;
-   font-family: monospace; 
-   font-size: 12px; 
+   font-family: monospace !important; 
+   font-size: 12px !important; 
   }
 
-  h1 { font-size: 12px; }
+  h1 { font-size: 12px !important; }
+  h2 { font-size: 12px !important; }
   a { color: #96574f; };
   a:hover { color: #77584b; }
  
-  span[class="checked"]{
-   color: green;
+  .task-list-item-checkbox {
+   margin-right: 10px !important;
   }
 </style>
