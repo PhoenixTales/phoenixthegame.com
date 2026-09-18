@@ -339,9 +339,9 @@
   h1::before { content: "#"; }
   h2::before { content: "##"; }
   h3::before { content: "###"; }
-  h1:nth-of-type(1)::before; { content: none; }
+  h1:nth-of-type(1)::before { content: none; }
   
-  h1::before, h2::before, h3;:before {
+  h1::before, h2::before, h3::before {
    color: #96574f;
    margin-right: 10px; 
   }
