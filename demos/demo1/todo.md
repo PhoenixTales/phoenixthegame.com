@@ -321,4 +321,8 @@
 * [ ] Game Over Screen(s) (Sequel)
 
 
-
+<style>
+  span[class="checked"]{
+   color: green;
+  }
+</style>
