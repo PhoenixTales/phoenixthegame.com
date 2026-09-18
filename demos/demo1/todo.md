@@ -347,19 +347,24 @@
   }
 
   .task-list {
-   padding-left: 10px;
   }
  
   .task-list-item {
    list-style-type: none; 
+   margin-left: 10px !important;
   }
 
-  a { color: #96574f; };
+  a { 
+   color: #96574f;
+   text-decoration: underline;
+  }
+ 
   a:hover { color: #77584b; }
  
   .task-list-item-checkbox {
    margin-right: 5px !important;
    background: none !important;
+   color: #96574f;  
    border: 1px solid #96574f;
   }
 
