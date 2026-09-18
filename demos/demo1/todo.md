@@ -326,10 +326,10 @@
    background: #121212;
    color: #ccb9a5;
    font-family: monospace !important; 
-   font-size: 12px !important; 
+   font-size: 14px !important; 
   }
 
-  h1, h2, p, .task-list-item { 
+  h1, h2, h3, p, .task-list-item { 
    font-size: 14px !important; 
    font-family: monospace !important; 
   }
@@ -346,9 +346,12 @@
    margin-right: 10px; 
   }
 
+  .task-list {
+   padding-left: 10px;
+  }
+ 
   .task-list-item {
-   list-style-type: none;
-   padding-left: 10px; 
+   list-style-type: none; 
   }
 
   a { color: #96574f; };
