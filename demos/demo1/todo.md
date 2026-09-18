@@ -322,6 +322,13 @@
 
 
 <style>
+  body {
+   background: black;
+   color: white;
+   font-family: monospace; 
+   font-size: 14px; 
+  }
+ 
   span[class="checked"]{
    color: green;
   }
