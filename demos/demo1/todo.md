@@ -334,6 +334,10 @@
    font-family: monospace !important; 
   }
 
+  h1, h2 {
+    border: none !important;
+  }
+ 
   .task-list-item {
    list-style-type: none;
   }
