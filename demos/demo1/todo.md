@@ -329,6 +329,10 @@
    font-size: 14px !important; 
   }
 
+  .markdown-body ul, .markdown-body ol {
+    padding-left: 0;
+  }
+
   h1, h2, h3, p, .task-list-item { 
    font-size: 14px !important; 
    font-family: monospace !important; 
@@ -351,7 +355,6 @@
  
   .task-list-item {
    list-style-type: none; 
-   margin-left: 10px !important;
   }
 
   a { 
@@ -368,8 +371,10 @@
    border: 1px solid #96574f;
   }
 
-  hr {
-    height: 1px;
-    color: 
+  .markdown-body hr {
+    height: 0;
+    background-color: none;
+    border-top: 1px solid #77584b;
   }
+ 
 </style>
