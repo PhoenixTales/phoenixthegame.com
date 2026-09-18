@@ -147,6 +147,10 @@
       color: var(--dark-dirt);
     }
 
+    hr {
+      height: 1px;
+    }
+
     .note {
        padding: 1em;
        /*border: 5px solid rgb(56, 19, 19);*/
