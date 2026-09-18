@@ -334,6 +334,10 @@
    font-family: monospace !important; 
   }
 
+  .task-list-item {
+   list-style-type: none;
+  }
+
   a { color: #96574f; };
   a:hover { color: #77584b; }
  
