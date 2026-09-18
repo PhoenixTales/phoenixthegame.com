@@ -335,7 +335,21 @@
   }
 
   h1, h2 {
-    border: none !important;
+   border: none !important;
+  }
+
+  h1::before {
+   content: "#";
+   margin-right: 10px;
+  }
+
+  h2::before {
+   content: "##";
+   margin-right: 10px; 
+  }
+
+  h1::before, h2::before {
+   color: #96574f;
   }
  
   .task-list-item {
