@@ -336,7 +336,7 @@ fixes of wrongly mapped models
    }
 
    h1 {
-     font-size: 14px !important; 
+     font-size: 16px !important; 
    } 
 /*
 
