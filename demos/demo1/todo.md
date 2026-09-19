@@ -1,4 +1,3 @@
-```
 # Phoenix Demo 1 - Checklist
 
 ## Levels
@@ -327,7 +326,7 @@ fixes of wrongly mapped models
 * [ ] Quivers
 * [ ] Secrets
 * [ ] Game Over Screen(s) (Sequel)
-```
+
 
 <style>
    body {
@@ -412,10 +411,4 @@ fixes of wrongly mapped models
     border-top: 1px solid #77584b;
   }
  */
-
- pre, code {
-   font-family: monospace;
-   font-size: 12px; 
-   background: black !important;
- }
 </style>
