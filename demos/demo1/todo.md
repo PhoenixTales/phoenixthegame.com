@@ -134,7 +134,7 @@
 * [ ] HUD
   * [x] 0.9 HUD Textures (restored)
   * [x] 0.8 HUD Textures (reconstructed)
-  * [ ] Alpha Bar functionality (maximum width of the bar determined by maximum value instead of being stretched to full width of background texture; instead background texture as small as the maximum bar width.)
+  * [ ] Alpha Bar functionality* 
   * [ ] Smaller Focus Bars (HP bar of NPCs in focus were smaller than the players HP bar).
   * [x] 0.8 Inventory Textures (created)
   * [ ] 0.5-0.9 Inventory Item Info Display (wip)
@@ -153,6 +153,13 @@
 * [ ] 1.01 log book / diary // wip
   * [ ] Immersive diary (item + anim)
 
+[*] Alpha Bar Functionality:
+Maximum width of the bar determined
+by maximum value instead of being
+stretched to full width of background
+texture; instead background texture
+as small as the maximum bar width.
+
 
 ## Texture Overhaul/Fixes 
 * [x] Alpha Item textures (0.94, 1.00, 1.01) // restored
@@ -165,7 +172,10 @@
 
 
 ## Model Fixes & Mapping Overhaul
-*Remapping of unmapped models & mapping fixes of wrongly mapped models*  
+
+Remapping of unmapped models &
+fixes of wrongly mapped models
+ 
 * [ ] Anims
   * [ ] Mapping of ASC Bodies
   * [ ] Mapping of ASC Mobsis
