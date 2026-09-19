@@ -19,7 +19,7 @@ EXP System: Gothic was meant to be fully story focused. Therefore, the gameplay 
 Alpha Style: 
 * The very purpose of the Demo is providing you with an experience of what Gothic was meant to be and how it was meant to look. Installing any kind of texture patch defeats this purpose directly. This Demo can also not be played with the DX11 Renderer, because it sucks. Play it as it is intended to look or don't play it.
 * If anyone streams gameplay of the Demo or uploads videos of it with texture patches or renderers applied, he lands on a list and is likely to be catched by Shadows at night...
-* He also will receive a big style malus for playing with bad taste which will likely result in the Sleeper laughing in the end.
+* He also will receive a big style malus for playing with bad taste which will likely result in the Sleeper laughing about him in the end. 
 
 
 
