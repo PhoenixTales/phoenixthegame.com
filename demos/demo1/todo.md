@@ -319,7 +319,7 @@
 
 
 <style>
-  body {
+/*  body {
    background: #121212;
    color: #ccb9a5;
    font-family: monospace !important; 
@@ -328,7 +328,7 @@
 
   .markdown-body ul, .markdown-body ol {
    /* padding-left: 0;*/
-  }
+/*  }
 
   h1, h2, h3, p, .task-list-item { 
    font-size: 14px !important; 
@@ -351,7 +351,7 @@
  .markdown-body h1, .markdown-body h2, .markdown-body h3 {
   border-bottom: 1px solid #96574f;
  }
-
+*/
 /* input[type="checkbox"] {
   min-height: 16px;
   min-width: 16px;
@@ -372,16 +372,16 @@
   justify-content: center;
 }
  */ 
-  .task-list-item {
+/*  .task-list-item {
    list-style-type: none; 
-  }
+  }*/
 
 /*  .task-list-item {
    flex-direction: row;
    align-items: center;
   }*/
 
-  a { 
+/*  a { 
    color: #96574f;
    text-decoration: underline;
   }
@@ -397,5 +397,5 @@
     background-color: none;
     border-top: 1px solid #77584b;
   }
- 
+ */
 </style>
