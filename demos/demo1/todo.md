@@ -320,20 +320,23 @@
 ```
 
 <style>
-/*  body {
-   background: #121212;
-   color: #ccb9a5;
-   font-family: monospace !important; 
-   font-size: 14px !important; 
-  }
+   body {
+     background: #121212;
+     color: #ccb9a5;
+   }
 
-  .markdown-body ul, .markdown-body ol {
+   h1 {
+     font-size: 14px !important; 
+   } 
+/*
+
+ .markdown-body ul, .markdown-body ol {
    /* padding-left: 0;*/
 /*  }
 
   h1, h2, h3, p, .task-list-item { 
    font-size: 14px !important; 
-  }
+ 
 
   h1::before { content: "#"; }
   h2::before { content: "##"; }
@@ -382,13 +385,13 @@
    align-items: center;
   }
 */
-/*  a { 
+  a { 
    color: #96574f;
    text-decoration: underline;
   }
  
   a:hover { color: #77584b; }
- 
+ /*
   .task-list-item-checkbox {
    margin-right: 9px !important;
   }
