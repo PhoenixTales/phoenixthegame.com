@@ -90,6 +90,7 @@
   * [x] Vlk Knickers Mid
   * [x] Vlk Knickers Broken
 
+
 ## Monsters
 * [x] 0.7-0.9 OrcDog (restored)
   * [ ] Warn/Thread Animations
@@ -177,7 +178,6 @@
   * [ ] Planks
   * [ ] Stones
 * [ ] ~~Level~~ [not yet? To do for final version due to the many changes coming in future demos]
-
   
 ### Items
 * [x] Alchemy (remapped) // Alcohol, Quicksilver & Syrian Oil texture to be improved. 
@@ -195,7 +195,6 @@
 * [ ] Potions (wip)
 * [ ] Written Items (wip)
 * [ ] Item Distribution
-
 
 #### Weapons
 * [ ] 1.06 Melee Weapons 1H 
@@ -284,6 +283,7 @@
 * [ ] FadeAway for Demons
 * [ ] Gate Guard Fix (Drawing Weapon)
 * [x] All campfires interactable
+
 
 ## Nice to have
 * [ ] HUD Texture Style Selection // wip
@@ -376,12 +376,12 @@
 /*  .task-list-item {
    list-style-type: none; 
   }*/
-
+/*
   .task-list-item {
    flex-direction: row;
    align-items: center;
   }
-
+*/
 /*  a { 
    color: #96574f;
    text-decoration: underline;
@@ -399,4 +399,9 @@
     border-top: 1px solid #77584b;
   }
  */
+
+ pre, code {
+   font-family: monospace;
+   font-size: 12px; 
+ }
 </style>
