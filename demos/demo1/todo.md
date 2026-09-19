@@ -327,7 +327,7 @@
   }
 
   .markdown-body ul, .markdown-body ol {
-    padding-left: 0;
+   /* padding-left: 0;*/
   }
 
   h1, h2, h3, p, .task-list-item { 
