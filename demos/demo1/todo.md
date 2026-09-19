@@ -1,3 +1,4 @@
+```
 # Phoenix Demo 1 - Checklist
 
 ## Levels
@@ -316,7 +317,7 @@
 * [ ] Quivers
 * [ ] Secrets
 * [ ] Game Over Screen(s) (Sequel)
-
+```
 
 <style>
 /*  body {
