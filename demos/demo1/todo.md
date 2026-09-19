@@ -352,7 +352,7 @@
   border-bottom: 1px solid #96574f;
  }
 
- input[type="checkbox"] {
+/* input[type="checkbox"] {
   min-height: 16px;
   min-width: 16px;
   appearance: none;
@@ -371,15 +371,15 @@
   display: flex;
   justify-content: center;
 }
-  
+ */ 
   .task-list-item {
    list-style-type: none; 
   }
 
-  .task-list-item {
+/*  .task-list-item {
    flex-direction: row;
    align-items: center;
-  }
+  }*/
 
   a { 
    color: #96574f;
