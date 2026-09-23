@@ -2,32 +2,35 @@
 
 ## Levels
 * [ ] Overworld
-  * [x] 0.9 Surface (restored)
-  * [x] 0.8 Surface (restored)
-    * [x] 0.8 Northern Path into Valley (reconstructed)
-    * [x] 0.8 Gobbo Beach (reconstructed)
-    * [x] 0.8 Orcish Beach Cave  
-  * [x] 0.9 Old Camp (restored, fixed, improved)
-  * [x] 0.8 Old Camp // restored
-  * [ ] CH5/OrcAssault Surface
-  * [ ] CH5/OrcAssault OC
-  * [x] 0.8 Psi Camp // restored, fixed, improved
-  * [x] 0.8 New Camp // restored, fixes wip
-  * [x] 1.00+1.12 Mountain Fortress // restored, combined, fixed, improved
+  * [ ] Surface
+    * [x] 0.9 Surface // restored
+    * [x] 0.8 Surface // restored
+      * [x] 0.8 Northern Path into Valley (reconstructed)
+      * [x] 0.8 Gobbo Beach // reconstructed
+      * [x] 0.8 Orcish Beach Cave
+    * [x] 1.00+1.12 Mountain Fortress // restored, combined, fixed, improved
+    * [ ] CH5/OrcAssault Surface
+  * [ ] Camps
+    * [x] 0.9 Old Camp // restored, fixed, improved
+    * [x] 0.8 Old Camp // restored
+    * [ ] CH5/OrcAssault OC
+    * [x] 0.8 Psi Camp // restored, fixed, improved
+    * [x] 0.8 New Camp // restored, fixes wip
 * [ ] Underworld
-  * [x] Abandoned Mine (restored, fixed)
-  * [x] 0.8 Free Mine (restored, fixed)
-  * [x] 0.8 Old Mine (restored)
+  * [x] Abandoned Mine // restored, fixed
+  * [x] 0.8 Free Mine // restored, fixed
+  * [x] 0.8 Old Mine // restored
   * [x] OrcCity (restored)
-  * [ ] 1.00 OrcTemple (restored, fixes wip)
+  * [ ] 1.00 OrcTemple // restored, fixes wip
 * [ ] Level Textures
   * [x] 0.7-0.8 Sky // restored
   * [x] 0.9 surface textures // restored
-  * [ ] 0.8 surface textures (two floor textures missing, one forest-beach transition and a path tex towards stone circle)
+  * [ ] 0.8 surface textures // two floor textures missing, one forest-beach transition and a path tex towards stone circle
   * [x] 0.8 OC textures
-  * [ ] 0.8 NC textures
+  * [x] 0.8 NC textures
+  * [x] 0.8 PSI textures
 * [ ] Barrier
-  * [ ] Unused Barrier Model (wip)
+  * [ ] Unused Barrier Model // wip
   * [ ] Barrier Madness Effect
 
 
