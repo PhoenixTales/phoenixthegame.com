@@ -49,10 +49,11 @@
   * [ ] 0.94
   * [ ] Documents (2000)
 * [ ] 0.1-0.9 Chapter Structure
-* [x] zMultilogue
 * [ ] Cutscenes
-  * [ ] 0.94
-  * [ ] 0.96
+  * [x] Cutscene Editor // restored
+  * [x] zMultilogue
+  * [ ] 0.94 Cutscenes
+  * [ ] 0.96 Cutscenes
 * [x] setPsiVisuals
 * [ ] 0.8-0.9 WIP routine restoration
   * [ ] Start
@@ -76,7 +77,7 @@
     * [x] EbrS // reconstructed
     * [x] EbrG // reconstructed
     * [x] GrdL // reconstructed
-    * [x] GrdM // reconstructed
+   * [x] GrdM // reconstructed
     * [x] GrdS // reconstructed
     * [x] OrgL // reconstructed
     * [x] OrgM // reconstructed
