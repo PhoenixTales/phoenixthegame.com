@@ -1,24 +1,33 @@
 # Phoenix Demo 1 - Checklist
 
 ## Levels
-* [x] 0.9 Surface (restored)
-* [ ] CH5/OrcAssault Surface 
-* [x] 0.8 Northern Path into Valley (reconstructed)
-* [x] 0.8 Old Camp (restored, fixed, improved)
+* [ ] Overworld
+  * [x] 0.9 Surface (restored)
+  * [x] 0.8 Surface (restored)
+    * [x] 0.8 Northern Path into Valley (reconstructed)
+    * [x] 0.8 Gobbo Beach (reconstructed)
+    * [x] 0.8 Orcish Beach Cave 
+  * [ ] CH5/OrcAssault Surface 
+  * [x] 0.9 Old Camp (restored, fixed, improved)
+  * [ ] 0.8 Old Camp
 * [ ] CH5/OrcAssault OC
 * [x] 0.8 Psi Camp (restored, fixed, improved)
 * [x] 0.8 New Camp (restored, fixes wip)
 * [x] 1.00+1.12 Mountain Fortress (restored, combined, fixed, improved)
-* [x] 0.8 Gobbo Beach (reconstructed)
-* [ ] Orcish Beach Cave 
+
+* 
 * [x] Abandoned Mine (restored, fixed)
 * [x] 0.8 Free Mine (restored, fixed)
 * [x] 0.8 Old Mine (restored)
 * [x] OrcCity (restored)
 * [ ] 1.00 OrcTemple (restored, fixes wip)
-* [x] Environmental Textures (Sky)
-* [ ] Unused Barrier Model (wip)
-* [ ] Barrier Madness Effect
+* [ ] Level Textures
+  * [x] 0.7-0.8 Sky // restored
+  * [x] 0.9 level textures // restored
+  * [ ] 0.8 level textures (two floor textures missing, one forest-beach transition and a path tex towards stone circle)
+* [ ] Barrier
+  * [ ] Unused Barrier Model (wip)
+  * [ ] Barrier Madness Effect
 
 
 ## Story
