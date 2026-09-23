@@ -176,11 +176,14 @@ as small as the maximum bar width.
 ## Texture Overhaul/Fixes 
 * [x] Alpha Item textures (0.94, 1.00, 1.01) // restored
 * [ ] Necessary Color adjustments to fit general color scheme
-  * [x] Reed texture // desaturated
-  * [x] OC Flag // desaturated
+  * [x] Reed 
+  * [x] OC Flag 
   * [ ] Arrow & Bolt Feathers (replacing the placeholders)
-  * [ ] "Golden" Crossbow desaturation
-* [ ] Creation of lacking transitional level textures (wip)
+  * [ ] "Golden" Crossbow 
+* [ ] Creation of lacking level textures & transitions (wip)
+  * [x] GrassPath + Forest on right
+  * [ ] WoodPath T
+  * [ ] WoodPath to GrassGreenPath
 
 
 ## Model Fixes & Mapping Overhaul
