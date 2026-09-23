@@ -290,7 +290,7 @@ fixes of wrongly mapped models
 
 ## Misc
 * [x] FogZones // restored/fixed by Pierre
-  * [ ] fadeOutSky // wip (Vincenzo tries it with Claude) 
+  * [ ] fadeOutSky 
 * [x] Mover Collision Patch 
 * [ ] Will Attribute 
 * [X] Gamepad (realised)
