@@ -6,8 +6,8 @@
     * [x] 0.9 Surface // restored
     * [x] 0.8 Surface // restored
       * [x] 0.8 Northern Path into Valley (reconstructed)
-      * [x] 0.8 Gobbo Beach // reconstructed
-      * [x] 0.8 Orcish Beach Cave
+      * [x] 0.8 Gobbo Beach & Second Cave // reconstructed
+      * [x] 0.8 Eastern Beach Cave
     * [x] 1.00+1.12 Mountain Fortress // restored, combined, fixed, improved
     * [ ] CH5/OrcAssault Surface
   * [ ] Camps
